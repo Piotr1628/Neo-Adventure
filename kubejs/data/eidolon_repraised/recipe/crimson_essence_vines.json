@@ -1,0 +1,21 @@
+{
+  "type": "eidolon_repraised:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "minecraft:weeping_vines" },
+        { "item": "minecraft:nether_wart" }
+      ]
+    },
+    {
+      "stirs": 1,
+      "items": [
+        { "tag": "c:dusts/sulfur" }
+      ]
+    }
+  ],
+  "result": {
+    "id": "eidolon_repraised:crimson_essence",
+    "count": 2
+  }
+}

@@ -1,0 +1,155 @@
+{
+	hide_tooltip: true
+	id: "7A1013369095E331"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			id: "6EBA1F924FAB9AB3"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			random_bonus: 4
+			weight: 15.0f
+		}
+		{
+			id: "6B29C426C6CCC766"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			random_bonus: 8
+			weight: 40.0f
+		}
+		{
+			id: "589A2D1B039E09D5"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			random_bonus: 2
+			weight: 4.0f
+		}
+		{
+			id: "03749A878B715B2C"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+			weight: 0.5f
+		}
+		{ id: "70FDFF8358758AE2", item: { count: 1, id: "mythsandlegends:bound_soul_ingot" } }
+		{ id: "591F8CDAE5DE80C9", item: { count: 1, id: "cataclysm:ancient_metal_ingot" } }
+		{ id: "6A7F711DEACF847E", item: { count: 1, id: "cataclysm:black_steel_ingot" } }
+		{ id: "72C4AAC2B14D5EFE", item: { count: 1, id: "irons_spellbooks:mithril_ingot" } }
+		{ id: "37D901C890435FB8", item: { count: 1, id: "irons_spellbooks:arcane_ingot" } }
+		{ id: "016A9493DE986EAD", item: { count: 1, id: "unify:electrum_ingot" } }
+		{ id: "1FA12765A76EA350", item: { count: 1, id: "createcasing:chorium_ingot" } }
+		{ id: "1E22585DB7C44E6B", item: { count: 1, id: "eternal_starlight:thermal_springstone_ingot" } }
+		{
+			id: "50FCD0F2AEF26DC9"
+			item: {
+				components: {
+					"ftbquests:missing_item": "eternal_starlight:swamp_silver_ingot"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 4
+		}
+		{ id: "61A603FA256E6222", item: { count: 1, id: "eternal_starlight:amaramber_ingot" } }
+		{
+			id: "05BAF7E154CAEBAE"
+			item: {
+				count: 1
+				id: "eternal_starlight:golem_steel_ingot"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "749B03A1A26CF2DC"
+			item: {
+				count: 1
+				id: "eternal_starlight:oxidized_golem_steel_ingot"
+			}
+			weight: 0.5f
+		}
+		{ id: "2A18DF67E95A794A", item: { count: 1, id: "eternal_starlight:aethersent_ingot" } }
+		{
+			id: "7ACFC5673A0EEB12"
+			item: {
+				count: 1
+				id: "unify:silver_ingot"
+			}
+			random_bonus: 2
+		}
+		{ id: "1391A09FEF26EA5C", item: { count: 1, id: "unify:zinc_ingot" } }
+		{ id: "36CCD6A1AD306D2E", item: { count: 1, id: "unify:lead_ingot" } }
+		{
+			id: "68F3C2AD08AD277C"
+			item: {
+				count: 1
+				id: "unify:brass_ingot"
+			}
+			random_bonus: 3
+		}
+		{
+			id: "2891C2DC564C53CA"
+			item: {
+				components: {
+					"ftbquests:missing_item": "hazennstuff:zenalite_ingot"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.05f
+		}
+		{
+			id: "70F5E5211A124228"
+			item: {
+				count: 1
+				id: "eidolon_repraised:pewter_ingot"
+			}
+			random_bonus: 2
+		}
+		{
+			id: "6ED6A01DA3E21C79"
+			item: {
+				count: 1
+				id: "eidolon_repraised:arcane_gold_ingot"
+			}
+			random_bonus: 2
+		}
+		{ id: "337673AAB89BD159", item: { count: 1, id: "born_in_chaos_v1:dark_metal_ingot" } }
+		{ id: "0A548FA26AD91A6A", item: { count: 1, id: "forbidden_arcanus:deorum_ingot" } }
+		{
+			id: "50EECA5B7A395BA0"
+			item: {
+				count: 1
+				id: "cataclysm:ignitium_ingot"
+			}
+			random_bonus: 5
+			weight: 0.02f
+		}
+		{
+			id: "52CD38871C9DF65D"
+			item: {
+				count: 1
+				id: "cataclysm:cursium_ingot"
+			}
+			random_bonus: 5
+			weight: 0.02f
+		}
+		{
+			id: "51BA64B916C921B7"
+			item: {
+				count: 1
+				id: "unusualend:pearlescent_ingot"
+			}
+			random_bonus: 5
+			weight: 0.05f
+		}
+	]
+	use_title: true
+}

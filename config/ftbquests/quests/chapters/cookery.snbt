@@ -1,0 +1,2283 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	default_quest_size: 0.75d
+	filename: "cookery"
+	group: "1BCBA5826AA41280"
+	icon: {
+		components: {
+			"ftbquests:icon": "farmersdelight:block/stove_front_on"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "66C1ABE8A80E0344"
+	images: [
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_10_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.75d
+			y: -7.0d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_11_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.75d
+			y: -6.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_12_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.75d
+			y: -7.0d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_13_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 4.75d
+			y: -6.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_14_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 10.25d
+			y: -7.0d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_15_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 8.5d
+			y: -7.25d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_16_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_17_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_2_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.375d
+			y: -7.375d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_3_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -9.375d
+			y: -6.875d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_5_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.75d
+			y: -6.75d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_6_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -7.375d
+			y: -6.875d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_7_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.5d
+			y: -6.75d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_8_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.75d
+			y: -6.25d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_9_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.0d
+			y: -6.75d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/quests/food/area_render_4_.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.375d
+			y: -6.375d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/quests/titles/culinary.png"
+			rotation: 0.0d
+			width: 8.52d
+			x: 0.25d
+			y: -12.75d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "farmersdelight:roast_chicken_block"
+			}
+			id: "618C8EF4ED4E173C"
+			rewards: [{
+				id: "6011ABC65D058246"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "18505D8DDFF434A1"
+				item: { count: 1, id: "farmersdelight:roast_chicken_block" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			id: "1FB94E6D0B301C54"
+			rewards: [{
+				id: "733D688346A0A48A"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4B7EA322BA09A4A7"
+				item: { count: 1, id: "farmersdelight:stuffed_pumpkin_block" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			id: "18B145BF604B9230"
+			rewards: [{
+				id: "3340564930D0AB58"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "6660540BB83513AE"
+				item: { count: 1, id: "farmersdelight:honey_glazed_ham_block" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			id: "2F1A4AB39DED083A"
+			rewards: [{
+				id: "624892C7164EBEBB"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "12FC873BA17BD311"
+				item: { count: 1, id: "farmersdelight:shepherds_pie_block" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			id: "30676D2D00FE5A3D"
+			rewards: [{
+				id: "14F846567A6FABA5"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "63D6E2A5BFF2F908"
+				item: { count: 1, id: "farmersdelight:rice_roll_medley_block" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			id: "35664D96658E5702"
+			rewards: [{
+				id: "1FBB3BD6F7956CF3"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "6B14D7CCC124F37E"
+				item: { count: 1, id: "mynethersdelight:roast_stuffed_hoglin" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: -5.0625d
+		}
+		{
+			id: "4E760DCE8E64F80B"
+			rewards: [{
+				id: "28AE8039C657CBC6"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "2F83B7ED37ADDDBE"
+				item: { count: 1, id: "mynethersdelight:striderloaf" }
+				type: "item"
+			}]
+			x: -2.75d
+			y: -5.0625d
+		}
+		{
+			id: "6F8D7BD6FEF725DA"
+			rewards: [{
+				id: "08A16A68C84B3D9C"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "242A14C321565C8C"
+				item: { count: 1, id: "mynethersdelight:ghasta_with_cream" }
+				type: "item"
+			}]
+			x: -1.75d
+			y: -5.0625d
+		}
+		{
+			id: "68470F41A5B48B01"
+			rewards: [{
+				id: "62C932ED0A9CF89A"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7AE4EE00BFB4A5FE"
+				item: { count: 1, id: "ends_delight:dragon_leg_with_sauce_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "3B9BD6F5AAB53549"
+			rewards: [{
+				id: "47C2A130A2DC45C7"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "46D2CA78E2584741"
+				item: { count: 1, id: "ends_delight:grilled_shulker_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "49C37A041ECEE783"
+			rewards: [{
+				id: "3D7E6AF1FD3DC941"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "236D2F97AE0289EE"
+				item: { count: 1, id: "ends_delight:dragon_meat_stew_block" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			id: "1CDC8E0EDF620BE4"
+			rewards: [{
+				id: "5CDF8EE4A9FF07C4"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "5799470D21036F7B"
+				item: { count: 1, id: "ends_delight:steamed_dragon_egg_block" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			id: "049BAED409DA4142"
+			rewards: [{
+				id: "21EF6659B5FE781E"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "3F1A807406F1AD1F"
+				item: { components: { "ftbquests:missing_item": "dungeonsdelight:glow_berry_gelatin_block" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			id: "2FE53F71F1EE8AE4"
+			rewards: [{
+				id: "38FC354482BB1236"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "6800AF33E2B63075"
+				item: { count: 1, id: "dungeonsdelight:guardian_angel_block" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			id: "123FA78CF8E6E050"
+			rewards: [{
+				id: "36F3FE7CC0E053B8"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "07BC75420A1691C2"
+				item: { count: 1, id: "dungeonsdelight:ossobuco_block" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			id: "1763D0B59CE854FB"
+			rewards: [{
+				id: "44142670F0D6C8E5"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "73A958E4FF3BF3B2"
+				item: { count: 1, id: "dungeonsdelight:silverfish_and_chips_block" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			icon_scale: 1.25d
+			id: "2B9E04B931ADDDAE"
+			rewards: [{
+				id: "58F8010E57E15D8E"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "35D08B9F3CFCAAFB"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -14.625d
+		}
+		{
+			icon_scale: 1.25d
+			id: "52C729A521F71CB1"
+			rewards: [{
+				id: "3AA35D350180EC69"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "580EF70C1B5A72E6"
+				item: { count: 1, id: "mynethersdelight:nether_bricks_stove" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -14.625d
+		}
+		{
+			icon_scale: 1.25d
+			id: "1813D71878C4651E"
+			rewards: [{
+				id: "4533B97D648CDEEC"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "66957EE47853D402"
+				item: { count: 1, id: "ends_delight:end_stove" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -14.625d
+		}
+		{
+			icon_scale: 1.25d
+			id: "2BBCD795D17CD542"
+			rewards: [{
+				id: "12BE4A23050A6E71"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "73418395E66BAB38"
+				item: { count: 1, id: "dungeonsdelight:dungeon_stove" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -14.625d
+		}
+		{
+			id: "4F1DD40750E72735"
+			rewards: [{
+				id: "14AF5D8997D070B3"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "73D44B656E4F114B"
+				item: { count: 1, id: "farmersdelight:cabbage" }
+				type: "item"
+			}]
+			x: -9.9375d
+			y: -15.1875d
+		}
+		{
+			id: "4C0409D5E3FB524C"
+			rewards: [{
+				id: "20D33416B6CA381D"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3743360394A4A218"
+				item: { count: 1, id: "farmersdelight:tomato" }
+				type: "item"
+			}]
+			x: -9.375d
+			y: -15.75d
+		}
+		{
+			id: "7E8A11671BDB1B89"
+			rewards: [{
+				id: "381C0044012A0F55"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1C340F50B9B4C8A9"
+				item: { count: 1, id: "farmersdelight:onion" }
+				type: "item"
+			}]
+			x: -8.625d
+			y: -15.75d
+		}
+		{
+			id: "5C940A8562DCEACE"
+			rewards: [{
+				id: "72F9CF80A87A79DB"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4D177038C5B49ABB"
+				item: { count: 1, id: "farmersdelight:rice" }
+				type: "item"
+			}]
+			x: -8.0625d
+			y: -15.1875d
+		}
+		{
+			id: "03D3D891064EA7E5"
+			rewards: [{
+				id: "2656A54341CBB19B"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "385EA530EE44F025"
+				item: { count: 1, id: "mynethersdelight:egg_soup" }
+				type: "item"
+			}]
+			x: -4.125d
+			y: -11.0625d
+		}
+		{
+			id: "74BAD3BE4843A6C2"
+			rewards: [{
+				id: "71FD5FE6FFDF5869"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "24880782D0A62683"
+				item: { count: 1, id: "mynethersdelight:strider_stew" }
+				type: "item"
+			}]
+			x: -4.875d
+			y: -11.0625d
+		}
+		{
+			id: "35AD161A84C8D5D6"
+			rewards: [{
+				id: "7A33E14CC6F2DEA9"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "172F622643511A98"
+				item: { count: 1, id: "mynethersdelight:crimson_stroganoff" }
+				type: "item"
+			}]
+			x: -3.375d
+			y: -11.0625d
+		}
+		{
+			id: "21E864010FDDFE3E"
+			rewards: [{
+				id: "39819FBC034387B3"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "538C74516CF74491"
+				item: { count: 1, id: "mynethersdelight:spicy_noodle_soup" }
+				type: "item"
+			}]
+			x: -2.625d
+			y: -11.0625d
+		}
+		{
+			id: "7FC1ECCB425A2C92"
+			rewards: [{
+				id: "30847F0C1CBF1152"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "79853F7F85092E76"
+				item: { count: 1, id: "mynethersdelight:spicy_hoglin_stew" }
+				type: "item"
+			}]
+			x: -1.875d
+			y: -11.0625d
+		}
+		{
+			id: "5B8B73B49C67E451"
+			rewards: [{
+				id: "44605D9B6577FAED"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "627534B73AF428EA"
+				item: { count: 1, id: "mynethersdelight:rock_soup" }
+				type: "item"
+			}]
+			x: -1.125d
+			y: -11.0625d
+		}
+		{
+			id: "2CA7993833E43B17"
+			rewards: [{
+				id: "2DB88F0B667B960B"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "24A34E2F297860A1"
+				item: { count: 1, id: "mynethersdelight:breakfast_sampler" }
+				type: "item"
+			}]
+			x: -4.125d
+			y: -9.5625d
+		}
+		{
+			id: "18122E404DCBA775"
+			rewards: [{
+				id: "0609724799A8A482"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4677E9F66F208185"
+				item: { count: 1, id: "mynethersdelight:blue_tenderloin_steak" }
+				type: "item"
+			}]
+			x: -5.25d
+			y: -8.8125d
+		}
+		{
+			id: "637D45E3E9D312ED"
+			rewards: [{
+				id: "4BF46DA37E3F09B4"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4B62A50E199A0590"
+				item: { count: 1, id: "mynethersdelight:fried_hoglin_chop" }
+				type: "item"
+			}]
+			x: -3.375d
+			y: -9.5625d
+		}
+		{
+			dependencies: ["35664D96658E5702"]
+			id: "52C91027614B470F"
+			rewards: [{
+				id: "2311FF0FB5ABAF96"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2D0AAEDF1B56FA00"
+				item: { count: 1, id: "mynethersdelight:plate_of_stuffed_hoglin_ham" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: -4.125d
+		}
+		{
+			dependencies: ["35664D96658E5702"]
+			id: "69BBC100391E75F4"
+			rewards: [{
+				id: "0409C7AE65ABC0AC"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "371D47846B0CB077"
+				item: { count: 1, id: "mynethersdelight:plate_of_stuffed_hoglin" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: -3.375d
+		}
+		{
+			id: "26EE9175C68ADB0D"
+			rewards: [{
+				id: "456BCBFC359AE52B"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0E700ECECCED1682"
+				item: { count: 1, id: "mynethersdelight:strider_egg" }
+				type: "item"
+			}]
+			x: -2.625d
+			y: -9.5625d
+		}
+		{
+			id: "40554D5B7FD13ADE"
+			rewards: [{
+				id: "3DFA1F5FA00503FC"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "693DACAF93BB2395"
+				item: { count: 1, id: "mynethersdelight:golden_egg" }
+				type: "item"
+			}]
+			x: -1.875d
+			y: -9.5625d
+		}
+		{
+			id: "4DEE915C39929922"
+			rewards: [{
+				id: "44C14727A5D6551E"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "17FA149CCB236528"
+				item: { count: 1, id: "mynethersdelight:enchanted_golden_egg" }
+				type: "item"
+			}]
+			x: -1.125d
+			y: -9.5625d
+		}
+		{
+			id: "218B5DF3739D3359"
+			rewards: [{
+				id: "14BE239AE969180E"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "535AFAF00556A5B5"
+				item: { count: 1, id: "mynethersdelight:scotch_eggs" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: -8.8125d
+		}
+		{
+			id: "0C9B6D4D227207FC"
+			rewards: [{
+				id: "7ED63ED5E795BCB4"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "66136A2847173F22"
+				item: { count: 1, id: "mynethersdelight:bleeding_tartar" }
+				type: "item"
+			}]
+			x: -4.875d
+			y: -9.5625d
+		}
+		{
+			id: "74B6FC74572ED928"
+			rewards: [{
+				id: "526278043A2FF547"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4AAECCA2F1497851"
+				item: { count: 1, id: "mynethersdelight:strider_with_grilled_fungus" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.8125d
+		}
+		{
+			dependencies: ["4E760DCE8E64F80B"]
+			id: "18CAD679CD3F9A62"
+			rewards: [{
+				id: "5FC071FD74E08625"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4B0358E4498DCE4E"
+				item: { count: 1, id: "mynethersdelight:plate_of_striderloaf" }
+				type: "item"
+			}]
+			x: -2.686649659863953d
+			y: -4.166241496598651d
+		}
+		{
+			dependencies: ["4E760DCE8E64F80B"]
+			id: "30BE9D2BED50CA8E"
+			rewards: [{
+				id: "14011110E2712BBC"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "751CB2B4F76D261A"
+				item: { count: 1, id: "mynethersdelight:plate_of_cold_striderloaf" }
+				type: "item"
+			}]
+			x: -2.686649659863953d
+			y: -3.4723639455782447d
+		}
+		{
+			id: "24946CBA5FBCB892"
+			rewards: [{
+				id: "0351A003CE211298"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3F4723599142BF96"
+				item: { count: 1, id: "mynethersdelight:twisted_ghasta" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: -8.8125d
+		}
+		{
+			dependencies: ["6F8D7BD6FEF725DA"]
+			id: "3DDBC166A26F23F1"
+			rewards: [{
+				id: "61899F187FAB3C79"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "29CABE34342FAE37"
+				item: { count: 1, id: "mynethersdelight:plate_of_ghasta_with_cream" }
+				type: "item"
+			}]
+			x: -1.6875d
+			y: -4.125d
+		}
+		{
+			id: "43B7FF47E7EDD904"
+			rewards: [{
+				id: "78523057AE56DD0E"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "07B616CA797EF3FE"
+				item: { count: 1, id: "mynethersdelight:hot_wings" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.8125d
+		}
+		{
+			id: "6E1EF4A2933C23AE"
+			rewards: [{
+				id: "6CF60C9557491AF8"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4FD3F8D43FACA0AC"
+				item: { count: 1, id: "mynethersdelight:hot_wings_bucket" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -8.8125d
+		}
+		{
+			id: "71C198BE3D15A579"
+			rewards: [{
+				id: "7B69DC28B6233F1B"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0BBE6A92192F5C28"
+				item: { count: 1, id: "mynethersdelight:spicy_curry" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.8125d
+		}
+		{
+			id: "13609A5EBD761276"
+			rewards: [{
+				id: "4F4BA1485F8418DC"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "247E838B83EF8D72"
+				item: { count: 1, id: "farmersdelight:cooked_rice" }
+				type: "item"
+			}]
+			x: -11.25d
+			y: -11.8125d
+		}
+		{
+			id: "46C8082E0EAD70D1"
+			rewards: [{
+				id: "6942C2A04FD3186C"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "02AC39FD52EA7C41"
+				item: { count: 1, id: "farmersdelight:bone_broth" }
+				type: "item"
+			}]
+			x: -6.75d
+			y: -11.0625d
+		}
+		{
+			id: "706C7AA038C85AB9"
+			rewards: [{
+				id: "452DDEC389A3B642"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5CE5BB1715308EF5"
+				item: { count: 1, id: "farmersdelight:beef_stew" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -11.0625d
+		}
+		{
+			id: "772908F7386D8BCC"
+			rewards: [{
+				id: "43537C881153F42A"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "474E14D654C7135C"
+				item: { count: 1, id: "farmersdelight:chicken_soup" }
+				type: "item"
+			}]
+			x: -8.25d
+			y: -11.0625d
+		}
+		{
+			id: "7FDD9782F91F9B42"
+			rewards: [{
+				id: "33BB979D00DC8934"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0FEB938C4FD85B6A"
+				item: { count: 1, id: "farmersdelight:vegetable_soup" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -11.0625d
+		}
+		{
+			id: "3652596A1B972AC2"
+			rewards: [{
+				id: "12E441213CFD2684"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "78CEDF2470C3A434"
+				item: { count: 1, id: "farmersdelight:fish_stew" }
+				type: "item"
+			}]
+			x: -9.75d
+			y: -11.8125d
+		}
+		{
+			id: "6B3151B1F0F34380"
+			rewards: [{
+				id: "687A31DCCAF6BADF"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7E7EE699237F22D6"
+				item: { count: 1, id: "farmersdelight:fried_rice" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -11.8125d
+		}
+		{
+			id: "391EA8F663A6CEFA"
+			rewards: [{
+				id: "5775200D3FC402B2"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0C938F1584B13F74"
+				item: { count: 1, id: "farmersdelight:pumpkin_soup" }
+				type: "item"
+			}]
+			x: -11.25d
+			y: -11.0625d
+		}
+		{
+			id: "3751A0540867805C"
+			rewards: [{
+				id: "6278271BFA413F83"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4FE1B309D744AE87"
+				item: { count: 1, id: "farmersdelight:baked_cod_stew" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -11.0625d
+		}
+		{
+			id: "6A6EA2BB85038674"
+			rewards: [{
+				id: "4E465804E4F320BE"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4F339AA5E18325B1"
+				item: { count: 1, id: "farmersdelight:noodle_soup" }
+				type: "item"
+			}]
+			x: -9.75d
+			y: -11.0625d
+		}
+		{
+			dependencies: ["1FB94E6D0B301C54"]
+			id: "050054943EDD7FD0"
+			rewards: [{
+				id: "116048271C47C4C5"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2270FFEC13FCEEC0"
+				item: { count: 1, id: "farmersdelight:stuffed_pumpkin" }
+				type: "item"
+			}]
+			x: -9.9375d
+			y: -4.125d
+		}
+		{
+			id: "7BF3BE106378810F"
+			rewards: [{
+				id: "0354F59F6F3C7F91"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4ABD9B782DDF9684"
+				item: { count: 1, id: "farmersdelight:bacon_and_eggs" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -8.8125d
+		}
+		{
+			id: "573130FEE1FAAA7D"
+			rewards: [{
+				id: "3FCDA8EE457FAE97"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "045F0D5881A5112F"
+				item: { count: 1, id: "farmersdelight:pasta_with_meatballs" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.8125d
+		}
+		{
+			id: "4FB8C43224726449"
+			rewards: [{
+				id: "61B55E6ABF82C955"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "45D61757658018AE"
+				item: { count: 1, id: "farmersdelight:mushroom_rice" }
+				type: "item"
+			}]
+			x: -11.25d
+			y: -9.5625d
+		}
+		{
+			id: "43C3EAA92945C7B9"
+			rewards: [{
+				id: "71726F7391017634"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "45D1B5AA26670F32"
+				item: { count: 1, id: "farmersdelight:roasted_mutton_chops" }
+				type: "item"
+			}]
+			x: -11.25d
+			y: -8.8125d
+		}
+		{
+			id: "703BF89D72D3B8DB"
+			rewards: [{
+				id: "21DE2A0C0DDFDA44"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5BC7C5D930032FF1"
+				item: { count: 1, id: "farmersdelight:vegetable_noodles" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -9.5625d
+		}
+		{
+			id: "27AF406500077C9B"
+			rewards: [{
+				id: "06226D41D0A8CA00"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7D7B62E9CD2C538C"
+				item: { count: 1, id: "farmersdelight:steak_and_potatoes" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.8125d
+		}
+		{
+			id: "7133BC3F0C1B943F"
+			rewards: [{
+				id: "3785C2F0DDC46B6B"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "29CE737AACA91E24"
+				item: { count: 1, id: "farmersdelight:ratatouille" }
+				type: "item"
+			}]
+			x: -6.75d
+			y: -8.8125d
+		}
+		{
+			id: "0ECCE219B4F99420"
+			rewards: [{
+				id: "2A955C8FA5AE97D3"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "49126579C3AC020E"
+				item: { count: 1, id: "farmersdelight:squid_ink_pasta" }
+				type: "item"
+			}]
+			x: -9.75d
+			y: -8.8125d
+		}
+		{
+			id: "0CEE2DE62D36A50B"
+			rewards: [{
+				id: "390AAB68553CCA75"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0F646BD76ACDC654"
+				item: { count: 1, id: "farmersdelight:grilled_salmon" }
+				type: "item"
+			}]
+			x: -8.25d
+			y: -8.8125d
+		}
+		{
+			dependencies: ["618C8EF4ED4E173C"]
+			id: "3026A8858834B1A9"
+			rewards: [{
+				id: "2F79C4C1181DD9DB"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0FE0AC6F1F343ACF"
+				item: { count: 1, id: "farmersdelight:roast_chicken" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.125d
+		}
+		{
+			dependencies: ["2F1A4AB39DED083A"]
+			id: "2C0F82B61AB54D39"
+			rewards: [{
+				id: "1FF93EB2765D7C26"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "752719EA087FD8E5"
+				item: { count: 1, id: "farmersdelight:shepherds_pie" }
+				type: "item"
+			}]
+			x: -10.875d
+			y: -4.125d
+		}
+		{
+			id: "08E2CDEC190F0D56"
+			rewards: [{
+				id: "65E89D01073C1A38"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "27774997B6481D42"
+				item: { count: 1, id: "ends_delight:ender_congee" }
+				type: "item"
+			}]
+			x: 1.875d
+			y: -11.0625d
+		}
+		{
+			id: "2527E27AC9CD9699"
+			rewards: [{
+				id: "259775A4B36CBA72"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2580A0682D7B08DB"
+				item: { count: 1, id: "ends_delight:dragon_breath_and_chorus_soup" }
+				type: "item"
+			}]
+			x: 2.625d
+			y: -11.0625d
+		}
+		{
+			id: "23DD6BBD020F0446"
+			rewards: [{
+				id: "7EB7276EB6DDCC8A"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "209FDF8474E5BE64"
+				item: { count: 1, id: "ends_delight:shulker_soup" }
+				type: "item"
+			}]
+			x: 3.375d
+			y: -11.0625d
+		}
+		{
+			id: "0C6667DE3A0F26B1"
+			rewards: [{
+				id: "7947FBE61476929A"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3A9CCC0AEFED69C8"
+				item: { count: 1, id: "ends_delight:ender_noodle" }
+				type: "item"
+			}]
+			x: 4.125d
+			y: -11.0625d
+		}
+		{
+			id: "3DEC089C1A86C5E6"
+			rewards: [{
+				id: "0E664B68590E529B"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3FDE899758F13FE6"
+				item: { count: 1, id: "ends_delight:ender_bamboo_rice" }
+				type: "item"
+			}]
+			x: 2.625d
+			y: -8.8125d
+		}
+		{
+			id: "3A1B2DC1B4004DAD"
+			rewards: [{
+				id: "22D5416AF9D8BDAF"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "13DE382DF67557B3"
+				item: { count: 1, id: "ends_delight:enderman_gristle_stew" }
+				type: "item"
+			}]
+			x: 3.375d
+			y: -8.8125d
+		}
+		{
+			id: "4CD7761EBD902306"
+			rewards: [{
+				id: "2381856467BD0C43"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5173BC13CD5811A7"
+				item: { count: 1, id: "ends_delight:stir_fried_shulker_meat" }
+				type: "item"
+			}]
+			x: 4.125d
+			y: -8.8125d
+		}
+		{
+			id: "4B850C7BCD69B611"
+			rewards: [{
+				id: "62D5924F959185B0"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "386D7EC2A98E4DDF"
+				item: { count: 1, id: "ends_delight:roasted_dragon_steak" }
+				type: "item"
+			}]
+			x: 1.875d
+			y: -8.8125d
+		}
+		{
+			dependencies: ["68470F41A5B48B01"]
+			id: "03F6583D12DD590D"
+			rewards: [{
+				id: "1D6894444ABAF0BF"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0FE6417DD15B73E3"
+				item: { count: 1, id: "ends_delight:dragon_leg_with_sauce" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.125d
+		}
+		{
+			dependencies: ["1CDC8E0EDF620BE4"]
+			id: "4B848CB113D515BB"
+			rewards: [{
+				id: "389F1BB242178F91"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "72D7E6FE5D021079"
+				item: { count: 1, id: "ends_delight:steamed_dragon_egg" }
+				type: "item"
+			}]
+			x: 3.5174319727891117d
+			y: -4.084608843537431d
+		}
+		{
+			dependencies: ["49C37A041ECEE783"]
+			id: "20078DD2EA9A9074"
+			rewards: [{
+				id: "5F46B6741774CA56"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "64097C28FD26D557"
+				item: { count: 1, id: "ends_delight:dragon_meat_stew" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.125d
+		}
+		{
+			dependencies: ["3B9BD6F5AAB53549"]
+			id: "23FC4E1D0CF8E5C7"
+			rewards: [{
+				id: "0AA726ED58DA00C2"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1D447C19C7D26DAA"
+				item: { count: 1, id: "ends_delight:grilled_shulker" }
+				type: "item"
+			}]
+			x: 2.5378401360544203d
+			y: -4.084608843537431d
+		}
+		{
+			id: "141B3403622BCDBC"
+			rewards: [{
+				id: "2C77A82BB98DCD6C"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7CF03D3C16FAD78E"
+				item: { count: 1, id: "dungeonsdelight:au_rotten_potatoes" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -11.875d
+		}
+		{
+			id: "0DE5844DA0C20E35"
+			rewards: [{
+				id: "1AF57C88747C3766"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2FA7D19F0CB71834"
+				item: { count: 1, id: "dungeonsdelight:bloody_mary" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: -11.875d
+		}
+		{
+			id: "01F284AF7B0DC5A0"
+			rewards: [{
+				id: "413DF85D20FB0DA6"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "77D4B104DD34E395"
+				item: { count: 1, id: "dungeonsdelight:spider_bubble_tea" }
+				type: "item"
+			}]
+			x: 11.25d
+			y: -11.875d
+		}
+		{
+			id: "3B895E19301DE338"
+			rewards: [{
+				id: "71259A899BF2FC3E"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "399EF946067FBEA3"
+				item: { count: 1, id: "dungeonsdelight:trial_freakshake" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -11.875d
+		}
+		{
+			id: "54D9E9B9253D61B7"
+			rewards: [{
+				id: "7748AC8B6B8B32D8"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6E0FEE96729A949F"
+				item: { count: 1, id: "dungeonsdelight:taro_milk_tea" }
+				type: "item"
+			}]
+			x: 7.125d
+			y: -12.625d
+		}
+		{
+			id: "72AF6E94F04BB82A"
+			rewards: [{
+				id: "41F3E4BD8870CE03"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "24C07A767D855DB7"
+				item: { count: 1, id: "dungeonsdelight:terrine_loaf" }
+				type: "item"
+			}]
+			x: 7.875d
+			y: -12.625d
+		}
+		{
+			id: "0AA83A1B0D19BBCB"
+			rewards: [{
+				id: "4F94F655B980F244"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5E36F51206105557"
+				item: { count: 1, id: "dungeonsdelight:chicken_jockey_sandwich" }
+				type: "item"
+			}]
+			x: 8.625d
+			y: -12.625d
+		}
+		{
+			id: "6517A563D223DA55"
+			rewards: [{
+				id: "5FFC022035E02F5A"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0D3E0171D60C280C"
+				item: { count: 1, id: "dungeonsdelight:bubblegunk" }
+				type: "item"
+			}]
+			x: 8.625d
+			y: -11.125d
+		}
+		{
+			id: "5C88CCB5D9247F85"
+			rewards: [{
+				id: "2306441D692DDDD1"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2B90FA9C5EF7A1CF"
+				item: { count: 1, id: "dungeonsdelight:shiokara" }
+				type: "item"
+			}]
+			x: 9.375d
+			y: -11.125d
+		}
+		{
+			id: "0E1D1E498DA09F6A"
+			rewards: [{
+				id: "2E5AA426C39D7BCA"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6DC3BC3676B44803"
+				item: { count: 1, id: "dungeonsdelight:wispy_rice_ball" }
+				type: "item"
+			}]
+			x: 10.125d
+			y: -11.125d
+		}
+		{
+			id: "6603078F589BBA3F"
+			rewards: [{
+				id: "3A99E162DB77DBB5"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "44E52942F853A5AE"
+				item: { count: 1, id: "dungeonsdelight:breeze_cream_cone" }
+				type: "item"
+			}]
+			x: 10.875d
+			y: -11.125d
+		}
+		{
+			id: "05DDA90EAD1A4B5A"
+			rewards: [{
+				id: "6F29141A64CA7941"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "78590AD8676D4FCF"
+				item: { count: 1, id: "dungeonsdelight:marshbellow" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: -11.875d
+		}
+		{
+			id: "1116CFCB6BF67217"
+			rewards: [{
+				id: "5436C7F5E6EBC719"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "34960C106E5DA907"
+				item: { count: 1, id: "dungeonsdelight:jelly_beans" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -11.875d
+		}
+		{
+			id: "0B8D090EB7CD511D"
+			rewards: [{
+				id: "7859E9E0CDD8B9A8"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4DEACCB0CE2DA934"
+				item: { count: 1, id: "dungeonsdelight:malicious_sandwich" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -11.875d
+		}
+		{
+			id: "09F21CFFB50A1CF2"
+			rewards: [{
+				id: "73C484920C63BB56"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7A135D18CFB041C1"
+				item: { count: 1, id: "dungeonsdelight:monster_muffin" }
+				type: "item"
+			}]
+			x: 7.875d
+			y: -11.125d
+		}
+		{
+			id: "5F5E450B5061AD43"
+			rewards: [{
+				id: "0B78BD3B4F8A405E"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "293AEF8D45833EA4"
+				item: { count: 1, id: "dungeonsdelight:ghastly_spirits" }
+				type: "item"
+			}]
+			x: 7.125d
+			y: -11.125d
+		}
+		{
+			id: "0A1E028BB402395E"
+			rewards: [{
+				id: "78B3C6252F67926D"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "431F3BE5714384A2"
+				item: { count: 1, id: "dungeonsdelight:salt_soaked_stew" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: -10.375d
+		}
+		{
+			id: "46BB2FA63B33046B"
+			rewards: [{
+				id: "29DAEAE085B17634"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "20E38EFCDCA0CF34"
+				item: { count: 1, id: "dungeonsdelight:monster_cake_slice" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.375d
+		}
+		{
+			id: "73003656B239F416"
+			rewards: [{
+				id: "41A7AE9EF2FD01D8"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3CFA2E91DA83254B"
+				item: { count: 1, id: "dungeonsdelight:spider_pie_slice" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -10.375d
+		}
+		{
+			id: "304B80171EF1EE33"
+			rewards: [{
+				id: "6D856C2ED44C937E"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0E2C5419E7814C05"
+				item: { count: 1, id: "dungeonsdelight:candied_silverfish_sucker" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -10.375d
+		}
+		{
+			id: "409A7312D1677A3E"
+			rewards: [{
+				id: "02161DBDBCFAA9EB"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6B79D74A11E87302"
+				item: { count: 1, id: "dungeonsdelight:soaked_skewer" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: -10.375d
+		}
+		{
+			id: "53D3863FB6429A4F"
+			rewards: [{
+				id: "0FA0F21102A134A9"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6AE983B9961581DE"
+				item: { count: 1, id: "dungeonsdelight:spider_tanghulu" }
+				type: "item"
+			}]
+			x: 7.875d
+			y: -9.625d
+		}
+		{
+			id: "0A9EA9C8C0733FA4"
+			rewards: [{
+				id: "0491099B8A4A2EC6"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2AEC78FBBAF4B37C"
+				item: { count: 1, id: "dungeonsdelight:cob_n_candy" }
+				type: "item"
+			}]
+			x: 8.625d
+			y: -9.625d
+		}
+		{
+			id: "3481D98525008C0A"
+			rewards: [{
+				id: "2EBF207131152847"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "66140CC5BBDBA42E"
+				item: { count: 1, id: "dungeonsdelight:polterghast_pizza_slice" }
+				type: "item"
+			}]
+			x: 9.375d
+			y: -9.625d
+		}
+		{
+			id: "777AB9F43AC63689"
+			rewards: [{
+				id: "7EDC1D1AD1B602B7"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0ED4AB9605B3B2D3"
+				item: { count: 1, id: "dungeonsdelight:haggis" }
+				type: "item"
+			}]
+			x: 10.125d
+			y: -9.625d
+		}
+		{
+			id: "505CE2B19E400D74"
+			rewards: [{
+				id: "1C12E93E210BF5F2"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "69A71E6508115D64"
+				item: { count: 1, id: "dungeonsdelight:rubaboo" }
+				type: "item"
+			}]
+			x: 10.875d
+			y: -9.625d
+		}
+		{
+			id: "60947F5FB1D8E3D0"
+			rewards: [{
+				id: "746AC391D1602CF3"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2DE5721071E6AC61"
+				item: { count: 1, id: "dungeonsdelight:spider_salmagundi" }
+				type: "item"
+			}]
+			x: 11.25d
+			y: -10.375d
+		}
+		{
+			id: "5919DBD10CAE87FA"
+			rewards: [{
+				id: "3FD4C395ADCD35BA"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "389D726A1EDA07E6"
+				item: { count: 1, id: "dungeonsdelight:gelled_salad" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.375d
+		}
+		{
+			id: "133AF5375E7C9691"
+			rewards: [{
+				id: "71FDD6C1052328D2"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "16869A32C430D287"
+				item: { count: 1, id: "dungeonsdelight:silverfish_fried_rice" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.875d
+		}
+		{
+			id: "0B0EAE80088CC9D9"
+			rewards: [{
+				id: "762543F81F8B2D56"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4403277291D8B79D"
+				item: { count: 1, id: "dungeonsdelight:echo_rock_candy" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -8.875d
+		}
+		{
+			id: "0E8E442AC512E8C1"
+			rewards: [{
+				id: "3B40B6138BA01A37"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "45D852C4CCE9D5BE"
+				item: { count: 1, id: "dungeonsdelight:poi" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.875d
+		}
+		{
+			id: "1789293C5FCD8B56"
+			rewards: [{
+				id: "66BAEBEC7E01EF5C"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "78B95A5293FE2D83"
+				item: { count: 1, id: "dungeonsdelight:sinigang" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: -8.875d
+		}
+		{
+			id: "75D6523C92AE12A3"
+			rewards: [{
+				id: "235E414C38C4ECC2"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "73708DC5316F9285"
+				item: { count: 1, id: "dungeonsdelight:brains_in_a_brick" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.875d
+		}
+		{
+			id: "59A02FC7985F7BB4"
+			rewards: [{
+				id: "6BC5F8A9B884020E"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "13BD01C8CC2FCAB3"
+				item: { count: 1, id: "dungeonsdelight:gyudon" }
+				type: "item"
+			}]
+			x: 11.25d
+			y: -8.875d
+		}
+		{
+			id: "5C0920555E4A0677"
+			rewards: [{
+				id: "370603D2E126FB45"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5E564F6F7AD0DD5B"
+				item: { count: 1, id: "dungeonsdelight:ghoulash" }
+				type: "item"
+			}]
+			x: 7.125d
+			y: -9.625d
+		}
+		{
+			id: "01F68E4C4BBD14C8"
+			rewards: [{
+				id: "4925C36901241E97"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "024E7682AD030EE4"
+				item: { count: 1, id: "dungeonsdelight:tokayaki" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: -8.875d
+		}
+		{
+			dependencies: ["2FE53F71F1EE8AE4"]
+			id: "666218A86030D04B"
+			rewards: [{
+				id: "3116F6D71030FD0A"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "675424BF68BCF608"
+				item: { components: { "ftbquests:missing_item": "dungeonsdelight:glow_berry_gelatin" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.125d
+		}
+		{
+			dependencies: ["1763D0B59CE854FB"]
+			id: "1FFDDE2A61642685"
+			rewards: [{
+				id: "53D68669B88AC485"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "622A6000821517CB"
+				item: { count: 1, id: "dungeonsdelight:ossobuco" }
+				type: "item"
+			}]
+			x: 8.625d
+			y: -4.125d
+		}
+		{
+			dependencies: ["049BAED409DA4142"]
+			id: "19B1E8E25D8C5403"
+			rewards: [{
+				id: "2C6CC6C8F8D4C84D"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "284B042B64B9EBE0"
+				item: { count: 1, id: "dungeonsdelight:guardian_angel" }
+				type: "item"
+			}]
+			x: 9.5625d
+			y: -4.125d
+		}
+		{
+			dependencies: ["123FA78CF8E6E050"]
+			id: "60DF90D50ED4E44C"
+			rewards: [{
+				id: "69CA5E2539536C03"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "60F42A92B6290487"
+				item: { count: 1, id: "dungeonsdelight:silverfish_and_chips" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.125d
+		}
+		{
+			dependencies: [
+				"3DDBC166A26F23F1"
+				"52C91027614B470F"
+				"30BE9D2BED50CA8E"
+				"18CAD679CD3F9A62"
+				"69BBC100391E75F4"
+				"666218A86030D04B"
+				"60DF90D50ED4E44C"
+				"2C0F82B61AB54D39"
+				"1FFDDE2A61642685"
+				"050054943EDD7FD0"
+				"03F6583D12DD590D"
+				"4B848CB113D515BB"
+				"20078DD2EA9A9074"
+				"19B1E8E25D8C5403"
+				"3026A8858834B1A9"
+				"23FC4E1D0CF8E5C7"
+				"24946CBA5FBCB892"
+				"40554D5B7FD13ADE"
+				"4DEE915C39929922"
+				"74B6FC74572ED928"
+				"4B850C7BCD69B611"
+				"573130FEE1FAAA7D"
+				"0ECCE219B4F99420"
+				"3DEC089C1A86C5E6"
+				"71C198BE3D15A579"
+				"7BF3BE106378810F"
+				"43C3EAA92945C7B9"
+				"27AF406500077C9B"
+				"0C9B6D4D227207FC"
+				"43B7FF47E7EDD904"
+				"26EE9175C68ADB0D"
+				"4CD7761EBD902306"
+				"637D45E3E9D312ED"
+				"7133BC3F0C1B943F"
+				"2CA7993833E43B17"
+				"18122E404DCBA775"
+				"6E1EF4A2933C23AE"
+				"703BF89D72D3B8DB"
+				"4FB8C43224726449"
+				"0CEE2DE62D36A50B"
+				"3A1B2DC1B4004DAD"
+				"218B5DF3739D3359"
+				"350DBB1C73D5DFED"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/heart"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.2d
+			id: "70C8BA5815937256"
+			rewards: [{
+				auto: "enabled"
+				id: "228B0DD28C41A22C"
+				table_id: 3749975201472475820L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 4.0d
+			tasks: [{
+				id: "123D035FF9EE70CC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18B145BF604B9230"]
+			id: "350DBB1C73D5DFED"
+			rewards: [{
+				id: "75A41BB0B72B10CC"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "09A94AF9F8FCB334"
+				item: { count: 1, id: "farmersdelight:honey_glazed_ham" }
+				type: "item"
+			}]
+			x: -8.0625d
+			y: -4.125d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "unusualend:item/infuser_info_questionmark"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "0A4A7FF81EE2BA8F"
+			optional: true
+			rewards: [{
+				id: "593B8E49ADC83F35"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "31B0F4BCFD39324D"
+				type: "checkmark"
+			}]
+			x: -8.0625d
+			y: -14.0625d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "unusualend:item/infuser_info_questionmark"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "3CA3523BE7AEE71D"
+			optional: true
+			rewards: [{
+				id: "25BC3490DC41B6C3"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4762531AD7CA8761"
+				type: "checkmark"
+			}]
+			x: -2.0625d
+			y: -14.0625d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "unusualend:item/infuser_info_questionmark"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "16AF9267EA6234B9"
+			optional: true
+			rewards: [{
+				id: "7AE2DBE61D9F9E2A"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3CC65165ADC60720"
+				type: "checkmark"
+			}]
+			x: 3.9375d
+			y: -14.0625d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "unusualend:item/infuser_info_questionmark"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "43C549BF409E54EE"
+			optional: true
+			rewards: [{
+				id: "57CA4411E4FD9417"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "276A2D921429663F"
+				type: "checkmark"
+			}]
+			x: 9.9375d
+			y: -14.0625d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "farmersdelight:textures/mob_effect/comfort.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "6C44C94E3AA6AE2C"
+			optional: true
+			rewards: [{
+				id: "7E364FB5EFC79E24"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0E1D2F01B788C818"
+				type: "checkmark"
+			}]
+			x: -12.25d
+			y: -11.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "farmersdelight:textures/mob_effect/nourishment.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "3720BAEAD39CB12E"
+			optional: true
+			rewards: [{
+				id: "18FD56B43B4996EE"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5DD08FF0EB7883DB"
+				type: "checkmark"
+			}]
+			x: -12.25d
+			y: -9.25d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "unusualend:item/infuser_info_questionmark"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "01A4E1EB13F1D2BC"
+			optional: true
+			rewards: [{
+				id: "79A9B61DC1A10E18"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "355C5A8459777CE6"
+				type: "checkmark"
+			}]
+			x: 12.25d
+			y: -10.25d
+		}
+	]
+}

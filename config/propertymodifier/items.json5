@@ -1,0 +1,1065 @@
+{
+  /* Specify the components of items here, using the item name (or a regex for item names) as the key. For example:
+	   ".*": {"minecraft:max_stack_size": 64}
+	   This example will make all (non-damageable) items stackable to 64. Be aware that this will be merged with existing components, overwriting the values where applicable.
+	   When modifying this map, the game must be restarted for the changes to take effect.
+	*/
+  default_components: {
+    'crystal_chronicles:ice_hammer': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'mainhand',operation: 'add_value',amount: 17,id: 'minecraft:base_attack_damage',type: 'minecraft:generic.attack_damage',},
+          {slot: 'mainhand',operation: 'add_value',amount: -3.2,type: 'minecraft:generic.attack_speed',id: 'minecraft:base_attack_speed',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:ice_spell_power',id: 'irons_spellbooks:mainhand_ice_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:mainhand_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:cast_time_reduction',id: 'irons_spellbooks:mainhand_cast_time_reduction_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:cooldown_reduction',id: 'irons_spellbooks:mainhand_cooldown_reduction_modifier',},
+        ],
+      },
+    },
+    'crystal_chronicles:paladin_sword': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'mainhand',operation: 'add_value',amount: 14,id: 'minecraft:base_attack_damage',type: 'minecraft:generic.attack_damage',},
+          {slot: 'mainhand',operation: 'add_value',amount: -2.4,type: 'minecraft:generic.attack_speed',id: 'minecraft:base_attack_speed',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:holy_spell_power',id: 'irons_spellbooks:mainhand_holy_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:mainhand_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:cast_time_reduction',id: 'irons_spellbooks:mainhand_cast_time_reduction_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:cooldown_reduction',id: 'irons_spellbooks:mainhand_cooldown_reduction_modifier',},
+        ],
+      },
+    },
+    'crystal_chronicles:spear': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'mainhand',operation: 'add_value',amount: 15,id: 'minecraft:base_attack_damage',type: 'minecraft:generic.attack_damage',},
+          {slot: 'mainhand',operation: 'add_value',amount: -2.7,type: 'minecraft:generic.attack_speed',id: 'minecraft:base_attack_speed',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:nature_spell_power',id: 'irons_spellbooks:mainhand_nature_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:mainhand_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:cast_time_reduction',id: 'irons_spellbooks:mainhand_cast_time_reduction_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:cooldown_reduction',id: 'irons_spellbooks:mainhand_cooldown_reduction_modifier',},
+        ],
+      },
+    },
+    'crystal_chronicles:blood_scythe': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'mainhand',operation: 'add_value',amount: 15,id: 'minecraft:base_attack_damage',type: 'minecraft:generic.attack_damage',},
+          {slot: 'mainhand',operation: 'add_value',amount: -2.7,type: 'minecraft:generic.attack_speed',id: 'minecraft:base_attack_speed',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:blood_spell_power',id: 'irons_spellbooks:mainhand_blood_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:mainhand_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:cast_time_reduction',id: 'irons_spellbooks:mainhand_cast_time_reduction_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:cooldown_reduction',id: 'irons_spellbooks:mainhand_cooldown_reduction_modifier',},
+        ],
+      },
+    },
+    'crystal_chronicles:staff': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'mainhand',operation: 'add_value',amount: 12,id: 'minecraft:base_attack_damage',type: 'minecraft:generic.attack_damage',},
+          {slot: 'mainhand',operation: 'add_value',amount: -3.0,type: 'minecraft:generic.attack_speed',id: 'minecraft:base_attack_speed',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:ender_spell_power',id: 'irons_spellbooks:mainhand_ender_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:mainhand_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:cast_time_reduction',id: 'irons_spellbooks:mainhand_cast_time_reduction_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:cooldown_reduction',id: 'irons_spellbooks:mainhand_cooldown_reduction_modifier',},
+        ],
+      },
+    },
+    'crystal_chronicles:evocation_twinblade': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'mainhand',operation: 'add_value',amount: 14,id: 'minecraft:base_attack_damage',type: 'minecraft:generic.attack_damage',},
+          {slot: 'mainhand',operation: 'add_value',amount: -2.4,type: 'minecraft:generic.attack_speed',id: 'minecraft:base_attack_speed',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:evocation_spell_power',id: 'irons_spellbooks:mainhand_evocation_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:mainhand_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:cast_time_reduction',id: 'irons_spellbooks:mainhand_cast_time_reduction_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:cooldown_reduction',id: 'irons_spellbooks:mainhand_cooldown_reduction_modifier',},
+        ],
+      },
+    },
+    'crystal_chronicles:chakram': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'mainhand',operation: 'add_value',amount: 13,id: 'minecraft:base_attack_damage',type: 'minecraft:generic.attack_damage',},
+          {slot: 'mainhand',operation: 'add_value',amount: -3,type: 'minecraft:generic.attack_speed',id: 'minecraft:base_attack_speed',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:fire_spell_power',id: 'irons_spellbooks:mainhand_fire_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:mainhand_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:cast_time_reduction',id: 'irons_spellbooks:mainhand_cast_time_reduction_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:cooldown_reduction',id: 'irons_spellbooks:mainhand_cooldown_reduction_modifier',},
+        ],
+      },
+    },
+    'crystal_chronicles:lightning_bident': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'mainhand',operation: 'add_value',amount: 15,id: 'minecraft:base_attack_damage',type: 'minecraft:generic.attack_damage',},
+          {slot: 'mainhand',operation: 'add_value',amount: -2.6,type: 'minecraft:generic.attack_speed',id: 'minecraft:base_attack_speed',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:lightning_spell_power',id: 'irons_spellbooks:mainhand_lightning_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:mainhand_spell_power_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:cast_time_reduction',id: 'irons_spellbooks:mainhand_cast_time_reduction_modifier',},
+          {slot: 'mainhand',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:cooldown_reduction',id: 'irons_spellbooks:mainhand_cooldown_reduction_modifier',},
+        ],
+      },
+    },
+        'crystal_chronicles:paladin_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:helmet_armor'},
+          {slot: 'head',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_base_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:head_base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:holy_spell_power',id: 'irons_spellbooks:head_holy_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:paladin_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 20,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:chest_base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:chest_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'chest_minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:holy_spell_power',id: 'irons_spellbooks:chest_holy_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:chest_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:paladin_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 16,type: 'minecraft:generic.armor', id: 'minecraft:leggins_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:leggins_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:legs_base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:holy_spell_power',id: 'irons_spellbooks:legs_holy_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:paladin_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:boots_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_base_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:feet_base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:holy_spell_power',id: 'irons_spellbooks:feet_holy_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:tank_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:helmet_armor'},
+          {slot: 'head',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_base_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:head_base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:ice_spell_power',id: 'irons_spellbooks:head_ice_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:tank_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 20,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:chest_base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:chest_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'chest_minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:ice_spell_power',id: 'irons_spellbooks:chest_ice_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:chest_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:tank_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 16,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:legs_base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:legs_base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:ice_spell_power',id: 'irons_spellbooks:legs_ice_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:tank_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_base_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:feet_base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:ice_spell_power',id: 'irons_spellbooks:feet_ice_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:mage_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:helmet_armor'},
+          {slot: 'head',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_base_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:head_base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:ender_spell_power',id: 'irons_spellbooks:head_ender_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:mage_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 20,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:chest_base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:chest_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'chest_minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:ender_spell_power',id: 'irons_spellbooks:chest_ender_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:chest_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:mage_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 16,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:legs_base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:legs_base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:ender_spell_power',id: 'irons_spellbooks:legs_ender_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:mage_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_base_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:feet_base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:ender_spell_power',id: 'irons_spellbooks:feet_ender_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:rogue_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:helmet_armor'},
+          {slot: 'head',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_base_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:head_base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:blood_spell_power',id: 'irons_spellbooks:head_blood_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:rogue_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 20,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:chest_base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:chest_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'chest_minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:blood_spell_power',id: 'irons_spellbooks:chest_blood_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:chest_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:rogue_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 16,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:legs_base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:legs_base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:blood_spell_power',id: 'irons_spellbooks:legs_blood_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:rogue_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_base_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:feet_base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:blood_spell_power',id: 'irons_spellbooks:feet_blood_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:toxic_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:helmet_armor'},
+          {slot: 'head',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_base_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:head_base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:nature_spell_power',id: 'irons_spellbooks:head_nature_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:toxic_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 20,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:chest_base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:chest_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'chest_minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:nature_spell_power',id: 'irons_spellbooks:chest_nature_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:chest_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:toxic_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 16,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:legs_base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:legs_base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:nature_spell_power',id: 'irons_spellbooks:legs_nature_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:toxic_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_base_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:feet_base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:nature_spell_power',id: 'irons_spellbooks:feet_nature_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:evoker_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:helmet_armor'},
+          {slot: 'head',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_base_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:head_base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:evocation_spell_power',id: 'irons_spellbooks:head_evocation_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:evoker_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 20,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:chest_base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:chest_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'chest_minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:evocation_spell_power',id: 'irons_spellbooks:chest_evocation_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:chest_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:evoker_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 16,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:legs_base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:legs_base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:evocation_spell_power',id: 'irons_spellbooks:legs_evocation_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:evoker_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_base_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:feet_base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:evocation_spell_power',id: 'irons_spellbooks:feet_evocation_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:electromancer_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:helmet_armor'},
+          {slot: 'head',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_base_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:head_base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:lightning_spell_power',id: 'irons_spellbooks:head_lightning_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+      rarity: 'hazennstuff:electric'
+    },
+
+    'crystal_chronicles:electromancer_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 20,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:chest_base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:chest_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'chest_minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:lightning_spell_power',id: 'irons_spellbooks:chest_lightning_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:chest_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:electromancer_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 16,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:legs_base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:legs_base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:lightning_spell_power',id: 'irons_spellbooks:legs_lightning_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:electromancer_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_base_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:feet_base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:lightning_spell_power',id: 'irons_spellbooks:boots_lightning_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:pyromancer_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:helmet_armor'},
+          {slot: 'head',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_base_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:head_base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:fire_spell_power',id: 'irons_spellbooks:head_fire_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:pyromancer_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 20,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:chest_base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:chest_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'chest_minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:fire_spell_power',id: 'irons_spellbooks:chest_fire_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:chest_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:pyromancer_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 16,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:legs_base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:legs_base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:fire_spell_power',id: 'irons_spellbooks:legs_fire_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'crystal_chronicles:pyromancer_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_base_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.1,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:feet_base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.15,type: 'irons_spellbooks:fire_spell_power',id: 'irons_spellbooks:feet_fire_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.025,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+        'hazennstuff:seraph_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:head_armor'},
+          {slot: 'head',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:holy_spell_power',id: 'irons_spellbooks:head_holy_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_holy_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:seraph_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 18,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:body_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:holy_spell_power',id: 'irons_spellbooks:body_holy_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_holy_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:body_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:seraph_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 14,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:holy_spell_power',id: 'irons_spellbooks:legs_holy_spell_power_modifier'},     
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_holy_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:seraph_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:holy_spell_power',id: 'irons_spellbooks:feet_holy_spell_power_modifier'},     
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_holy_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:cryogenic_ruler_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:head_armor'},
+          {slot: 'head',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:ice_spell_power',id: 'irons_spellbooks:head_ice_spell_power_modifier'},       
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_ice_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:cryogenic_ruler_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 18,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:body_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:ice_spell_power',id: 'irons_spellbooks:body_ice_spell_power_modifier'},       
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_ice_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:body_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:cryogenic_ruler_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 14,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:ice_spell_power',id: 'irons_spellbooks:legs_ice_spell_power_modifier'},       
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_ice_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:cryogenic_ruler_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:ice_spell_power',id: 'irons_spellbooks:feet_ice_spell_power_modifier'},       
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_ice_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:ender_dragon_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:head_armor'},
+          {slot: 'head',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:ender_spell_power',id: 'irons_spellbooks:head_ender_spell_power_modifier'},   
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_ender_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:ender_dragon_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 18,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:body_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:ender_spell_power',id: 'irons_spellbooks:body_ender_spell_power_modifier'},   
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_ender_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:body_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:ender_dragon_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 14,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:ender_spell_power',id: 'irons_spellbooks:legs_ender_spell_power_modifier'},   
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_ender_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:ender_dragon_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:ender_spell_power',id: 'irons_spellbooks:feet_ender_spell_power_modifier'},   
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_ender_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:flesh_mass_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:head_armor'},
+          {slot: 'head',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:blood_spell_power',id: 'irons_spellbooks:head_blood_spell_power_modifier'},   
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_blood_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:flesh_mass_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 18,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:body_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:blood_spell_power',id: 'irons_spellbooks:body_blood_spell_power_modifier'},   
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_blood_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:body_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:flesh_mass_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 14,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:blood_spell_power',id: 'irons_spellbooks:legs_blood_spell_power_modifier'},   
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_blood_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:flesh_mass_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:blood_spell_power',id: 'irons_spellbooks:feet_blood_spell_power_modifier'},   
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_blood_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:creaking_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:head_armor'},
+          {slot: 'head',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:nature_spell_power',id: 'irons_spellbooks:head_nature_spell_power_modifier'}, 
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_nature_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:creaking_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 18,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:body_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:nature_spell_power',id: 'irons_spellbooks:body_nature_spell_power_modifier'}, 
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_nature_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:body_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:creaking_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 14,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:nature_spell_power',id: 'irons_spellbooks:legs_nature_spell_power_modifier'}, 
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_nature_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:creaking_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:nature_spell_power',id: 'irons_spellbooks:feet_nature_spell_power_modifier'}, 
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_nature_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:supreme_witch_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:head_armor'},
+          {slot: 'head',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:evocation_spell_power',id: 'irons_spellbooks:head_evocation_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_evocation_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:supreme_witch_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 18,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:body_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:evocation_spell_power',id: 'irons_spellbooks:body_evocation_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_evocation_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:body_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:supreme_witch_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 14,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:evocation_spell_power',id: 'irons_spellbooks:legs_evocation_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_evocation_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:supreme_witch_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_base_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:feet_base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:evocation_spell_power',id: 'irons_spellbooks:feet_evocation_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:_feet_eldritch_evocation_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:soul_flame_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:head_armor'},
+          {slot: 'head',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:fire_spell_power',id: 'irons_spellbooks:head_fire_spell_power_modifier'},     
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_fire_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:soul_flame_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 18,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:body_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:fire_spell_power',id: 'irons_spellbooks:body_fire_spell_power_modifier'},     
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_fire_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:body_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:soul_flame_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 14,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:fire_spell_power',id: 'irons_spellbooks:legs_fire_spell_power_modifier'},     
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:eldritch_fire_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:soul_flame_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:fire_spell_power',id: 'irons_spellbooks:feet_fire_spell_power_modifier'},     
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:feet_eldritch_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+       'hazennstuff:charged_scourge_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:head_armor'},
+          {slot: 'head',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:head_base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:lightning_spell_power',id: 'irons_spellbooks:head_lightning_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:head_eldritch_evocation_spell_power_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:head_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:charged_scourge_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 18,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:body_base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:body_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:body_base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:lightning_spell_power',id: 'irons_spellbooks:body_lightning_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:body_eldritch_spell_power_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:body_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:charged_scourge_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 14,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:legs_base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:lightning_spell_power',id: 'irons_spellbooks:legs_lightning_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:legs_eldritch_eldritch_spell_power_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:legs_spell_power_modifier'},
+        ],
+      },
+    },
+
+    'hazennstuff:charged_scourge_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 8,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 2,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:feet_base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:lightning_spell_power',id: 'irons_spellbooks:feet_lightning_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:eldritch_spell_power',id: 'irons_spellbooks:feet_eldritch_eldritch_spell_power_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.035,type: 'irons_spellbooks:spell_power',id: 'irons_spellbooks:feet_spell_power_modifier'},
+        ],
+      },
+    },
+
+     'forbidden_arcanus:tyr_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 10,type: 'minecraft:generic.armor', id: 'minecraft:head_armor'},
+          {slot: 'head',operation: 'add_value',amount: 4,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.15,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.10,type: 'irons_spellbooks:holy_spell_power',id: 'irons_spellbooks:head_holy_spell_power_modifier'},
+        ],
+      },
+    },
+    'forbidden_arcanus:tyr_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 14,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 4,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.15,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.10,type: 'irons_spellbooks:holy_spell_power',id: 'irons_spellbooks:chest_holy_spell_power_modifier'},
+        ],
+      },
+    },
+    'forbidden_arcanus:tyr_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 9,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.15,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.10,type: 'irons_spellbooks:holy_spell_power',id: 'irons_spellbooks:legs_holy_spell_power_modifier'},
+        ],
+      },
+    },
+    'forbidden_arcanus:tyr_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 12,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:base_armor_toughness'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.15,type: 'minecraft:generic.knockback_resistance',id: 'minecraft:base_knockback_resistance'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.10,type: 'irons_spellbooks:holy_spell_power',id: 'irons_spellbooks:feet_holy_spell_power_modifier'},
+        ],
+      },
+    },
+        'forbidden_arcanus:draco_arcanus_helmet': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'head',operation: 'add_value',amount: 7,type: 'minecraft:generic.armor', id: 'minecraft:head_armor'},
+          {slot: 'head',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:head_base_armor_toughness'},
+          {slot: 'head',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:head_max_mana_modifier'},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.10,type: 'irons_spellbooks:cast_time_reduction',id: 'irons_spellbooks:head_cast_time_reduction_modifier',},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:cooldown_reduction',id: 'irons_spellbooks:head_cooldown_reduction_modifier',},
+          {slot: 'head',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:mana_regen',id: 'irons_spellbooks:head_mana_regeneration_modifier',},
+        ],
+      },
+      },
+        'forbidden_arcanus:draco_arcanus_chestplate': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'chest',operation: 'add_value',amount: 12,type: 'minecraft:generic.armor', id: 'minecraft:chest_armor'},
+          {slot: 'chest',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:chest_base_armor_toughness'},
+          {slot: 'chest',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.10,type: 'irons_spellbooks:cast_time_reduction',id: 'irons_spellbooks:chest_cast_time_reduction_modifier',},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:cooldown_reduction',id: 'irons_spellbooks:chest_cooldown_reduction_modifier',},
+          {slot: 'chest',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:mana_regen',id: 'irons_spellbooks:chest_mana_regeneration_modifier',},
+        ],
+      },
+      },
+        'forbidden_arcanus:draco_arcanus_leggings': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'legs',operation: 'add_value',amount: 9,type: 'minecraft:generic.armor', id: 'minecraft:legs_armor'},
+          {slot: 'legs',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:legs_base_armor_toughness'},
+          {slot: 'legs',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:legs_max_mana_modifier'},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.10,type: 'irons_spellbooks:cast_time_reduction',id: 'irons_spellbooks:legs_cast_time_reduction_modifier',},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:cooldown_reduction',id: 'irons_spellbooks:legs_cooldown_reduction_modifier',},
+          {slot: 'legs',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:mana_regen',id: 'irons_spellbooks:legs_mana_regeneration_modifier',},
+        ],
+        },},
+    'forbidden_arcanus:draco_arcanus_boots': {
+      'minecraft:attribute_modifiers': {
+        modifiers: [
+          {slot: 'feet',operation: 'add_value',amount: 6,type: 'minecraft:generic.armor', id: 'minecraft:feet_armor'},
+          {slot: 'feet',operation: 'add_value',amount: 3,type: 'minecraft:generic.armor_toughness',id: 'minecraft:feet_base_armor_toughness'},
+          {slot: 'feet',operation: 'add_value',amount: 150,type: 'irons_spellbooks:max_mana',id: 'irons_spellbooks:feet_max_mana_modifier'},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.10,type: 'irons_spellbooks:cast_time_reduction',id: 'irons_spellbooks:feet_cast_time_reduction_modifier',},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:cooldown_reduction',id: 'irons_spellbooks:feet_cooldown_reduction_modifier',},
+          {slot: 'feet',operation: 'add_multiplied_base',amount: 0.05,type: 'irons_spellbooks:mana_regen',id: 'irons_spellbooks:feet_mana_regeneration_modifier',},
+        ],
+    },},
+    },
+
+  
+  
+  
+  /* Specify crafting remainder items for other items here, using the item name (or a regex for item names) as the key. For example:
+	   "minecraft:.*_(soup|stew)": "minecraft:bowl"
+	   This example will make all of Minecraft's soup and stew items return a bowl if used in a crafting table.
+	   When modifying this map, the game must be restarted for the changes to take effect.
+	*/
+  crafting_remainders: {},
+}

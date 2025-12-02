@@ -1,0 +1,35 @@
+{
+    "values": [
+        "minecraft:flower_forest",
+        "minecraft:sunflower_plains",
+        "minecraft:meadow",
+        {
+            "id": "regions_unexplored:flower_fields",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:glistering_meadow",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:poppy_fields",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:clover_plains",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:grassland",
+            "required": false
+        },
+        {
+            "id": "the_bumblezone:floral_meadow",
+            "required": false
+        },
+        {
+            "id": "the_bumblezone:pollinated_fields",
+            "required": false
+        }
+    ]
+}

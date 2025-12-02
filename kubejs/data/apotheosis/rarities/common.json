@@ -1,0 +1,28 @@
+{
+    "type": "apotheosis:rarity",
+    "color": "#808080",
+    "material": "apotheosis:common_material",
+    "overrides": {},
+    "rules": [
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:chanced",
+            "chance": 0.25,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "stat"
+            }
+        }
+    ],
+    "sort_index": 300,
+    "weights": {
+        "haven": { "weight": 1000 },
+        "frontier": { "weight": 800 },
+        "ascent": { "weight": 500 },
+        "summit": { "weight": 200 },
+        "pinnacle": { "weight": 50 }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "apotheosis:purity_upgrade",
+    "left": [
+        {
+            "count": 7,
+            "item": "apotheosis:gem_dust"
+        }
+    ],
+    "purity": "normal",
+    "right": [
+
+        {
+            "count": 3,
+            "item": "apotheosis:epic_material"
+        }
+    ]
+}

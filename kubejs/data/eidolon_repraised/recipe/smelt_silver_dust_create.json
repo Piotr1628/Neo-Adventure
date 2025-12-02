@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "create:crushed_raw_silver"
+  },
+  "result": {
+    "id": "eidolon_repraised:silver_ingot"
+  },
+  "experience": 0.5,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "modid": "create",
+      "type": "neoforge:mod_loaded"
+    }
+  ]
+}
+

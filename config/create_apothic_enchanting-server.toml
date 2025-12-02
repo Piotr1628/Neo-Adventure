@@ -1,0 +1,32 @@
+#.
+#Parameters and abilities of bookshelves
+[stats]
+	#.
+	#.
+	#The max Eterna a Brass Bookshelf can provide.
+	#[@cui:RequiresReload:server]
+	# Default: 50
+	# Range: 1 ~ 100
+	brassBookshelfMaxEterna = 50
+	#.
+	#The max Quanta a Brass Bookshelf can provide.
+	#[@cui:RequiresReload:server]
+	# Default: 0.5
+	# Range: 0.009999999776482582 ~ 1.0
+	brassBookshelfMaxQuanta = 0.5
+	#.
+	#The max Arcana a Brass Bookshelf can provide.
+	#[@cui:RequiresReload:server]
+	# Default: 0.25
+	# Range: 0.009999999776482582 ~ 1.0
+	brassBookshelfMaxArcana = 0.25
+	#.
+	#Brass Bookshelf can provide treasures.
+	#[@cui:RequiresReload:server]
+	brassBookshelfAllowTreasures = true
+	#.
+	#The max Eterna Brass Bookshelves can provide.
+	#[@cui:RequiresReload:server]
+	# Default: 100
+	# Range: 1 ~ 100
+	multipleBrassBookshelfMaxEterna = 100

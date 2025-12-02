@@ -1,0 +1,26 @@
+{
+    "type": "apotheosis:affix_loot",
+    "conditions": [],
+    "entries": [
+        {
+            "chance": 0.035,
+            "pattern": {
+                "domain": "minecraft",
+                "path_regex": "chests.*"
+            }
+        },
+        {
+            "chance": 0.03,
+            "pattern": {
+                "path_regex": "chests.*"
+            }
+        },
+        {
+            "chance": 100,
+            "pattern": {
+                "domain": "dungeons_arise",
+                "path_regex": "chests/monastery/.*"
+            }
+        }
+    ]
+}

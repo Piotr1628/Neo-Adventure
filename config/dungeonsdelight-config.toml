@@ -1,0 +1,12 @@
+	["Dungeon's Delight Config"."Gameplay Configurations"]
+		#Configuration for features that may impact gameplay in a large way
+		#Force enable all mod integration? (even if the corresponding mods are not installed), mostly useful for modpacks wanting to repurpose the items (default: false)
+		forceEnableIntegrationFeatures = false
+		#Should trial spawner blocks emit green flame particles? (default: true)
+		trialSpawnersEmitGreenFlames = true
+		#Should vault blocks emit green flame particles? (default: true)
+		vaultsEmitGreenFlames = true
+		#Chance for Rotten Monster Rooms to generate instead of Monster Rooms in Swamps? (default: 75, 15% chance)
+		# Default: 75
+		# Range: 0 ~ 100
+		rottenMonsterRoomChance = 75

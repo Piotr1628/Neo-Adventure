@@ -1,0 +1,13 @@
+{
+  "type": "hexerei:vegetal",
+  "biomes": [
+    "minecraft:forest",
+    "minecraft:dark_forest",
+    "regions_unexplored:deciduous_forest",
+    "regions_unexplored:blackwood_taiga",
+    "regions_unexplored:maple_forest",
+    "regions_unexplored:autumnal_maple_forest",
+    "autumnity:maple_forest"
+],
+  "feature": "hexerei:witch_hazel_placed"
+}

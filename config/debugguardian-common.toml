@@ -1,0 +1,87 @@
+[postmortem]
+	#Number of game events to retain for post-mortem dump
+	# Default: 500
+	# Range: 100 ~ 10000
+	bufferSize = 500
+
+[reporting]
+	#GitHub repository (owner/Repo) for creating crash reports
+	githubRepository = "YourOrg/YourRepo"
+
+[performance]
+	#Tick duration (ms) above which a warning is logged
+	# Default: 100
+	# Range: 1 ~ 10000
+	tickThresholdMs = 50
+	#Heap usage ratio (0.0 - 1.0) to trigger memory warning
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	memoryWarningRatio = 0.8
+
+[compatibility]
+	#Enable scanning for known mod incompatibilities at startup
+	enableScan = true
+
+[logging]
+	#Enable real-time in-game log monitoring and notifications
+	enableLiveMonitor = true
+	#Number of identical errors to skip before logging again
+	# Default: 100
+	# Range: 1 ~ 10000
+	errorReportInterval = 100
+	#API key for external AI log analyzer; blank uses DEBUG_GUARDIAN_AI_KEY env var
+	aiServiceApiKey = ""
+
+	[debug.forceClose]
+		#Enable capturing mod stacks when the game is forcibly closed
+		enable = true
+		#Launch a helper JVM alongside the game for deeper debugging
+		launchHelper = false
+		#Include java.base module frames in force-close thread dumps
+		includeJavaBase = true
+
+	[debug.crashRisk]
+		#Enable aggregated crash risk detection
+		enable = true
+
+	[monitoring.memoryLeak]
+		#Heap usage ratio (0.0 - 1.0) that increments the leak streak
+		# Default: 0.9
+		# Range: 0.0 ~ 1.0
+		warnRatio = 0.9
+		#Number of consecutive checks over the ratio before warning
+		# Default: 3
+		# Range: 1 ~ 100
+		warnStreak = 3
+		#Seconds between heap usage checks for the leak monitor
+		# Default: 30
+		# Range: 5 ~ 600
+		checkIntervalSeconds = 30
+
+	[monitoring.gc]
+		#GC pause duration (ms) considered suspicious
+		# Default: 2000
+		# Range: 100 ~ 60000
+		pauseWarnMs = 2000
+		#Seconds between GC pause measurements
+		# Default: 10
+		# Range: 1 ~ 600
+		checkIntervalSeconds = 10
+
+	[monitoring.watchdog]
+		#Heap usage (in MB) that triggers a watchdog warning
+		# Default: 8000
+		# Range: 512 ~ 65536
+		maxMemoryMb = 8000
+		#Thread count that triggers a watchdog warning
+		# Default: 300
+		# Range: 32 ~ 10000
+		maxThreads = 300
+		#Seconds between watchdog resource checks
+		# Default: 10
+		# Range: 1 ~ 600
+		checkIntervalSeconds = 10
+
+[world]
+	#Automatically scan the active world for issues when the server starts
+	autoScanOnStart = true

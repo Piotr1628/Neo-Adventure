@@ -1,0 +1,34 @@
+{
+	id: "73B5D73D81371D50"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 2
+			id: "2B9C39E956D8F130"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			id: "2063D803FF71BAFF"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+			random_bonus: 2
+			weight: 0.3f
+		}
+		{
+			id: "3AD53178F09584B1"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+			weight: 0.1f
+		}
+	]
+}

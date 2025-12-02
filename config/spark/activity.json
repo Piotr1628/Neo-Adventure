@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1764327140488,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/dnvOmiyaGr"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Piotr1628",
+      "uniqueId": "dc7a990c-e3c0-42fd-bd1b-e9b8ce062520"
+    },
+    "time": 1764152936579,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/2LjRbBOMpL"
+    }
+  }
+]

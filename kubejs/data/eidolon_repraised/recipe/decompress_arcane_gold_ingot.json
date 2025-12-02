@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "eidolon_repraised",
+  "ingredients": [
+    {
+      "tag": "c:ingots/arcane_gold"
+    }
+  ],
+  "result": {
+    "id": "eidolon_repraised:arcane_gold_nugget",
+    "count": 9
+  }
+}

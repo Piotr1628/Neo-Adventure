@@ -1,0 +1,27 @@
+{
+	hide_tooltip: true
+	id: "121CA35C9CD7B2CB"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ id: "332E259C9214EBA9", item: { components: { "ftbquests:missing_item": "create_connected:encased_chain_cogwheel" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "6F000F308F2605E5", item: { components: { "ftbquests:missing_item": "create_connected:item_silo" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "34BF8D74DFEF7F79", item: { components: { "ftbquests:missing_item": "create_connected:crank_wheel" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5EE6D866C1E0BF3D", item: { components: { "ftbquests:missing_item": "create_connected:large_crank_wheel" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "161D53A74BEA4AB1", item: { components: { "ftbquests:missing_item": "create_connected:fluid_vessel" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1C325AA00BF5A4AC", item: { count: 1, id: "create:fluid_tank" } }
+		{ id: "0BB993EB3D3A67D7", item: { count: 1, id: "create:large_cogwheel" } }
+		{ id: "0F76F25265868B78", item: { count: 1, id: "create:cogwheel" } }
+		{ id: "76816E420ACCB706", item: { count: 1, id: "create:water_wheel" } }
+		{ id: "6AF83B8E1CA9F39F", item: { count: 1, id: "create:large_water_wheel" } }
+		{ id: "10E17BBF734350CE", item: { count: 1, id: "create:empty_blaze_burner" } }
+		{ id: "26B55CA40AD19BD1", item: { count: 1, id: "create:depot" } }
+		{ id: "44D741E8E5BB30AB", item: { count: 1, id: "create:basin" } }
+		{ id: "36A53E48E4B7AB40", item: { count: 1, id: "create:fluid_pipe" } }
+		{ id: "7B025C4CB3DC89F0", item: { count: 1, id: "create:andesite_casing" } }
+		{ id: "25D43C49D28F042F", item: { count: 1, id: "create:brass_casing" } }
+		{ id: "716AA54078013F6B", item: { count: 1, id: "createcasing:copper_chain_conveyor" } }
+		{ id: "421161536CB867D4", item: { count: 1, id: "create:mechanical_pump" } }
+	]
+	use_title: true
+}

@@ -1,0 +1,25 @@
+{
+    "values": [
+        "minecraft:mushroom_fields",
+        {
+            "id": "regions_unexplored:fungal_fen",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:bioshroom_caves",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:mycotoxic_undergrowth",
+            "required": false
+        },
+        {
+            "id": "unusualend:gloopstone_lands",
+            "required": false
+        },
+        {
+            "id": "unusualend:gloopstone_midlands",
+            "required": false
+        }
+    ]
+}

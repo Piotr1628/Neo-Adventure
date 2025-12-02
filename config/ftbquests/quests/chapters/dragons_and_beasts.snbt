@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dragons_and_beasts"
+	group: "1BCBA5826AA41280"
+	icon: {
+		components: {
+			"ftbquests:icon": "iceandfire:item/dragonarmor_iron_head"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "18C614CF0AA24D96"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/quests/titles/dragons.png"
+		rotation: 0.0d
+		width: 5.17d
+		x: 0.0d
+		y: -2.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "54FC2F3D6CD08E7A"
+			tasks: [{
+				id: "4D810506DF862E6E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "787E2ABD16798598"
+			size: 1.5d
+			tasks: [{
+				id: "4242BC2ADF02ACEA"
+				item: { count: 1, id: "iceandfire:lectern" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "72D444F083E0F41C"
+			tasks: [{
+				id: "3A977CD304F58A93"
+				item: { components: { "iceandfire:bestiary_pages": { pages: [ "iceandfire:introduction", "iceandfire:dread_mobs", "iceandfire:deathworm", "iceandfire:cockatrice", "iceandfire:lightningdragonegg", "iceandfire:hippocampus", "iceandfire:cyclops", "iceandfire:ghost", "iceandfire:firedragonegg", "iceandfire:gorgon", "iceandfire:pixie", "iceandfire:siren", "iceandfire:alchemy", "iceandfire:stymphalianbird", "iceandfire:hippogryph", "iceandfire:icedragonegg", "iceandfire:firedragon", "iceandfire:dragonforge", "iceandfire:materials", "iceandfire:lightningdragon", "iceandfire:tameddragons", "iceandfire:amphithere", "iceandfire:seaserpent", "iceandfire:icedragon", "iceandfire:troll" ] } }, count: 1, id: "iceandfire:bestiary" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.25d
+		}
+	]
+}

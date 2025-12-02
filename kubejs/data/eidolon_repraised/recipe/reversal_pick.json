@@ -1,0 +1,37 @@
+{
+  "type": "eidolon_repraised:worktable",
+  "pattern": [
+    "oco",
+    " p ",
+    " i "
+  ],
+  "reagents": [
+    "esgs"
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:obsidian"
+    },
+    "c": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "p": {
+      "tag": "c:ingots/pewter"
+    },
+    "i": {
+      "item": "eidolon_repraised:pewter_inlay"
+    },
+    "e": {
+      "tag": "c:ender_pearls"
+    },
+    "s": {
+      "item": "eidolon_repraised:soul_shard"
+    },
+    "g": {
+      "item": "eidolon_repraised:lesser_soul_gem"
+    }
+  },
+  "result": {
+    "id": "eidolon_repraised:reversal_pick"
+  }
+}

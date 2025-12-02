@@ -1,0 +1,28 @@
+{
+  "type": "eidolon_repraised:worktable",
+  "pattern": [
+    "pp ",
+    "ps ",
+    " s "
+  ],
+  "reagents": [
+    "u i "
+  ],
+  "key": {
+    "p": {
+      "tag": "c:ingots/pewter"
+    },
+    "u": {
+      "item": "eidolon_repraised:unholy_symbol"
+    },
+    "i": {
+      "item": "eidolon_repraised:pewter_inlay"
+    },
+    "s": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "eidolon_repraised:cleaving_axe"
+  }
+}

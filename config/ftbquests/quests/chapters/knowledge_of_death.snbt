@@ -1,0 +1,246 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "knowledge_of_death"
+	group: "5CF4FC955D2F2DD3"
+	icon: {
+		id: "tombstone:grave_dust"
+	}
+	id: "39C7D05BF9DCE769"
+	images: [
+		{
+			alpha: 59
+			height: 10.0d
+			image: "tombstone:textures/aura/aura1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/quests/titles/death.png"
+			rotation: 0.0d
+			width: 10.61d
+			x: 0.25d
+			y: -3.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0891113448DE73F8"]
+			id: "6BF3212B4CDCCBAA"
+			rewards: [{
+				id: "731E1B57C5F1D6E5"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "17F65E87CEA7389E"
+				item: { count: 1, id: "tombstone:decorative_grave_simple" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "0891113448DE73F8"
+			rewards: [{
+				id: "08E7C89B7C62C339"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4AD0426226618E93"
+				item: { count: 1, id: "tombstone:essence_of_undeath" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			id: "3C1CDD3FC0A1D321"
+			rewards: [{
+				id: "13D7400D71D60873"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7CFB1205A942CE42"
+				item: { count: 1, id: "tombstone:grave_dust" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: -0.5d
+		}
+		{
+			id: "6FB0DC24A262CBF9"
+			rewards: [{
+				id: "537B539B7168A25D"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "2D12EE0C74DA16A7"
+				item: { components: { "tombstone:tb_location": { dimension: "minecraft:overworld", pos: [I; 702, 64, -155 ] }, "tombstone:tb_unique_identifier": [I; -595945204, -473939203, -1122244168, -838458080 ] }, count: 1, id: "tombstone:grave_key" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.2d
+		}
+		{
+			id: "7050720F2F088387"
+			rewards: [{
+				id: "68DF6E572735174F"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "232D0464852672AB"
+				item: { count: 1, id: "tombstone:ankh_of_prayer" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6FB0DC24A262CBF9"]
+			id: "326769D46FEDCE7B"
+			rewards: [{
+				id: "40591FE31A4A7927"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "05EBF125FFB6D700"
+				item: { components: { "tombstone:tb_enchanted": 1b, "tombstone:tb_location": { dimension: "minecraft:overworld", pos: [I; 6579, 107, 8661 ] }, "tombstone:tb_unique_identifier": [I; -595945204, -473939203, -1122244168, -838458080 ] }, count: 1, id: "tombstone:grave_key" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "3679A75EE5E61626"
+			rewards: [{
+				id: "2AC9C85016EDE29C"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "0BB8C689C810A281"
+				item: { count: 1, id: "tombstone:strange_tablet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0625d
+		}
+		{
+			dependencies: ["3679A75EE5E61626"]
+			id: "1F4981423676114B"
+			rewards: [{
+				id: "39706952B59C4402"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "58E2E6A2BE4505EF"
+				item: { count: 1, id: "tombstone:tablet_of_recall" }
+				type: "item"
+			}]
+			x: 1.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3679A75EE5E61626"]
+			id: "0B41000663521EB6"
+			rewards: [{
+				id: "0EAEE27FFD58461D"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "543475351B7001B0"
+				item: { count: 1, id: "tombstone:tablet_of_guard" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B41000663521EB6"]
+			id: "301C43ADA339B561"
+			rewards: [{
+				id: "1C1AB38E05FE54A2"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5F5A31EA5EFC75A0"
+				item: { components: { "tombstone:tb_ancient": 1b }, count: 1, id: "tombstone:tablet_of_guard" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F4981423676114B"]
+			id: "43F2C4EC814D8533"
+			rewards: [{
+				id: "1096D55D6B101C59"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7426A429D59FA6CC"
+				item: { components: { "tombstone:tb_ancient": 1b }, count: 1, id: "tombstone:tablet_of_recall" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44DE680409A4B3AE"]
+			id: "2624643846758EC9"
+			rewards: [{
+				id: "348B52CCA840B6C5"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1D42BF9500BB8809"
+				item: { components: { "tombstone:tb_ancient": 1b }, count: 1, id: "tombstone:tablet_of_assistance" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["3679A75EE5E61626"]
+			id: "44DE680409A4B3AE"
+			rewards: [{
+				id: "4FEAE552DF3BDCEA"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "2BB3684D4667417C"
+				item: { count: 1, id: "tombstone:tablet_of_assistance" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.25d
+		}
+	]
+}

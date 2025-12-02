@@ -1,0 +1,122 @@
+{
+	autofocus_id: "14F1DAF5ACF1CFAD"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deep_dark"
+	group: "0DADF96DBC50AC3A"
+	icon: {
+		components: {
+			"ftbquests:icon": "deeperdarker:block/glooming_sculk"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "5347AF317205C0C4"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/quests/titles/deepdark.png"
+			rotation: 0.0d
+			width: 8.35d
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "101DC07C584DBCEA"
+			tasks: [{
+				id: "14F1D7DEF1AE46E3"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "445AE7C73D27B612"
+			tasks: [{
+				id: "6D98B8AEAE2BC8E3"
+				item: { components: { "ftbquests:missing_item": "deeperdarker:heart_of_the_deep" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "deeperdarker:block/otherside_portal"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "14F1DAF5ACF1CFAD"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "0E8DC7EDB091B00B"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3FBBA10569E37D50"
+			tasks: [{
+				id: "32DA6A13077F4496"
+				structure: "deeperdarker:ancient_temple"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "15B1C4E65ED69EF5"
+			tasks: [{
+				id: "03AB50F144F956EB"
+				item: { components: { "ftbquests:missing_item": "deeperdarker:sonorous_staff" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "1763DB89E44AA103"
+			tasks: [{
+				id: "466BB7008F503281"
+				item: { components: { "ftbquests:missing_item": "deeperdarker:resonarium" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "unusualend:item/infuser_info_questionmark"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "5827E1126AB52BD7"
+			optional: true
+			shape: "none"
+			tasks: [{
+				id: "7D7460BDC01128BA"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+}

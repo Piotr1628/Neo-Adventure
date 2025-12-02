@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "value": {
+        "tag": "c:dusts/lead",
+        "type": "neoforge:tag_empty"
+      },
+      "type": "neoforge:not"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "c:dusts/lead"
+  },
+  "result": {
+    "id": "eidolon_repraised:lead_ingot"
+  },
+  "experience": 0.5,
+  "cookingtime": 200
+}

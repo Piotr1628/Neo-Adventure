@@ -1,0 +1,83 @@
+{
+	hide_tooltip: true
+	id: "25365A09502CBD8C"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ id: "2BFE0E06C0F7DFE8", item: { count: 1, id: "minecraft:oak_sapling" } }
+		{ id: "1F9D4988D9D2BB1F", item: { count: 1, id: "minecraft:spruce_sapling" } }
+		{ id: "735AAF315751CFED", item: { count: 1, id: "minecraft:birch_sapling" } }
+		{ id: "671B8F70B9A14C1B", item: { count: 1, id: "minecraft:jungle_sapling" } }
+		{ id: "4C1F49BB3C3812B7", item: { count: 1, id: "minecraft:acacia_sapling" } }
+		{ id: "1C1BC5551088F39D", item: { count: 1, id: "minecraft:dark_oak_sapling" } }
+		{ id: "7C71FEDDFAE5640C", item: { count: 1, id: "minecraft:cherry_sapling" } }
+		{ id: "6EDAE5A7F219F195", item: { count: 1, id: "atmospheric:rosewood_sapling" } }
+		{ id: "68B33F6F42F5953D", item: { count: 1, id: "atmospheric:morado_sapling" } }
+		{ id: "39E882860A78EF54", item: { count: 1, id: "atmospheric:yucca_sapling" } }
+		{ id: "07F8FFCF33E33EEC", item: { count: 1, id: "atmospheric:laurel_sapling" } }
+		{ id: "6D2567D5E3AF161F", item: { count: 1, id: "atmospheric:dry_laurel_sapling" } }
+		{ id: "7C7423AE1A042F5A", item: { count: 1, id: "atmospheric:aspen_sapling" } }
+		{ id: "56FCF547948D391D", item: { count: 1, id: "atmospheric:green_aspen_sapling" } }
+		{ id: "3E8585D20569146B", item: { count: 1, id: "atmospheric:kousa_sapling" } }
+		{ id: "68387C8238DD8862", item: { count: 1, id: "atmospheric:grimwood_sapling" } }
+		{ id: "6738AF522F7377B9", item: { count: 1, id: "autumnity:maple_sapling" } }
+		{ id: "72709CCDAB2FF48F", item: { count: 1, id: "autumnity:yellow_maple_sapling" } }
+		{ id: "065B6B6949FC5ED6", item: { count: 1, id: "autumnity:orange_maple_sapling" } }
+		{ id: "39B12D99E4AA3FFF", item: { count: 1, id: "autumnity:red_maple_sapling" } }
+		{ id: "54269BB690612D49", item: { components: { "ftbquests:missing_item": "upgrade_aquatic:river_sapling" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "720378E5AFB79EFD", item: { count: 1, id: "eternal_starlight:lunar_sapling" } }
+		{ id: "108CCD60D627803A", item: { count: 1, id: "eternal_starlight:northland_sapling" } }
+		{ id: "0F0267EDDF66E61C", item: { count: 1, id: "eternal_starlight:starlight_mangrove_sapling" } }
+		{ id: "4A077296DE55E1B8", item: { count: 1, id: "eternal_starlight:scarlet_sapling" } }
+		{ id: "5B8344EA3DA0AA0F", item: { count: 1, id: "eternal_starlight:torreya_sapling" } }
+		{ id: "65DD3B26734E926E", item: { count: 1, id: "eternal_starlight:jinglestem_sapling" } }
+		{ id: "1B8D226AE14FBCB5", item: { count: 1, id: "eternal_starlight:cradlewood_sapling" } }
+		{ id: "38418AE8BB913104", item: { count: 1, id: "iceandfire:dreadwood_sapling" } }
+		{ id: "7BF1381F37A678D0", item: { count: 1, id: "ecologics:walnut_sapling" } }
+		{ id: "6CAF9C80071B0C3B", item: { count: 1, id: "hexerei:mahogany_sapling" } }
+		{ id: "744FE3265AC68D64", item: { count: 1, id: "hexerei:willow_sapling" } }
+		{ id: "1872B54009BA5881", item: { count: 1, id: "hexerei:witch_hazel_sapling" } }
+		{ id: "61E2924B7A633E07", item: { count: 1, id: "ars_nouveau:blue_archwood_sapling" } }
+		{ id: "4FFDB49587E2914C", item: { count: 1, id: "ars_nouveau:red_archwood_sapling" } }
+		{ id: "5B8E50AF6E78CC5C", item: { count: 1, id: "ars_nouveau:purple_archwood_sapling" } }
+		{ id: "14C3C79DDB801FE7", item: { count: 1, id: "ars_nouveau:green_archwood_sapling" } }
+		{ id: "72AF4992DEE0157B", item: { components: { "ftbquests:missing_item": "deeperdarker:echo_sapling" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "7F40609155361A56", item: { count: 1, id: "eidolon_repraised:illwood_sapling" } }
+		{ id: "4906AA34E7C3D195", item: { count: 1, id: "regions_unexplored:alpha_sapling" } }
+		{ id: "388FA8029F0DBE2E", item: { count: 1, id: "regions_unexplored:apple_oak_sapling" } }
+		{ id: "525F973179E6A273", item: { count: 1, id: "regions_unexplored:ashen_sapling" } }
+		{ id: "6B3DA42762D03518", item: { count: 1, id: "regions_unexplored:bamboo_sapling" } }
+		{ id: "1CF685C69252F876", item: { count: 1, id: "regions_unexplored:baobab_sapling" } }
+		{ id: "2C9B46C9816F6443", item: { count: 1, id: "regions_unexplored:blackwood_sapling" } }
+		{ id: "5141C5F33A50FC3E", item: { count: 1, id: "regions_unexplored:brimwood_sapling" } }
+		{ id: "6ED30C283C2CEDB2", item: { count: 1, id: "regions_unexplored:cobalt_sapling" } }
+		{ id: "75E9FAB2F9F1C33E", item: { count: 1, id: "regions_unexplored:cypress_sapling" } }
+		{ id: "553A1963EB29A11D", item: { count: 1, id: "regions_unexplored:dead_pine_sapling" } }
+		{ id: "1004AF465C455555", item: { count: 1, id: "regions_unexplored:dead_sapling" } }
+		{ id: "68485F58D024D08D", item: { count: 1, id: "regions_unexplored:eucalyptus_sapling" } }
+		{ id: "2DE9C8472A05E4EC", item: { count: 1, id: "regions_unexplored:flowering_sapling" } }
+		{ id: "392124A19E839EA9", item: { count: 1, id: "regions_unexplored:flowering_sapling" } }
+		{ id: "702F50FBCAA4B291", item: { count: 1, id: "regions_unexplored:joshua_sapling" } }
+		{ id: "5A6B58252053ABB1", item: { count: 1, id: "regions_unexplored:kapok_sapling" } }
+		{ id: "3B2A0BC67A0B838E", item: { count: 1, id: "regions_unexplored:larch_sapling" } }
+		{ id: "028578B63E37C7EE", item: { count: 1, id: "regions_unexplored:golden_larch_sapling" } }
+		{ id: "51143D42875EB249", item: { count: 1, id: "regions_unexplored:magnolia_sapling" } }
+		{ id: "30DA33F02CD2F49E", item: { count: 1, id: "regions_unexplored:blue_magnolia_sapling" } }
+		{ id: "43F7AC54043B77A8", item: { count: 1, id: "regions_unexplored:pink_magnolia_sapling" } }
+		{ id: "5BCE0B6528014A16", item: { count: 1, id: "regions_unexplored:white_magnolia_sapling" } }
+		{ id: "6892F7AC6D470E2F", item: { count: 1, id: "regions_unexplored:maple_sapling" } }
+		{ id: "59F1B25DE9B5C339", item: { count: 1, id: "regions_unexplored:orange_maple_sapling" } }
+		{ id: "7252E25F0B33C5C5", item: { count: 1, id: "regions_unexplored:red_maple_sapling" } }
+		{ id: "601F4EC44BDD96A4", item: { count: 1, id: "regions_unexplored:mauve_sapling" } }
+		{ id: "02C92C6974342D24", item: { count: 1, id: "regions_unexplored:palm_sapling" } }
+		{ id: "1DF9EB6109277969", item: { count: 1, id: "regions_unexplored:pine_sapling" } }
+		{ id: "15520FFAAB26B965", item: { count: 1, id: "regions_unexplored:redwood_sapling" } }
+		{ id: "4705EE9661E218E9", item: { count: 1, id: "regions_unexplored:silver_birch_sapling" } }
+		{ id: "1309003F6A18C50F", item: { count: 1, id: "regions_unexplored:enchanted_birch_sapling" } }
+		{ id: "2404BB988A6A43D3", item: { count: 1, id: "regions_unexplored:small_oak_sapling" } }
+		{ id: "607A1CC7C50B9542", item: { count: 1, id: "regions_unexplored:socotra_sapling" } }
+		{ id: "415F8C266CB12B01", item: { count: 1, id: "regions_unexplored:willow_sapling" } }
+		{ id: "0AB00F0933353757", item: { count: 1, id: "forbidden_arcanus:aurum_sapling" } }
+	]
+	use_title: true
+}

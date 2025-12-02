@@ -1,0 +1,529 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "none"
+	default_quest_size: 1.5d
+	filename: "shop"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "ftbquests:textures/gui/shop.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "347FEFE4469F4FD7"
+	images: [
+		{
+			height: 1.0d
+			image: "eternal_starlight:item/swamp_silver_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -2.3303571428571317d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/gold_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -2.3303571428571317d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:item/cursium_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.75d
+			y: -2.5803571428571317d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 1.6696428571428683d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/blue_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 1.6696428571428683d
+		}
+		{
+			height: 1.0d
+			image: "forbidden_arcanus:block/aurum_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.75d
+			y: 1.4196428571428683d
+		}
+		{
+			height: 1.0d
+			image: "farmersdelight:item/egg_sandwich"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -0.3303571428571317d
+		}
+		{
+			height: 1.0d
+			image: "farmersdelight:item/stuffed_pumpkin_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -0.3303571428571317d
+		}
+		{
+			height: 1.0d
+			image: "farmersdelight:item/smoked_ham"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.75d
+			y: -0.5803571428571317d
+		}
+		{
+			height: 1.0d
+			image: "create:block/andesite_casing"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.784438775510175d
+			y: -0.4892857142856961d
+		}
+		{
+			height: 1.0d
+			image: "create:item/goggles"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5104591836734826d
+			y: -0.2400510204081634d
+		}
+		{
+			height: 1.0d
+			image: "create:item/precision_mechanism"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.1533163265306214d
+			y: -0.2400510204081634d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/wheat_seeds"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0738945578231167d
+			y: -2.499999999999986d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:block/potted_mugwort_bush"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.8238945578231167d
+			y: -2.999999999999986d
+		}
+		{
+			height: 1.0d
+			image: "farmersdelight:item/tomato_seeds"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5738945578231167d
+			y: -2.499999999999986d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/rotten_flesh"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 3.6696428571428683d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/bone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 3.6696428571428683d
+		}
+		{
+			height: 1.0d
+			image: "born_in_chaos_v1:item/shattered_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.75d
+			y: 3.4196428571428683d
+		}
+		{
+			height: 1.0d
+			image: "ars_technica:item/glyph_superheat"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0832482993197132d
+			y: 3.510714285714304d
+		}
+		{
+			height: 1.0d
+			image: "ars_technica:item/glyph_polish"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.8332482993197132d
+			y: 3.760714285714304d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/amethyst_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.6027636054421848d
+			y: 1.6303571428571502d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/diamond"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.1027636054421848d
+			y: 1.6303571428571502d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/emerald"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.8527636054421848d
+			y: 1.3803571428571502d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/royalty"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.9895408163265245d
+			y: 1.7035714285714363d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/endersurge"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.4895408163265245d
+			y: 1.7035714285714363d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/molten_breach"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.2395408163265245d
+			y: 1.4535714285714363d
+		}
+		{
+			height: 1.0d
+			image: "immersive_melodies:item/icon/piano"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.4895408163265245d
+			y: -0.5464285714285637d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/flute"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7395408163265245d
+			y: -0.5464285714285637d
+		}
+		{
+			height: 1.0d
+			image: "immersive_melodies:item/icon/ender_bass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.9895408163265245d
+			y: -0.5464285714285637d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_holy"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.1703231292516847d
+			y: -2.799999999999997d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.4203231292516847d
+			y: -2.799999999999997d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_ender"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.6703231292516847d
+			y: -2.799999999999997d
+		}
+		{
+			height: 1.0d
+			image: "yungscavebiomes:item/ice_cube_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.9895408163265245d
+			y: 3.7035714285714363d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/carminite_ghastguard_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.4895408163265245d
+			y: 3.7035714285714363d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/dragonegg_silver"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.2395408163265245d
+			y: 3.4535714285714363d
+		}
+		{
+			height: 1.0d
+			image: "ensorcellation:item/enchanted_book/air_affinity"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.9895408163265245d
+			y: -2.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/enchanted_book/aqua_affinity"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.4895408163265245d
+			y: -2.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/enchanted_book"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.2395408163265245d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/nether_wart"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.008758503401353d
+			y: -0.529081632653071d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/ghast_tear"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.508758503401353d
+			y: -0.529081632653071d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/greater_healing_potion"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.258758503401353d
+			y: -0.779081632653071d
+		}
+		{
+			height: 1.0d
+			image: "fdbosses:textures/mob_effect/coward.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.008758503401353d
+			y: 1.220918367346929d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:polished_blackstone_button"
+			}
+			icon_scale: 0.1d
+			id: "703710C8CC4AD4D9"
+			rewards: [{
+				auto: "enabled"
+				id: "0FA7DF87BA08778A"
+				table_id: 8795551197329482545L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6A3DCA47D6E29968"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -4.715008503401364d
+			y: -2.3543367346938773d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:polished_blackstone_button"
+			}
+			icon_scale: 0.1d
+			id: "794F10DFF56A82EE"
+			rewards: [{
+				auto: "enabled"
+				id: "328196D5E7991F74"
+				table_id: 3570556197912353507L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "37FC1321268F3904"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -4.701403061224511d
+			y: -0.3736394557823388d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:polished_blackstone_button"
+			}
+			icon_scale: 0.1d
+			id: "2ED776C129833AEA"
+			rewards: [{
+				id: "75AA6332EEBFA128"
+				table_id: 2681429624192023948L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "79E4825C23334935"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -4.740518707483005d
+			y: 1.6836734693877489d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:polished_blackstone_button"
+			}
+			icon_scale: 0.1d
+			id: "69EDA7EA1B5A2E87"
+			rewards: [{
+				auto: "enabled"
+				id: "3C663DE7BCA16E78"
+				table_id: 6614786341460792108L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "16C530EEB6809187"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -4.699702380952395d
+			y: 3.62244897959183d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:polished_blackstone_button"
+			}
+			icon_scale: 0.1d
+			id: "1F8FF3E7D680B85A"
+			rewards: [{
+				auto: "enabled"
+				id: "63AD7952281D052B"
+				table_id: 1305097610194301643L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "511013DDDB6AB975"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -1.8425595238095411d
+			y: -0.3775510204081698d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:polished_blackstone_button"
+			}
+			icon_scale: 0.1d
+			id: "3E5C29987BD5650A"
+			rewards: [{
+				auto: "enabled"
+				id: "48289AF1C172D8F4"
+				table_id: 3097284575410427891L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2A6101A7E388160F"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -1.801743197278924d
+			y: -2.642857142857146d
+		}
+		{
+			icon: {
+				id: "numismatics:vendor"
+			}
+			icon_scale: 1.5d
+			id: "65261710ED5D442F"
+			rewards: [{
+				id: "58BC256960132C96"
+				item: {
+					count: 1
+					id: "numismatics:vendor"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "6C39E6A630B55241"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			icon: {
+				id: "numismatics:bank_terminal"
+			}
+			icon_scale: 1.5d
+			id: "14A0C772EB02046E"
+			rewards: [{
+				id: "45D74B8E0E5619CA"
+				item: {
+					count: 1
+					id: "numismatics:bank_terminal"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "146EB7BD28EAC889"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+	]
+}

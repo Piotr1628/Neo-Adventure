@@ -1,0 +1,25 @@
+{
+    "values": [
+        "#minecraft:is_mountain",
+        {
+            "id": "minecraft:windswept_forest",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:mountains",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:chalk_cliffs",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:towering_cliffs",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:spires",
+            "required": false
+        }
+    ]
+}

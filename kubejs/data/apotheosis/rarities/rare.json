@@ -1,0 +1,46 @@
+{
+    "type": "apotheosis:rarity",
+    "color": "#5555FF",
+    "material": "apotheosis:rare_material",
+    "overrides": {},
+    "rules": [
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "basic_effect"
+        },
+        {
+            "type": "apotheosis:chanced",
+            "chance": 0.35,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "basic_effect"
+            }
+        },
+        {
+            "type": "apotheosis:socket",
+            "min": 0,
+            "max": 2
+        },
+        {
+            "type": "apotheosis:durability",
+            "min": 0.1,
+            "max": 0.25
+        }
+    ],
+    "sort_index": 500,
+    "weights": {
+        "haven": { "weight": 0 },
+        "frontier": { "weight": 0 },
+        "ascent": { "weight": 100 },
+        "summit": { "weight": 300 },
+        "pinnacle": { "weight": 450 }
+    }
+}

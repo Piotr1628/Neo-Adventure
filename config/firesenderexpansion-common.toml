@@ -1,0 +1,8 @@
+#If you want to modify stats relating to this mod's spells, check the ISS server config.
+understand = true
+#Should Infused Obsidian Fragments be obtainable through the in-world method? Default is true
+fragments_optainable = true
+#Should the Ornate Empty Staff be able to be filled with a black hole? Default is true
+tbate_black_hole_obtainable = true
+#Should the Crystal heart be craftable with the in-world method? Default is true
+crystal_heart_obtainable = true

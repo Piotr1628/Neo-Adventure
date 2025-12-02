@@ -1,0 +1,416 @@
+{
+	autofocus_id: "43DF5901292EE06B"
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "equipment_reforging_695BA116D823315B"
+	group: "5CF4FC955D2F2DD3"
+	icon: {
+		components: {
+			"ftbquests:icon": "eternal_starlight:item/starfire_hammer_inventory"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "695BA116D823315B"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/quests/titles/reforging.png"
+		rotation: 0.0d
+		width: 6.26d
+		x: 0.0d
+		y: -3.25d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["43DF5901292EE06B"]
+			icon_scale: 1.25d
+			id: "2F7F649DE17C4C32"
+			rewards: [{
+				id: "6BBF4E1D44F03192"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "092B64AECB8A8730"
+				item: { count: 1, id: "apotheosis:salvaging_table" }
+				type: "item"
+			}]
+			x: -1.125d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F7F649DE17C4C32"]
+			id: "3CC592FB20EDDBCE"
+			rewards: [{
+				id: "617EA8A9A1FA2C59"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 0.75d
+			tasks: [{
+				id: "3E9A2A48A004FD90"
+				item: { count: 1, id: "apotheosis:gem_dust" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"2F7F649DE17C4C32"
+				"3CC592FB20EDDBCE"
+			]
+			icon_scale: 1.25d
+			id: "3A816B96A7A7A38D"
+			rewards: [{
+				id: "1E92D2703F2ADEC8"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3743A5020D2CDE30"
+				item: { count: 1, id: "apotheosis:gem_cutting_table" }
+				type: "item"
+			}]
+			x: 1.125d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43DF5901292EE06B"]
+			hide_dependency_lines: false
+			icon_scale: 1.2d
+			id: "3BA44EB64742E3F7"
+			rewards: [{
+				id: "35661C80391FB270"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7FE6E1F3A7BF5A32"
+				item: { count: 1, id: "apotheosis:reforging_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2F7F649DE17C4C32"]
+			icon_scale: 1.25d
+			id: "69A2547CE26E6E1B"
+			rewards: [{
+				id: "39F0EBD07AA48691"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "1911048D5AC6C229"
+				item: { count: 1, id: "apotheosis:common_material" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69A2547CE26E6E1B"]
+			icon_scale: 1.25d
+			id: "2B02C785D24B3783"
+			rewards: [{
+				id: "04DC74B69953C28F"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "0B830C90B85B0656"
+				item: { count: 1, id: "apotheosis:uncommon_material" }
+				type: "item"
+			}]
+			x: -2.625d
+			y: -1.125d
+		}
+		{
+			dependencies: ["2B02C785D24B3783"]
+			icon_scale: 1.25d
+			id: "65A884A279830A65"
+			rewards: [{
+				id: "1A247A05768D5BAB"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "57825A8590117CE5"
+				item: { count: 1, id: "apotheosis:rare_material" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["65A884A279830A65"]
+			icon_scale: 1.25d
+			id: "113BD16950E45680"
+			rewards: [{
+				id: "137CB6893295AEB9"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "63286DD35AB0B73A"
+				item: { count: 1, id: "apotheosis:epic_material" }
+				type: "item"
+			}]
+			x: -3.375d
+			y: -1.125d
+		}
+		{
+			dependencies: ["113BD16950E45680"]
+			icon_scale: 1.25d
+			id: "64C523678671694E"
+			rewards: [{
+				id: "4765421EE7F06006"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "67915B2B8C168D0D"
+				item: { count: 1, id: "apotheosis:mythic_material" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BA44EB64742E3F7"]
+			hide_dependency_lines: false
+			icon_scale: 1.3d
+			id: "3424D529ADF53915"
+			rewards: [{
+				id: "21FDF60E2C51BCE4"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "6729088DB6BC8A1D"
+				item: { count: 1, id: "apotheosis:augmenting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["43DF5901292EE06B"]
+			id: "49BEA228C5DF4F7A"
+			rewards: [{
+				id: "79126F0AB5456E00"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "1E8E39635F92BE7E"
+				item: { count: 1, id: "apotheosis:sigil_of_unnaming" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 0.375d
+		}
+		{
+			dependencies: ["3424D529ADF53915"]
+			id: "3D0087322543B31D"
+			rewards: [{
+				id: "18275940F6A65749"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 0.75d
+			tasks: [{
+				id: "6316E3D08AFE3C4D"
+				item: { count: 1, id: "apotheosis:sigil_of_enhancement" }
+				type: "item"
+			}]
+			x: -0.9375d
+			y: 3.75d
+		}
+		{
+			dependencies: ["43DF5901292EE06B"]
+			id: "78373BA7C50EB875"
+			rewards: [{
+				id: "2DD8BEA1DEA3FAEB"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "063D7A98A525D801"
+				item: { count: 1, id: "apotheosis:sigil_of_withdrawal" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.375d
+		}
+		{
+			dependencies: ["43DF5901292EE06B"]
+			id: "3517FC1ABF4CB470"
+			rewards: [{
+				id: "0E8658A82A3F62A6"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "0BCF3143EA8607FE"
+				item: { count: 1, id: "apotheosis:sigil_of_rebirth" }
+				type: "item"
+			}]
+			x: -1.3125d
+			y: 0.1875d
+		}
+		{
+			dependencies: ["54A3B19D8497C7F2"]
+			icon_scale: 1.2d
+			id: "43DF5901292EE06B"
+			rewards: [{
+				id: "440CB572BE862775"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7C6A59248D030FCD"
+				item: { count: 1, id: "apotheosis:simple_reforging_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43DF5901292EE06B"]
+			id: "1958B5375ABF6821"
+			rewards: [{
+				id: "4351C7CC2BC0662F"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "591E6C89CDC80605"
+				item: { count: 1, id: "apotheosis:sigil_of_malice" }
+				type: "item"
+			}]
+			x: -1.6875d
+			y: 0.5625d
+		}
+		{
+			dependencies: ["43DF5901292EE06B"]
+			id: "24F9012422062535"
+			rewards: [{
+				id: "28CF2A6262C81E62"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "2A87CD809848F962"
+				item: { count: 1, id: "apotheosis:sigil_of_socketing" }
+				type: "item"
+			}]
+			x: -1.875d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "unusualend:item/infuser_info_questionmark"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "54A3B19D8497C7F2"
+			optional: true
+			rewards: [{
+				id: "461D806F976FA5EB"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4A52CB555D3813E5"
+				type: "checkmark"
+			}]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "unusualend:item/infuser_info_questionmark"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "184EE946EB8C245D"
+			optional: true
+			rewards: [{
+				id: "5E3766C2FA936271"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "379EF096E7095D41"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "unusualend:item/infuser_info_questionmark"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "6D67155C3618C128"
+			optional: true
+			rewards: [{
+				id: "44435EA6C33014EF"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3947B420857CB17D"
+				type: "checkmark"
+			}]
+			x: 1.75d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+    "values": [
+        "minecraft:crimson_forest",
+        {
+            "id": "regions_unexplored:infernal_holt",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:blackstone_basin",
+            "required": false
+        }
+    ]
+}

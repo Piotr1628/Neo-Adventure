@@ -1,0 +1,1125 @@
+{
+	chapter.09DC686D3B2C8747.title: "- Arcane Overwiev"
+	chapter.0DADEA55C8FE0DF1.title: "- Relics"
+	chapter.0DF75F1575CE09B4.title: "- Builds \\& Classes"
+	chapter.101E511680EA70E5.title: "- Foundations"
+	chapter.1486895FB68B0F08.title: "&l&b&fOverview"
+	chapter.187D65949AC6A6D0.title: "- Legendary Weapons"
+	chapter.18C614CF0AA24D96.title: "- Dragons"
+	chapter.22F0DCB919531357.title: "- Companions \\& Pets"
+	chapter.231570DE6A7FCD52.title: "- Dungeons"
+	chapter.266542F91BB9BC6E.title: "- Eternal Starlight"
+	chapter.347FEFE4469F4FD7.title: "&l&b&fVendor"
+	chapter.375A8F6624BCF455.title: "- Boss Compedium"
+	chapter.390C78F65525C5E5.title: "- Familiars"
+	chapter.39C7D05BF9DCE769.title: "- Knowledge of Death"
+	chapter.40B4790CF73DF2E2.title: "- Nether"
+	chapter.42BA0F667FB9ABCC.title: "- Mastery"
+	chapter.4609835C043DB616.title: "- Statistics"
+	chapter.487BB3D242C6D1AA.title: "- End"
+	chapter.4C0A96B2AAB5910A.title: "- The Bumblezone"
+	chapter.50F25CC960C27208.title: "- Archaeology"
+	chapter.5338616C86A2DD36.title: "- End Portal"
+	chapter.5347AF317205C0C4.title: "- The Deep Dark"
+	chapter.5FF42CC6C93D40E2.title: "- The Armory"
+	chapter.66C1ABE8A80E0344.title: "- Culinary Arts"
+	chapter.695BA116D823315B.title: "- Reforging \\& Enchanting"
+	chapter.6C4C52A07F7688E4.title: "- Builder's Essentials"
+	chapter.74181C9C25D693B7.title: "- Biomes"
+	chapter.7C7262F3C9F860FB.title: "- The Technomacy"
+	chapter_group.0DADF96DBC50AC3A.title: "&l&6EXPLORATION"
+	chapter_group.1BCBA5826AA41280.title: "&l&bCULTURE AND WORLD"
+	chapter_group.35D265AB28CC4B21.title: "&9&lTECH JOURNEY"
+	chapter_group.5CF4FC955D2F2DD3.title: "&l&dSCHOOL OF MAGIC"
+	file.0000000000000001.title: "&l&5&fNeo Adventure&r&l&o&b&5"
+	quest.000B5E40A080D14C.quest_desc: [
+		"The &5Enchanter's Bangle&r can be upgraded one more time, attuned to a specific element based on material you choose."
+		""
+		"It will provide you a powerful buff for the associated element."
+	]
+	quest.0075AF6C4F0B79D2.quest_desc: ["{image:gamma_creatures:textures/screens/redthunder_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.01066547B32D0BD2.quest_desc: ["{image:gamma_creatures:textures/screens/tiburon_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.015A8F6586255CD8.quest_subtitle: "&l&n&5Once a Decaying relic awakened at the deep!"
+	quest.0186A5B9E6EAE479.quest_desc: [
+		"&l&6Shift + X&r - Crawling"
+		"&l&6R&r - Roll"
+		"&l&6M&r - Map"
+		"&l&6O&r - Quests"
+		"&l&6Shift + O&r - Teams menu"
+		"&l&6L&r - Auto Tool on/off"
+		"&l&6Z&r - Zoom"
+		"&l&6V&r - Spell Wheel"
+		"&l&6Alt&r - Spell Wheel for Ars Spells"
+		"&l&6Mouse Button 4&r - Cast Spell"
+		"&l&6Alt + 1, 2, 3...&r - Quick Cast Spell"
+		"&l&6B&r - Backpack"
+		"&l&6K&r - Shaders on/off"
+		"&l&6Shift + K&r - Shaders selection screen"
+		"&l&6;&r (on the left from enter) - Open Claims and Parties config"
+		"&l&6Shift + T&r (inventory) - sharing item to chat"
+		"&l&6R&r (inventory) - Show recipe for an item"
+		"&l&6U&r (inventory) - Show uses of an item"
+	]
+	quest.02138A31033A20D2.quest_subtitle: "&l&n&5A weapon blessed by the gods!"
+	quest.02F5B1D547CCF693.quest_desc: ["{image:gamma_creatures:textures/screens/grudels_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.0331AC0315EBB66D.quest_desc: ["Nestled among the trees, this lively tavern is usually a haven for villagers looking to unwind. Yet when the ale flows too freely, even the most peaceful patrons turn aggressive, defending their pub with surprising ferocity. Enter carefully or risk being caught in a drunken brawl."]
+	quest.0331AC0315EBB66D.quest_subtitle: "Find a Greenwood Pub"
+	quest.03637511B8671FD8.quest_desc: [
+		"Craft mixed seeds and throw them to crows to tame them. Once tamed, they can follow you, gather crops and herbs, or even snatch items from villagers."
+		""
+		"It's simple but can basically automate some farms."
+		" "
+		"Crows are most often found in forests."
+		""
+		"(throwing seeds will make them less scarred so it's preffered way of taming)"
+	]
+	quest.03637511B8671FD8.quest_subtitle: "Feathered Companions"
+	quest.03637511B8671FD8.title: "Crow Taming"
+	quest.0389D1998E99F8D5.quest_desc: ["{image:gamma_creatures:textures/screens/turlan_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.041A1C64A8468087.quest_desc: ["Suspended high in the sky, this arrowhead-shaped airship drifts on a massive aft propeller. Boarding is perilous, but those who succeed will witness its strange and fearsome inhabitants riding boar-like beasts, their eyeless faces obscured by ominous cages. Danger and mystery ride with them across the clouds."]
+	quest.041A1C64A8468087.quest_subtitle: "Find a Heavenly Rider"
+	quest.05B329C2E0061169.quest_subtitle: "&l&n&5The dead man's hammer"
+	quest.062EAA51494F2587.quest_desc: ["{image:gamma_creatures:textures/screens/crasu_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.06A30576F3581F25.quest_desc: ["Acts as an interface to access items stored in setup. Items can be inserted and extracted."]
+	quest.06DA719E7C941284.quest_desc: ["{image:gamma_creatures:textures/screens/buho_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.06FA847D235F3445.quest_desc: [
+		"&o&d&lPinkpz&r - Balance | Quests | Bugs | Testing | Recipe Ideas | Lore"
+		"&l&o&9Pitersonix&r - Everything"
+		""
+		"Also cheers to Logan for earlier quest help, 24we2w testing and supporting overall, people who played in early access, people who play this pack from the start and &lYou,&r who play this modpack right now."
+		""
+		"I wouldn't do that if I would have no one to make this modpack for!"
+	]
+	quest.0773BFF9C33A0D64.quest_subtitle: "&l&n&2Slay the naga"
+	quest.082AAEFE29F44675.quest_desc: ["{image:gamma_creatures:textures/screens/molluto_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.084E1EF4EBD25FE6.quest_subtitle: "&l&n&5A plant based weapon? it really is alive!"
+	quest.08DEB007C94D1821.quest_desc: ["Kill 8 &7Silver fish&r"]
+	quest.092BF6C76B1A46B5.quest_desc: [
+		"Blacksmith Gavels are a new tool type like Pickaxes or Shovels. Just like Pickaxes they can be used to mine stone-related blocks at a higher speed. Furthermore, they have pretty high attack damage making them a viable weapon, though, at the cost of a lower attack speed."
+		""
+		"Due to their enhanced mining technique Gavels have a 30% chance of duplicating mined Ores."
+	]
+	quest.092BF6C76B1A46B5.quest_subtitle: "Hammers with more uses"
+	quest.092BF6C76B1A46B5.title: "Gavels"
+	quest.09497D9C916B2A41.quest_desc: ["The most common build, decent strength and easiest to play"]
+	quest.0A229E69F9F401AE.quest_subtitle: "Go to Nether"
+	quest.0B41000663521EB6.quest_desc: ["Summons dog defender on haunted grave."]
+	quest.0B41000663521EB6.quest_subtitle: "Summon wolf"
+	quest.0B89EB36AC565461.quest_desc: ["Deep within this subterranean city, the heat of molten lava and the hum of industry dominate the air. The Nether’s influence is strong here, fueling forges and animating Forge Sentinels that patrol every corridor. Only those prepared for fire and steel will survive, and claim the treasures forged within."]
+	quest.0B89EB36AC565461.quest_subtitle: "Find a Foundry"
+	quest.0BB53AC414552D70.quest_desc: ["Attach to the refined storage system or an &eExternal Storage&r. Use in and out to fill items in &eDisk Drives&r. Specific items can also be filtered. Note: Ensure configurations in interface such as \"extract\" vs. \"insert\" are correct."]
+	quest.0BB53AC414552D70.quest_subtitle: "Burning CD's!"
+	quest.0BF7B958C45288C9.quest_desc: ["Used to dry certain flowers, preparing them for powder recipes."]
+	quest.0BF7B958C45288C9.quest_subtitle: "For Later Use"
+	quest.0C2CAC4A102542B9.quest_desc: ["{image:gamma_creatures:textures/screens/crasu_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.0C3DFDEB587C59F6.quest_subtitle: "Set foots to The End"
+	quest.0C5695A1133DF90F.quest_desc: ["{image:gamma_creatures:textures/screens/bee_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.0CC80243EB0A36FA.quest_desc: [
+		"This item allows you to forge spells based on the different elemental essences. Spell quality increases with ink quality. A higher-tier ink will result in a more powerful spell!"
+		""
+		"While &eLegendary ink&r is strong, it will not generate a max-level spell for certain legendary abilities.  "
+	]
+	quest.0CC80243EB0A36FA.title: "Magic Crafter"
+	quest.0CE50A7F4F1A0E4D.quest_desc: ["ladder stretches skyward, disappearing into the clouds. At its top floats a strange, floating vessel. What secrets or dangers await above, none can say… except that the view alone is enough to make even the bravest adventurer’s stomach turn."]
+	quest.0CE50A7F4F1A0E4D.quest_subtitle: "Find a Small Blimp"
+	quest.0CE795753D85E42B.quest_desc: ["{image:gamma_creatures:textures/screens/tiburon_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.0D021946F6D1036A.quest_desc: ["Used to pack, press, and compact, this machine can be used to make metal sheets, an essential item to craft other Create items. "]
+	quest.0D48392967F9000B.quest_desc: ["{image:gamma_creatures:textures/screens/bear_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.0D534B3FB957F5AA.quest_desc: ["{image:gamma_creatures:textures/screens/shecko_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.0DA7B652CC5FD89A.quest_desc: ["{image:gamma_creatures:textures/screens/grudels_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.0DC4960C79EC8367.quest_desc: ["Use with a &eNetwork Transmitter&r to connect storage networks wirelessly. "]
+	quest.0EABC471B5A4422B.quest_desc: ["{image:gamma_creatures:textures/screens/gusnow_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.0EBC45A74B6F6BBF.quest_subtitle: "&l&n&5Once a old relic but was blessed by the gods!"
+	quest.0EECD33C8D3B683F.quest_subtitle: "Reach lv1000"
+	quest.0EECD33C8D3B683F.title: "At the place called \"MAX\""
+	quest.0F0860DB98A76334.quest_desc: ["{image:gamma_creatures:textures/screens/bee_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.0F627A977DD2B969.quest_subtitle: "&l&n&5Slay the think that should not have been created"
+	quest.0FAFE1943A28AF86.quest_desc: [
+		"Crafted by a mage piglin from ancient debris and black stone, the Nether Gauntlet was meant to be a living weapon. The piglin sacrificed its soul to merge with it, but lacking mana while trapped in the Nether, the Gauntlet remained dormant—just a heavy block of stone."
+		""
+		"It awakens only when provoked, and its compressed form makes it &cexplode&r upon defeat."
+	]
+	quest.0FAFE1943A28AF86.quest_subtitle: "The Bound Construct"
+	quest.0FAFE1943A28AF86.title: "&4&lNether Gauntlet&r"
+	quest.0FD6AAFFD4876C36.quest_desc: ["{image:gamma_creatures:textures/screens/muba_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.10008913EA0470F6.quest_desc: [
+		"To tame a familiar, use &9Arcane Essence&r. "
+		""
+		"Store familiars using a &bPandoras Box &r and heal by placing a tome in a bed. "
+	]
+	quest.10008913EA0470F6.quest_subtitle: "Familiar pokeball"
+	quest.1072AA26888156A5.quest_desc: ["&eStarbuncle token&r can be obtained by giving a gold nugget to a Wild Starbuncle."]
+	quest.1072AA26888156A5.title: "Why so cute?"
+	quest.10AB987481CCF81A.quest_subtitle: "&l&n&5Once a spear of a arcane wizared seems to be imbued!"
+	quest.10CEE4A6CA64EB43.quest_desc: ["{image:gamma_creatures:textures/screens/pangolin_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.112A82ADF7733058.quest_desc: ["This item can be used to break blocks similar to a pickaxe."]
+	quest.114347412B7B12D4.quest_desc: ["A &eGrid&r with the ability to craft."]
+	quest.122CCB3EA2A7E761.quest_desc: ["These items can be imbued with spells that will be triggered on use. The imbued equipment is powerful and should be used in combat."]
+	quest.122CCB3EA2A7E761.title: "Magical Equipment"
+	quest.12438B43319A644E.quest_desc: ["&eDrygmy token&r can be obtained by giving a &eWilden horn&r to a Wild drygmy."]
+	quest.128B578BED657EC1.quest_desc: ["You can't be an archer without this."]
+	quest.128B578BED657EC1.title: "Yes Bow"
+	quest.129F249D83E29FDC.quest_desc: ["Runewood's charcoal, as magic-infused as it is, burns with an arcane fervor for longer than regular charcoal."]
+	quest.12AB4E279945B4B9.quest_desc: ["{image:gamma_creatures:textures/screens/lennat_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.12AB8BFCFE89CE4F.quest_desc: ["Complete purple &5Sempiternal Sanctum &rchallenge."]
+	quest.1359F352A984CC3F.quest_desc: ["Using this on familiars allows for 10% block chance."]
+	quest.1359F352A984CC3F.quest_subtitle: "Block attacks"
+	quest.14739743674C8418.quest_desc: ["You Can use rope pulleys to pull fluid from deeper grounds without using pipes."]
+	quest.14857DBF1DCBF100.quest_desc: ["Cresting the waves like a shadow of the past, this cursed vessel is crewed by skeletons that seem impossible to keep down. Every deck hides danger, every hold whispers of lost treasure and every strike you land may be fleeting. Only the bold (or the foolhardy) dare to face its relentless undead crew."]
+	quest.14857DBF1DCBF100.quest_subtitle: "Find an Undead Pirate Ship"
+	quest.14A0C772EB02046E.quest_desc: [
+		"Allows to exchange currency."
+		"The most useful right now is &lSprocket&r, for it's used in every trade quest."
+	]
+	quest.14A0C772EB02046E.quest_subtitle: "Exhanging money"
+	quest.14F306621CDFE316.title: "Wait for an update :)"
+	quest.15D67A707A499520.quest_subtitle: "Trade with villager 100 times"
+	quest.15D67A707A499520.title: "Barter"
+	quest.1846F5727D2BC433.quest_desc: ["Provides wireless access for certain Refined Storage items."]
+	quest.184EE946EB8C245D.title: "Gems"
+	quest.188AAB5B74C6EAAE.quest_subtitle: "Discover an Infested Temple explorer map"
+	quest.1908239C58D071D5.quest_desc: [
+		"Andesite Casing is one of the most basic machine components."
+		"From it, you can begin creating machines that automate tasks for you."
+		""
+		"&8●&r To craft, &eright-click&r a stripped log while holding &eAndesite Alloy&r."
+		""
+		"&oEvery great contraption starts with a single casing.&o"
+	]
+	quest.1908239C58D071D5.quest_subtitle: "&oThe Building Block of Machines&o"
+	quest.1908239C58D071D5.title: "&6&lAndesite Casing&r"
+	quest.196A5C0A9F2F5CED.quest_subtitle: "Kill 100 Pillager"
+	quest.196A5C0A9F2F5CED.title: "Between monster and human"
+	quest.19A27364EBA25514.quest_desc: ["Prove you are strong by killing the &4Wilden Chimera&r! The drop from this boss will allow you to craft the &5Mark of mastery&r and the &5Focus of summoning&r."]
+	quest.19A27364EBA25514.title: "I'm the boss now"
+	quest.19CEBC1D82F725E1.quest_desc: ["Priority to damage, this is near endgame set for combat."]
+	quest.1AC163B06D0FFC8F.quest_desc: ["Looks like a cocoa bean in the jungle canopy, but far from edible. The seed holds stimulant power and smells pleasant when roasted."]
+	quest.1AC163B06D0FFC8F.quest_subtitle: "Bitter Seed"
+	quest.1B0077FC8B70BE47.quest_desc: ["Kill 16 Cave Spider"]
+	quest.1B0AABA3D71042DB.quest_desc: ["A &5Source Jar&r functions as a tank to contain source. Later, these will be used to power magic devices. "]
+	quest.1B0AABA3D71042DB.quest_subtitle: "Mana Container"
+	quest.1B330CA2422E5FE6.quest_desc: ["This machine can push and pull items with air, see recipes for Bulk Haunting, Blasting, Washing, etc."]
+	quest.1B654BE8B33871F5.quest_desc: ["Be hell warrior, will full set grant 4 utilities buff, the sword allow you to stay alive longer with ignis ability"]
+	quest.1B654BE8B33871F5.title: "Hell Warrior"
+	quest.1B7786D30593CCAE.quest_subtitle: "&l&n&5Power of the wind!"
+	quest.1C375606107C117F.quest_subtitle: "Find Keep Kayra"
+	quest.1C76316EF49F3B0B.quest_desc: ["Born from &7soul sand&r and the &8tormented spirits&r of the dead, the Wither embodies hatred, rage, and fear. These emotions fuel its destruction, driving it to attack all living things as it drifts through the skies."]
+	quest.1C76316EF49F3B0B.quest_subtitle: "The Tormented Soul"
+	quest.1C76316EF49F3B0B.title: "&8&lWither&r"
+	quest.1CCA31D9352C60E6.quest_desc: ["Clustered around a towering central “grandmother” mushroom, these villages appear quaint from afar. Yet the villagers within are far more aggressive than their old-world counterparts, hiding a cunning fierceness beneath their colorful caps. Approach with caution as this village may welcome the unwary only to spring its traps."]
+	quest.1CCA31D9352C60E6.quest_subtitle: "Find a mushroom village"
+	quest.1CDE41D6BCC6DDD0.quest_desc: ["Endgame bow, strong deadly shot, this is what had taken down many live by &4Maledictus&r. Holding this in hand bring a weird feeling about the death."]
+	quest.1CEF2A38948010A2.quest_desc: ["Out on the open seas, the &6Illagers&r have taken to the waves, commandeering massive galleys and swift corsairs. Their sails cast long shadows, and their cannons roar with fury. Only the bravest dare to board, for fortune favors those who seize it."]
+	quest.1CEF2A38948010A2.quest_subtitle: "Find an Illager Corsair or an Illager Galley"
+	quest.1D92946E2522A63F.quest_desc: ["A fern that seems to grab you first. Its sprigs cling tightly to anything passing by. With the right use, it may serve as a binding reagent."]
+	quest.1D92946E2522A63F.quest_subtitle: "Clinging Fern"
+	quest.1DEB28D6F405B45C.quest_desc: [
+		"To craft ink, scrap metal is needed (generated from a gem cutting table)."
+		""
+		"The fluid required for each rarity is diffirent. In order, these are lava, molten echo and Royal jelly"
+	]
+	quest.1ED0362F9ACF715F.quest_desc: ["{image:gamma_creatures:textures/screens/sppinto_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.1EE32DBF0AC9F485.quest_desc: [
+		"This build strength is depend on user skill and item from this build won't have exact guide as it also hidden. By combining all item in this build together will make you a decent build with unique gameplay and strength."
+		""
+		"Item from this build will be shown above when you unlock them."
+	]
+	quest.1F10BC33D22328BD.quest_desc: ["Time has claimed this once-sacred site, leaving its halls cracked and overgrown. Now, ghostly skeletons and trickster illusioners linger within, guarding little more than shadows of former glory. Though its dangers are real, the temple’s sturdy walls make it a tempting refuge for those seeking a foothold in this hostile world."]
+	quest.1F10BC33D22328BD.quest_subtitle: "Find an Abandoned Temple"
+	quest.1F4981423676114B.quest_desc: [
+		"You can mark haunted grave with this tablet and teleport there later."
+		""
+	]
+	quest.1F4981423676114B.quest_subtitle: "Go back!"
+	quest.1F8257FBCD532E59.quest_desc: [
+		"Wearing a full set of &eCardboard Armor&r transforms you into a simple box."
+		"While disguised, mobs can’t see you unless you’re within &e1 block&r of them."
+		""
+		"&8●&r Perfect for hiding, sneaking, or confusing everything that wants you dead."
+		""
+		"&oSometimes the best armor is pretending you’re furniture.&o"
+	]
+	quest.1F8257FBCD532E59.quest_subtitle: "&oHide in Plain Sight&o"
+	quest.1F8257FBCD532E59.title: "&6&lCardboard Armor Set&r"
+	quest.1FAAD28900184F6B.quest_desc: ["{image:gamma_creatures:textures/screens/golemd_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.1FBE66C7670B7B0A.quest_desc: ["{image:gamma_creatures:textures/screens/careyatros_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.1FE39FE01E79CAE5.quest_desc: ["A mysterious stone etched with runes, absorbing &8Void&r energy to grow stronger. It can summon &5Obelisks&r that restore its power. To defeat it, you must first destroy these obelisks, then strike the Obsidilith itself. Its purpose remains unknown, lost to history."]
+	quest.1FE39FE01E79CAE5.quest_subtitle: "Living Rune"
+	quest.1FE39FE01E79CAE5.title: "&6&lObsidilith&r"
+	quest.2010601F09ADF6D6.quest_desc: ["A wearable item allowing the wearer to view machine details such as RPM and load. "]
+	quest.209D89E1A5739E9F.title: "Hero save the world"
+	quest.20DB48DEE6345941.quest_desc: [
+		"This dust can charge a Creeper or form an Arcane Crystal Obelisk. "
+		""
+		"It is also required to awaken the Hephaestus Forge and the Clibano Forge and many more."
+	]
+	quest.20DB48DEE6345941.quest_subtitle: "Essence of Power"
+	quest.21426F5EEC922866.quest_desc: ["Half-submerged in the oceans lie the petrified remains of a colossal beast, its skeletal form stretching farther than the eye can follow. Was it a creature of the deep, dragged ashore in ages past—or did it fall from the heavens themselves? No records remain, only questions carved into stone."]
+	quest.21426F5EEC922866.quest_subtitle: "Find a Typhon"
+	quest.21988C497C041260.quest_desc: ["Save 12 bees from death by putting their stingers back on."]
+	quest.21AD48D2E133C28E.quest_desc: ["Kill 32 spiders. Cave spiders don’t count. Bees don’t like spiders."]
+	quest.21B62932B77BAE35.quest_desc: [
+		"Potion mixing setup includes: "
+		""
+		"&5Potion Melder&r"
+		"Converts three doses of a potion from two Potion Jars and outputs a potion with the combined effects. Use the Dominion Wand from a Potion Jar to Melder to link a jar for consumption. Link two input potion jars to the melder, then, use the wand on the Melder and then to a third jar to set the output. The Potion Melder requires source per mixture."
+		""
+		"&5Potion Diffuser&r"
+		"Consumes a potion and applies it to nearby entities, greatly extending the use of the potion. To use, bind a Potion Jar to the diffuser using the Dominion Wand. Every 10 minutes the diffuser will consume a single potion and apply it every few seconds."
+		""
+		"&5Potion Jar&r"
+		"A jar that stores up to 100 potions. Potions can be removed by using an Empty Bottle, Potion Flask, or Arrows on the jar. Wixies will use these jars during Potion Autocrafting. The jar may be locked by using a Dominion Wand while sneaking. Locked Jars will only receive the potion it is locked to from Wixies. Can be used with a Comparator."
+	]
+	quest.21B62932B77BAE35.title: "Potion Mixing"
+	quest.22E6839210AB4115.quest_desc: ["Upgrade spell book variant"]
+	quest.23BB5B48E32B8A77.quest_desc: ["&eStarbuncle charm&r, crafted by &5Enchanting apparatus&r, can be right-clicked to summon a Starbuncle. The Starbuncle can be used to pick up and store items in chests using the &5Dominion wand&r. "]
+	quest.242CA4FD15E0B853.quest_desc: ["{image:gamma_creatures:textures/screens/drazor_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.24F36F79FFF3F42E.quest_desc: [
+		"The &l&6Water Wheel&r produces rotational power, generating Rotational Force when water flows across it."
+		"As water moves steadily, the wheel spins, transferring power through shaft to connected machines."
+		""
+		""
+		"The &l&6Large Water Wheel&r rotates at half the speed of a regular Water Wheel but doubles the stress capacity (&e512 SU&r vs. &e256 SU&r)."
+		""
+		"&8●&r Water Wheels can be stacked to increase power output, but more than 50 will break the setup."
+		"&8●&r Tip: Combining smaller Water Wheels with a Large Water Wheel in the same network boosts both SU generation and rotational speed."
+		""
+		"&oHarness the flow wisely — too much water can drown even the strongest gears.&o"
+	]
+	quest.24F36F79FFF3F42E.quest_subtitle: "&oThe Flowing Engine&o"
+	quest.24F36F79FFF3F42E.title: "&6&lWater Wheel&r"
+	quest.25760BE1F07360A3.quest_desc: ["Use Spouts for creating more advanced stuff that uses lava to make. Just connect it to tank using copper pipes. Don't forget about pumps!"]
+	quest.25A036DAB1AAD3B4.quest_desc: ["{image:gamma_creatures:textures/screens/banndu_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.2624643846758EC9.quest_subtitle: "Ask help from a friend"
+	quest.2624643846758EC9.title: "Ancient Tablet of Assistant"
+	quest.269A21EE0221CC26.quest_subtitle: "&l&n&5A weapon forged to watch for eternity!"
+	quest.26CC2E9C21FBCFD9.quest_desc: ["Export items in refined storage setup to an external output."]
+	quest.26EC584ED24162A4.quest_desc: ["A bit harder gameplay in exchange for more fun and utilities"]
+	quest.27870750A5B62FD0.title: "Key 3 Up rate"
+	quest.27AC82BB61497603.quest_desc: ["Transform Druid Familiar into Plague Doctor."]
+	quest.27AC82BB61497603.quest_subtitle: "Transform!"
+	quest.27B0D3C243908E91.quest_desc: ["Variant spell dmg buff from each type of boss, choose your own element and go to the next step to see which element fit you."]
+	quest.27B0D3C243908E91.title: "Knowledge Collection"
+	quest.27BE8047AD175D2A.quest_desc: [
+		"- Place some vaults"
+		"- Put &l&aitem hatch&r&r on it - You will need it to put items inside."
+		"- Place &l&apackager&r&r on vault - to get items back."
+		"- Place &l&astock ticker&r&r touching vault."
+		"- Holding &l&2stock link&r&r - right click on stock ticker and place it on &lpackager&r."
+		"- Place &l&aseat&r&r next to the stock ticker and put any mob (or blaze burner) on it. "
+		""
+		"Right click on &9&lshop keeper&r&r and now You can order things You put inside vault before."
+		"Shift+right click to open package. Profit."
+		""
+		"Example:"
+		"{image:kubejs:textures/quests/storage.png width:100 height:100 align:center fit:true}"
+		""
+		"{@pagebreak}"
+	]
+	quest.27BE8047AD175D2A.quest_subtitle: "&lCREATE STORAGE - WAY TO MAKE YOUR LIFE EASIER&r"
+	quest.27BE8047AD175D2A.title: "Simple, yet useful storage"
+	quest.27E17C1DE0D9848D.quest_desc: ["A lead-based metal, valued in magic for its stability. It resists magical effects, making it a strong material for devices and arcane tools."]
+	quest.27E17C1DE0D9848D.quest_subtitle: "Sturdy Alloy"
+	quest.2828614F7AD3E19C.quest_desc: ["Dragon armor is stronger than diamond in term of armor and also protect you from dragon, if you want to beat them better prepare a full set."]
+	quest.2828614F7AD3E19C.title: "The other way"
+	quest.28E1161F03772BC9.quest_subtitle: "More deadlier with dragon bone arrow"
+	quest.29E99369FC06F83A.quest_desc: ["&5Archwood&r can be used to generate &5Source&r when burned in a &5Volanic sourcelink&r."]
+	quest.29E99369FC06F83A.title: "A Natural Source"
+	quest.2A0A01BE836BB2AB.quest_desc: ["A monument of grandeur and mystery, the Shiraz Palace sprawls in every direction, its halls twisting and turning beyond comprehension. Its purpose remains unknown, but its size and opulence are undeniable. Travelers beware: without a companion, it’s all too easy to lose your way in this labyrinthine estate."]
+	quest.2A0A01BE836BB2AB.quest_subtitle: "Find the Shiraz Palace"
+	quest.2A1B0386B7987DD3.quest_desc: ["Vast and dreamlike, the Aviary stretches high into wtilight sky, its halls divided into four whimsical quadrants. Each one unfolds as a surreal scene—bright, strange, and perilous in its own way. To wander here feels like stepping beyond reality itself. Is this the journey’s end… or just another beginning?"]
+	quest.2A1B0386B7987DD3.quest_subtitle: "Find an Aviary"
+	quest.2A26CDEDDE63B59A.quest_desc: ["&5Thread&r can use to craft many buffs to be applied to magical armor with an &5Alteration table&r. First, place armor on table and place &5Thread&r in it, (make sure you had the required tier for the &5Thread&r you using) remove armor when finished."]
+	quest.2A26CDEDDE63B59A.quest_subtitle: "Not a normal thread, this one contains magic!"
+	quest.2A26CDEDDE63B59A.title: "Magic Thread"
+	quest.2A9E88C201991AE2.quest_desc: ["{image:gamma_creatures:textures/screens/sppinto_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.2AB11EBF2618BE64.quest_desc: ["Scrolls found in the world are a one-time use. With an &eInscription Table&r, store the spells in a spellbook like this one for unlimited uses. "]
+	quest.2AB11EBF2618BE64.quest_subtitle: "Flimsy but an essential first step"
+	quest.2ABC9EFB107F38CC.quest_desc: ["{image:gamma_creatures:textures/screens/spider_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.2AD908646819FE10.quest_subtitle: "&l&n&5Once a Decaying relic awakened at the deep!"
+	quest.2B27647F0848DBEE.quest_desc: ["Used to crush ingredients into fine &l&dpowders.&r"]
+	quest.2B27647F0848DBEE.quest_subtitle: "Grinding Tool"
+	quest.2B290D14C4F667DF.quest_desc: ["Basic, cheap, effiency start is what make a better end."]
+	quest.2B290D14C4F667DF.title: "First things first"
+	quest.2B35D32FDE714347.quest_desc: ["Who say mage can't go combat? wear this!"]
+	quest.2B35D32FDE714347.title: "Ignis Mage"
+	quest.2B6C3E55D794D9BC.title: "Sentiel Archer"
+	quest.2B70445E6CD99EDB.quest_desc: [
+		"Strange structures have begun rising from the land. Mysterious dungeons, fortresses, and towers that pierce the skies. No one knows where they came from, only that they’re teeming with hostile creatures, forgotten treasures, and powerful secrets."
+		""
+		"Your task is to venture forth and uncover the mysteries of these ancient places. Each dungeon holds new dangers, but also the keys to survival: weapons, artifacts, and knowledge that will aid you in the trials ahead."
+		""
+		"Prepare yourself adventurer. &6Exploration&r and courage are the only ways to thrive in this world where the land itself rises against you."
+	]
+	quest.2C8ED6929770CAD9.quest_desc: ["A combat support unit build for people who are not high skill or want to go with low cost"]
+	quest.2DB4F395EA26DF4B.quest_subtitle: "Find a Coliseum"
+	quest.2E19F0BE4F093019.quest_subtitle: "Kill 1000 zombie"
+	quest.2E19F0BE4F093019.title: "Earth Clean"
+	quest.2E4E63A4CBC9F840.quest_subtitle: "Even better two side!"
+	quest.2ED776C129833AEA.title: "Saplings store"
+	quest.2EFC5DBD8122A0AE.quest_desc: ["Far below the surface lies a twisted network of chambers, where the air is thick with disease and shadow. Once a place of treatment, it now resembles a burial ground for forgotten rulers, its halls echoing with the whispers of those long lost. Only the brave (or the desperate) dare to tread these haunted corridors."]
+	quest.2EFC5DBD8122A0AE.quest_subtitle: "Find a Plague Asylum"
+	quest.2F24566669EC6FE5.quest_desc: [
+		""
+		""
+	]
+	quest.2F65E61ADD2EDC17.quest_desc: ["Cheap cost at start to give access to spell without consume scroll."]
+	quest.2F7F649DE17C4C32.quest_subtitle: "Turn item into material"
+	quest.2FDCD8AB6F6B08BE.quest_desc: ["{image:gamma_creatures:textures/screens/xendah_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.2FED04E9F39720EA.quest_subtitle: "&l&n&5Imbued weapon with explosive power!!!"
+	quest.301C43ADA339B561.quest_subtitle: "Longer summoning"
+	quest.3250EB72322E5124.quest_desc: [
+		"This world is like the Overworld, but cursed by &5Liches&r to stay in eternal night. The moon changes the creatures, making them stronger and stranger."
+		""
+		"Portals were once made to spread corruption, but they were sealed. Now, only the &7guardians&r can open them. To pass, you must either defeat the guardian or pay their price."
+	]
+	quest.3250EB72322E5124.quest_subtitle: "The Land of Endless Night"
+	quest.3250EB72322E5124.title: "&9&lStarlight Dimension&r"
+	quest.326769D46FEDCE7B.quest_desc: [
+		"You can craft one of this one easily, allows You for teleportation to Your grave."
+		"You can upgrade &dKnowledge of Death&r skill so there's a change to have one right after dying."
+	]
+	quest.326769D46FEDCE7B.quest_subtitle: "One one the most useful items"
+	quest.32EBDF1D9140CFB0.quest_subtitle: "&l&n&5The final backpack"
+	quest.3316BA6A23D20B55.quest_desc: ["The Blood Sigil is a sigil for the Mixing Cauldron, able to extract blood from entities who jump in the cauldron. The blood can then be used in recipes, or bottled or bucketed out."]
+	quest.3316BA6A23D20B55.quest_subtitle: "Crafting Blood"
+	quest.332DE12A4A904DE3.quest_desc: ["{image:gamma_creatures:textures/screens/darknix_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.33417DADB1C6E9A6.quest_subtitle: "&l&n&5Once a &elegendary&r&l&n&5samurai's blade!"
+	quest.336EF9B59B8098E0.quest_subtitle: "&l&n&5heavy hitters for plants"
+	quest.3372926BDD3A709E.quest_desc: [
+		"To summon a Drygmy, right click a &2Mossy cobblestone&r with &eDrygmy token&r, after a while the stone will turn into &2Drygmy henge&r and a Drygmy will appear. "
+		""
+		"A Drygmy will interact certain mobs to obtain their dropped items without killing them. To retrieve these items you will need place chests nearby the henge. Each action by a Drygmy will consume Source from a nearby &5Source Jar&r, if Source runs out then it will stop generating items."
+	]
+	quest.3372926BDD3A709E.title: "Mini god"
+	quest.33C050328C9C732C.quest_desc: ["Incorporate an external storage, such as a chest into the refined storage setup."]
+	quest.3424D529ADF53915.quest_desc: ["Augmenting table allow upgrade an item had affix at a high cost or reroll affix value."]
+	quest.3492C7F03829A2A5.quest_desc: [
+		"Import from an external inventory. "
+		""
+		"Note: By default, the top row indicates the blocklisted items. Can change to allowable items."
+	]
+	quest.34C3FF639C0ED7FC.quest_desc: ["Runewood is a strange mix of nature and magic, found often in open plains and sometimes in forests. Its orange-yellow leaves make it easy t"]
+	quest.34C3FF639C0ED7FC.quest_subtitle: "Wood of Magic"
+	quest.34C3FF639C0ED7FC.title: "Runewood"
+	quest.353FC18F3B4378CA.quest_desc: ["{image:gamma_creatures:textures/screens/juvex_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.35B82892BA4794AC.quest_desc: ["Kiting build with high speed, this build help you not only in exploring but also in boss fight in exchange will have lower armor, hp than warrior build."]
+	quest.35D71AB41E3127FF.quest_desc: ["Lurking around the caves, finding andezite might be an opportunity to learn some new mechanics of &l&6Create"]
+	quest.35D71AB41E3127FF.quest_subtitle: "You definitely gonna need more."
+	quest.35D71AB41E3127FF.title: "Once useless"
+	quest.35DD2558EC5F8677.quest_subtitle: "&l&n&5Bee Mjolnir?"
+	quest.3679A75EE5E61626.quest_desc: ["Empty tablet is needed to craft others"]
+	quest.3679A75EE5E61626.quest_subtitle: "Some basic utilities"
+	quest.369D66CACAEDE0D9.quest_desc: ["Now familiars have their own space to freely roam around. "]
+	quest.369D66CACAEDE0D9.quest_subtitle: "Free roam"
+	quest.3720BAEAD39CB12E.quest_desc: [
+		"Prevents hunger loss, except when using saturation to regenerate health."
+		"Eathing food with nourishment can lead to &5permanent&r health gain (one time effect per food)."
+	]
+	quest.3720BAEAD39CB12E.title: "Nourishment"
+	quest.3742FE67B8DE9261.quest_desc: ["Upgraded armor turn this set into high utilities armor with cool appearance, &5Runic Spanner&r can be use to config placed rune"]
+	quest.3742FE67B8DE9261.title: "Technicaly mage?"
+	quest.379A85A584B88A2E.quest_desc: ["Feed any bee 48 times with a sugar-like item or a honey bottle."]
+	quest.37D76492A75AB495.quest_desc: ["{image:gamma_creatures:textures/screens/xendah_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.384E2873D1690843.quest_desc: ["A normal bench cannot hold the patterns of magic. The &d&lmagic workbench&r serves this role, with four extra slots for arcane components and tools, while still working like a common bench."]
+	quest.384E2873D1690843.quest_subtitle: "Crafting the Arcane"
+	quest.38E1D317D4EEA79C.quest_subtitle: "&l&n&5Once a longsword of a legendary warrior that sadly fell ill"
+	quest.393162735998BA87.quest_desc: ["{image:gamma_creatures:textures/screens/banndu_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.394272D93F2FE569.quest_subtitle: "Deal 500.000 Damage"
+	quest.39475684487F1958.quest_desc: [
+		"Long ago, a blacksmith created a hammer that would never break. When an assassin came to steal it, the weapon bound to its maker’s soul reacted, pulling them both into the Nether."
+		""
+		"The assassin was erased, but a shard of the blacksmith’s soul endured, merging with stone, obsidian, and lava until it became the Netherite Monstrosity — a creature that remembers what it once was."
+		""
+		"Now it waits in the endless red gloom, far from the overworld. To reach it, you must use the Eye of Monstrous, an artifact that carries you to the place where this monster resides."
+		"{image:kubejs:textures/quests/cataclysm/netherite_monstrosity.png width:100 height:100 align:center fit:true}"
+	]
+	quest.39475684487F1958.quest_subtitle: "The Forged Soul"
+	quest.39475684487F1958.title: "Netherite Monstrosity"
+	quest.39E6836317A32051.quest_desc: ["{image:gamma_creatures:textures/screens/alubisin_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.3A3F1E29C4C544EC.quest_desc: ["Priority to utilities, this is near endgame set for boss but true endgame set for adventure."]
+	quest.3A816B96A7A7A38D.quest_subtitle: "This table can upgrade gem by using gem dust and forging material"
+	quest.3AB449E4D0F66E34.quest_desc: ["&5Source Stone&r can be use to craft &5Enchanting apparatus&r and &5Arcane core&r among other things."]
+	quest.3AB449E4D0F66E34.title: "Mana Stone"
+	quest.3AC5ABAB78D4A226.quest_desc: ["A big upgrade about armor and tool, strong protection against dragon, monster in overworld will no longer a problem to you. Each element type will have a diffirent strength, pick wisely"]
+	quest.3AC5ABAB78D4A226.title: "Heavy armor"
+	quest.3ADBC1D66AD8811A.quest_desc: ["There are many types of &5Source Relay&r. They act as as mana transfer devices. Using the &5Dominion Wand&r, Source may be transferred to &5Source Jar&r."]
+	quest.3ADBC1D66AD8811A.title: "Mana Transfer"
+	quest.3AF461B39D7DD4D2.quest_subtitle: "&l&n&4Slay the blood God"
+	quest.3B1965C5BE57D7F6.quest_desc: [
+		"Long ago, a dark order called the &5Abyss Callers&r tried to bind a mighty prehistoric creature through forbidden necromancy. The ritual failed—the beast’s soul turned on them, erasing their entire order."
+		""
+		"Defeated only by the &9first king&r and his circle of sorcerers, the creature’s body was sealed away, too powerful to destroy. Its &8dark energy&r still leaks from the depths, cursing all who wander close."
+		""
+		"Some say the &eEye of the Desert&r still points to its resting place. Will you end its curse… or join the bones beneath the sand?"
+	]
+	quest.3B1965C5BE57D7F6.quest_subtitle: "&8&oThe Cursed Beast&r"
+	quest.3B1965C5BE57D7F6.title: "&6&lAncient Remnant&r"
+	quest.3B2BBD31ABFDB7AA.quest_desc: ["{image:kubejs:textures/quests/hephaestus.png width:100 height:100 align:center fit:true}"]
+	quest.3B3248ECCDB7B447.quest_desc: ["Rare plants need a special vessel to grow. Enchanted Ash and soul residue mixed into the soil make the right environment, though it cannot sustain common crops."]
+	quest.3B3248ECCDB7B447.quest_subtitle: "Strange Soil"
+	quest.3BA44EB64742E3F7.quest_desc: ["Reforging table allow to forge all tier affix"]
+	quest.3BD7B772B404B878.quest_desc: ["Find and enter &4Throne Pillar Structure&r"]
+	quest.3C1A9DC6312F1349.quest_desc: ["Finish all the desire task from &eBee Queen&r"]
+	quest.3C359CBB24E9014D.quest_desc: [
+		"&5Source Motor&r is the strongest spinning device and has the ability to connect to many items from Create such as shafts and cogwheels."
+		""
+		"In exchange for high speed, mana is consumed from &5Source Jar&r. Choose the speed wisely or your base will be entirely depleted of Source!"
+	]
+	quest.3C359CBB24E9014D.quest_subtitle: "You are require to complete &bDoes this belong in magic?&r quest to unlock this quest"
+	quest.3C359CBB24E9014D.title: "Look like this is an advanced class..."
+	quest.3C6685089661DB0E.quest_desc: ["{image:gamma_creatures:textures/screens/dosmo_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.3C9061B95D2C682B.quest_desc: ["                                    &9Check To See"]
+	quest.3CA0142DF18BC8D8.title: "Undying Warrior"
+	quest.3CE5551031D8BB4D.quest_desc: ["Displays the current quantity of a specific resource contained in the storage setup."]
+	quest.3CEBEFF81FF279FE.quest_desc: ["Improve slot for thread upgrade, high utilities and mana regen."]
+	quest.3CEBEFF81FF279FE.title: "Apprentice"
+	quest.3D0087322543B31D.quest_desc: [""]
+	quest.3D0087322543B31D.quest_subtitle: "Augmenting material"
+	quest.3D1C0F80B74B27D5.quest_subtitle: "Arrive at a Lighthouse"
+	quest.3D5973731CD4373C.quest_desc: ["{image:gamma_creatures:textures/screens/meloron_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.3D9C95CE885F5BA8.quest_desc: ["Kill 4 &5Endermite&r."]
+	quest.3DC0A0DC4DA66211.quest_desc: ["High tier book and can be use as endgame spell book after clear ancient city"]
+	quest.3DC0A0DC4DA66211.title: "Codex Expert"
+	quest.3DC701ED49D4ADA9.quest_desc: ["The &5Mark of mastery&r is an essential material to upgrade armor and foci. You may want craft few."]
+	quest.3E208A3A81A12D53.quest_subtitle: "&l&n&8Slay the unholy summoner"
+	quest.3ECA226F08D5195F.quest_desc: ["Hidden among hills and valleys, the monastery stands as a quiet refuge in a world of rising danger. Here, villagers tend to simple lives of prayer and work, untouched by Illager conquest. Though the halls hold little in the way of treasure, their sturdy walls and peaceful company make this an ideal sanctuary for weary adventurers."]
+	quest.3ECA226F08D5195F.quest_subtitle: "Find a Monastery"
+	quest.3F062C3715898E58.quest_desc: ["{image:gamma_creatures:textures/screens/dogishi_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.3FA36BF576843022.quest_desc: [
+		"Frostmaws are rare, massive beasts of the snowy lands. Their &bice breath&r and immense strength make them deadly foes."
+		""
+		"If you find one sleeping on your path, it may be wiser to go around rather than wake it. The creature guards a precious &eIce Crystal&r, capable of unleashing pure winter energy when wielded. Ranged weapons are recommended for those daring enough to face it."
+	]
+	quest.3FA36BF576843022.quest_subtitle: "The Winter Terror"
+	quest.3FA36BF576843022.title: "&b&lFrostmaw&r"
+	quest.4106639299FA35BE.quest_desc: [
+		"Once one of the six sea gods, &bScylla&r was cast out for breaking the divine law—she fell in love with &bMaledictus&r, a mortal king. When he gave his life to stop &6Ignis&r and save the world, her grief became her curse."
+		""
+		"She withdrew to a fortress high above the clouds, her sorrow twisting into rage. Immortal in body but shattered in mind, she now strikes down any human who dares to approach."
+		""
+		"Some say only a true hero can end her torment. Craft the &9Eye of Storm&r, locate &bthe acropolis&r and rise into the sky—where her endless sadness still lingers."
+		"{image:kubejs:textures/quests/cataclysm/area_render.png width:100 height:100 align:center fit:true}"
+	]
+	quest.4106639299FA35BE.quest_subtitle: "The Fallen Sea Goddess"
+	quest.4106639299FA35BE.title: "&b&lScylla&r"
+	quest.4118927D9D079DC8.quest_desc: ["Rising like jagged thorns from the ground, these massive towers are defended by skeletons entwined with deadly roses. Each level is heavily fortified, and flying rose guards patrol the skies above. Only those who ascend to the top will claim the treasures and secrets hidden within."]
+	quest.4118927D9D079DC8.quest_subtitle: "Visit the Thornborn Towers"
+	quest.411E75619F1C378C.quest_desc: ["Somehow killed &0Wither&r with &estinger spear&r."]
+	quest.415CD6CC10D4D7F2.quest_desc: ["{image:gamma_creatures:textures/screens/redthunder_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.420ADD854FD8A8D7.quest_desc: ["Gold holds untapped magical power. With the right methods, it can be infused to create Arcane Gold. The process is difficult at first, but can later be automated by imbuing source magic directly into the metal."]
+	quest.420ADD854FD8A8D7.quest_subtitle: "Gold Made Wiser"
+	quest.424B875F88D10370.quest_subtitle: "I have two side!"
+	quest.4281E238E86E010D.quest_desc: ["A white flower with roots that hold precious resin. Once crystallized, the resin can be blended into incense with subtle magical effects."]
+	quest.4281E238E86E010D.quest_subtitle: "Hidden Resin"
+	quest.42A44816F5A597CF.quest_desc: ["{image:gamma_creatures:textures/screens/turlan_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.42D011E0D00103A4.quest_desc: ["Use with a &eNetwork Receiver&r and a &eNetwork Card&r to transmit between storage networks wirelessly. "]
+	quest.42ED72476B62BA71.quest_desc: ["&5Mage's Spell Book&r allow you to cast tier 2 glyphs and below"]
+	quest.42FA5AE8D5124F92.quest_desc: [
+		"The Wither’s power drew the interest of &9technomancers&r, who sought to turn it into a weapon. They captured and reshaped it into the Harbinger—a mechanical war machine. But a shard of its &8tormented soul&r remained, beyond control."
+		""
+		"Countless lives were lost before its &eNether Star&r core was removed and the project abandoned. The ruined factory now lies buried beneath the earth, hidden from sight."
+		"To locate it, one must wield the &6Eye of Mech&r—the only device able to detect what still stirs below."
+		"{image:kubejs:textures/quests/cataclysm/the_harbinger.png width:100 height:100 align:center fit:true}"
+	]
+	quest.42FA5AE8D5124F92.quest_subtitle: "The Machine of Ruin"
+	quest.42FA5AE8D5124F92.title: "&4&lHarbinger&r"
+	quest.4304895AF86DC805.quest_desc: ["After basic equipment this is tougher. Allow you to survive hit with less dmg taken."]
+	quest.4304895AF86DC805.title: "Upgraded Diamond"
+	quest.4353E25AA0DCDB58.quest_subtitle: "&l&n&5Legendary Ice blacksmith's hammer once forged the greatest of weapon's!"
+	quest.436231715C11E3BA.quest_desc: ["Scattered across the wilds, small bands of Illagers set up camp beneath their distinctive purple tents. Though their supplies are meager and their loot scarce, their presence is a warning, the Illagers’ reach grows wider with every outpost."]
+	quest.436231715C11E3BA.quest_subtitle: "Find an Illager Campsite"
+	quest.439FFB4A65551718.quest_desc: ["A true support will hold this and never fall down"]
+	quest.439FFB4A65551718.title: "In the name of Holy "
+	quest.43C6977A189F9C4B.quest_desc: ["A tall plant with deep purple blossoms. Found in swamps, prized for its poisonous nature."]
+	quest.43C6977A189F9C4B.quest_subtitle: "Dark Bloom"
+	quest.43DF5901292EE06B.quest_desc: ["Simple reforging table allow you to forge up to blue affix item and below"]
+	quest.43F2C4EC814D8533.quest_subtitle: "Recall - but with friends"
+	quest.446D0100403541F3.quest_desc: ["{image:gamma_creatures:textures/screens/golemd_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.44D115281B0BFB75.quest_desc: ["Whispers speak of a &9flying vessel&r that hovers above the world, shimmering with strange energy. Few dare approach, for those who return tell of eerie lights, warped corridors, and guardians not of this realm. Seek it out, if you dare—and uncover the secrets hidden within its metallic shell."]
+	quest.44D115281B0BFB75.quest_subtitle: "Find a Giant Mushroom"
+	quest.44DE680409A4B3AE.quest_subtitle: "Teleport to friend"
+	quest.44DE680409A4B3AE.title: "Tablet of Assistance"
+	quest.452903524040F904.quest_subtitle: "&l&n&2Obtain the gauntlet"
+	quest.452F1882CA396798.quest_desc: ["{image:gamma_creatures:textures/screens/bear_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.453D1F9C959630C3.quest_desc: ["Complete green &2Sempiternal Sanctum&r challenge."]
+	quest.45C92BD615F3B7EB.quest_desc: [
+		"Once a mortal, &cIgnis&r was feared for his relentless experiments on life itself. He twisted his own body for forbidden power and used countless innocents as test subjects. Those he oppressed eventually rose and banished him to the Nether."
+		""
+		"In exile, he forged terrible weapons using &cMonstrosity&r, including a sword of explosive magic and a shield of eternal flame. When humans opened the Nether portal, he returned, seeking vengeance—but was ultimately defeated alongside &6Maledictus&r."
+		""
+		"Yet his soul endured, trapped in the &4Burning Ashes&r. To end his terror, all Ashes must be placed upon the &5Altar of Fire&r, destroying his final soul. The &9Eye of Flame&r will guide you to his rebirth—cleanse this abomination and prevent future disaster.f"
+		"{image:kubejs:textures/quests/cataclysm/ignis.png width:100 height:100 align:center fit:true}"
+	]
+	quest.45C92BD615F3B7EB.quest_subtitle: "The Mad Flame"
+	quest.45C92BD615F3B7EB.title: "&c&lIgnis&r"
+	quest.45E2C787B0B44DAF.quest_subtitle: "{count:1,id:\"refinedstorage:1024b_fluid_storage_block\"}"
+	quest.462A48769DA1F114.quest_subtitle: "&l&n&5A sword lushed from the jungle!"
+	quest.46913E9659C71457.quest_subtitle: "&l&n&5Double edge weapon &efrom the stars!&r"
+	quest.474B713B22FBECB5.quest_desc: ["Use the &eBasin&r with the &eMechanical Mixer&r to mix ingredients, and hold liquids. Can also be used for shapeless crafting"]
+	quest.4791FC0A2E834D85.quest_desc: ["Dark magics linger in the depths of these dungeons, woven into items, halls, and even the very air. Power awaits the bold, but so do twisted fates for the careless."]
+	quest.4791FC0A2E834D85.quest_subtitle: "Find a Bathhouse"
+	quest.484D9BC7BEF1C300.quest_desc: ["Faster cast spell, every mage need this."]
+	quest.487E679F69B609B1.quest_desc: ["Spawn 8 flowers by hitting flowers with &6Pollen Puff&r."]
+	quest.48BDA991D14A345C.quest_desc: [
+		"The &eBacktank&r must be filled with &bAir Pressure&r to function."
+		"To pressurize it, place it down and connect a rotating shaft to the top input."
+		""
+		"When paired with a &eCopper Diving Helmet&r, a charged &eCopper Backtank&r &bgrants Water Breathing and Aqua Affinity&r."
+		""
+		"&8●&r &eCopper Diving Boots&r make you sink and disable swimming, but allow walking and jumping underwater."
+		"&8●&r They also grant immunity to &fMechanical Belts&r, &fEscalators&r, and &fWalkways&r."
+		""
+		"&oMaster the pressure, and the depths will welcome you.&o"
+	]
+	quest.48D544814E5FE368.quest_desc: ["{image:gamma_creatures:textures/screens/muba_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.48E3C2D33EFD6812.quest_subtitle: "&l&n&5Elemental &eblade!&r"
+	quest.4A72D1BC57E0B869.quest_desc: [
+		"Those who fled the Ender Dragon built the &7End Citadel&r, a fortress full of traps. Over time, the &0Void&r consumed the defenders, twisting them into &5Ender Golems&r."
+		""
+		"They no longer remember life, acting only to guard the citadel. The king of these lost warriors became the &5Ender Guardian&r. Perhaps a hero can free them from this cursed fate, but to see the truth, you will need the &dEye of Void&r."
+	]
+	quest.4A72D1BC57E0B869.quest_subtitle: "The Hollow Sentinel"
+	quest.4A72D1BC57E0B869.title: "&5&lEnder Golem&r"
+	quest.4AC60D7FD95B7758.quest_desc: [
+		"Start pick your classes and progress through step by step until you reach true strength for an easier gameplay or feel free to skip this page and do whatever you think is best. "
+		""
+		"&cWarning: skipping guide may cause game harder if you don't know what you will do"
+	]
+	quest.4AC60D7FD95B7758.quest_subtitle: "If you have any question feel free to ask on discord"
+	quest.4B69C0304C9F1AD7.quest_desc: ["Complete blue &1Sempiternal Sanctum&r challenge."]
+	quest.4B8615C5A1C38178.quest_subtitle: "&l&n&5Little brother of emberlash!"
+	quest.4B984DCF229D3525.quest_desc: ["{image:gamma_creatures:textures/screens/molluto_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.4C3CD36614615318.quest_desc: ["Someone brought a Void Blossom into this world, where it absorbed local energy and became a terrifying predator. Its hard, dry shell can poison deeply, and it can even move through the ground like water. Yet it is still a plant—perhaps a little fire will finish the job."]
+	quest.4C3CD36614615318.title: "&5Lunar Monstrosity&r"
+	quest.4CFFC2B415E0DC8F.quest_desc: ["Use on familiar to increase it's armor points."]
+	quest.4CFFC2B415E0DC8F.quest_subtitle: "Armor Increase"
+	quest.4DC724CF48C67624.quest_desc: ["{image:gamma_creatures:textures/screens/gusnow_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.4E141AEEA3889F77.quest_desc: ["Now you are eligible to craft the &5Archmage spell book&r, this is the highest-tier book and allow you to cast all existing glyphs."]
+	quest.4E141AEEA3889F77.quest_subtitle: "ban this item"
+	quest.4E141AEEA3889F77.title: "Dumbledore"
+	quest.4E4052F7EAD4FDD6.quest_desc: ["Bright banners and painted walls lure travelers closer, but inside these towering strongholds, chaos reigns. Each floor brims with bandits and traps, their laughter echoing as waves of foes pour from endless spawners. Conquer the towers, and their riches—and notoriety—are yours."]
+	quest.4E4052F7EAD4FDD6.quest_subtitle: "Find the Bandit Towers"
+	quest.4EABBF55DD327D1C.quest_desc: ["Look like a true warrior, not only that this set will increase your dmg. "]
+	quest.4EABBF55DD327D1C.title: "Ironshade"
+	quest.4ED25F904208FCC1.quest_desc: [
+		"Progression in this pack is &lopen&r and &lflexible.&r While doing one thing, you’ll often stumble upon something new."
+		""
+		"Start by finding shelter and making yourself a home. As you explore, you’ll discover things that catch your attention—then check the questbook to learn more. Maybe it’s part of a magic path, or leads to something greater."
+		""
+		"You can also use the recipe viewer (EMI): press &lR&r in your inventory to see how an item is made, or &lU&r to see what it’s used for."
+	]
+	quest.4ED25F904208FCC1.quest_subtitle: "Your Own Path"
+	quest.4ED25F904208FCC1.title: "Progression"
+	quest.4F10A6E40DCC221D.quest_desc: ["{image:gamma_creatures:textures/screens/molluto_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.4F15930FFB341E4F.quest_desc: ["By making first tier spell book you will able to cast tier 1 glyphs you learned, to make glyphs put the spell book on main hand and right click the &5Scribe's table&r then pick a glyphs you need, after that toss item require appear on the table and glyphs will be done. Remember to check key bind for spell book on settings to use and cast spell."]
+	quest.4F15930FFB341E4F.title: "Start With Read"
+	quest.4F17BB5910E59ECB.quest_desc: ["{image:gamma_creatures:textures/screens/pangolin_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.4FE4A83E25720B57.quest_desc: ["{image:gamma_creatures:textures/screens/drazor_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.501D9BFFAB04B152.quest_subtitle: "Any eye can be use as ender eye and they all point to the End portal"
+	quest.508D8075984EBD02.quest_subtitle: "&l&n&5A weapon blessed by the gods!"
+	quest.509E9CA83FBC780E.quest_subtitle: "Find a Fishing Hut"
+	quest.50D5B1A83B9D874F.quest_subtitle: "&l&n&5A axe drenched the soul of the dead!"
+	quest.50F2F6ABC40E7424.quest_desc: ["{image:gamma_creatures:textures/screens/zatlah_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.5100CFAD43E7D67A.quest_desc: ["Rising like a monument to conquest, this sprawling fortress serves as a bastion of Illager power. Its many levels are patrolled by raiders and spellcasters, their banners declaring dominion over the land. Within its halls lie chambers of wealth, guarded by Evokers whose magic is as deadly as their stares."]
+	quest.5100CFAD43E7D67A.quest_subtitle: "Find an Illager Fort"
+	quest.514A3B3B7CC903B7.quest_desc: ["{image:gamma_creatures:textures/screens/zatlah_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.517D9D523E695937.quest_desc: ["The main component for a Refined Storage setup. To power, use the &eAlternator&r and associated &eConnector&r setup. Note that bigger setups attached to a controller will require more power. "]
+	quest.517D9D523E695937.quest_subtitle: "Nvidia or AMD?"
+	quest.522E5672D2B41A32.quest_desc: ["More slot, more mana is needed."]
+	quest.5266F98480DF659C.quest_subtitle: "&l&n&5&cBerserker's dream?&e"
+	quest.52A3969083D80E5C.quest_desc: ["This ring can upgraded by using the &5Enchanting apparatus&r, turning it into a version more suitable for combat. "]
+	quest.52A6C27732915801.title: "Knifes"
+	quest.53097A671A7CCBD9.quest_subtitle: "&l&n&5The weapon born in the void!"
+	quest.53AF2B722A69DCDC.quest_desc: ["Tucked away in the tall grass, this lonely house stands weathered and broken, its timbers groaning with age. Easy to overlook, it bears little more than the memory of those who once called it home. Still, even the smallest refuge can hold a story."]
+	quest.53AF2B722A69DCDC.quest_subtitle: "Find a Small Prairie House"
+	quest.53DB7D6D3CCC5714.quest_desc: ["{image:gamma_creatures:textures/screens/alubisin_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.53FCCDB2ABB362AA.quest_desc: ["Shoot 32 &eBee Stingers&r from a bow or crossbow."]
+	quest.5407948AD7A6849A.quest_desc: ["{image:gamma_creatures:textures/screens/spider_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.540D9116B5DD6109.quest_desc: ["{image:gamma_creatures:textures/screens/buho_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.541BBC35DA4F0B73.quest_desc: ["Sprouting from a cluster of towering fungi, this outpost of miners has carved their livelihood into the surface world. Ruthless and territorial, they will defend their claim with tooth and nail. Whether the giant mushrooms shield them from the sun or serve some darker purpose, none can say. One truth remains certain: the mine runs rich with ore, for those bold enough to claim it."]
+	quest.541BBC35DA4F0B73.quest_subtitle: "Find a Mushroom Mine"
+	quest.546301E7661AA511.quest_desc: [
+		"These magical clothes have many upgraded variants. Tier upgrades can be achieved by placing 2 &6blaze rod&r on &5Arcane pedestal&r and armor on &5Enchanting apparatus&r. Moreover, you can add thread upgrades to your armor which will fit in tier I, II or III slots"
+		""
+		"Due to the magic flowing inside this equipment, it will slowly repair itself by consuming mana. "
+	]
+	quest.546301E7661AA511.quest_subtitle: "Basic clothes from ars"
+	quest.546301E7661AA511.title: "Magical Armor"
+	quest.5501173723FBA43B.quest_subtitle: "Trade with villager 500 times"
+	quest.5501173723FBA43B.title: "Master of persuasion"
+	quest.55C9A6DDAD756BFE.quest_subtitle: "Loot 1000 chest"
+	quest.55C9A6DDAD756BFE.title: "Stop! Leave me some stuff!"
+	quest.55E2E4CA45282BEF.title: "Elemental Essences"
+	quest.56045B3E6D5A6A04.quest_desc: ["{image:gamma_creatures:textures/screens/dogishi_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.56C08D961ED46AA3.title: "Chess Board Knight"
+	quest.56C4F2C546A23F2C.quest_desc: ["{image:gamma_creatures:textures/screens/snovy_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.571CE7B87B36F000.quest_desc: ["Complete white &7Sempiternal Sanctum&r challenge."]
+	quest.5752A0B82D903335.quest_subtitle: "You dont need all the eye to open gate, just need 12 diffirent eye. You may want start with Wither eye first and complete each eye follow the position to unlock all"
+	quest.57A8C19BEC1CA273.quest_desc: [
+		"Complex alchemy needs a special crucible—one that can withstand magic without breaking down."
+		""
+		"Place a cauldron over a fire or other heat source, fill it with water, and wait for it to boil. When it does, the crucible is ready."
+		""
+		"Alchemy recipes have several steps that must be followed in order. Add the ingredients for the first step, wait for the water to change color, then add the next ingredients and stir as the recipe requires."
+	]
+	quest.57A8C19BEC1CA273.quest_subtitle: "Advanced Cauldron"
+	quest.57B58710DF031F3E.quest_subtitle: "Feel free choose the one you like, all rainbow"
+	quest.57B58710DF031F3E.title: "Rainbow ~"
+	quest.58120F1AB50496B7.quest_desc: [
+		"&l&o&9Neo Adventure&r&r is, as the name suggests, an adventure modpack - but adventure here means more than just exploring."
+		""
+		""
+		"You’ll discover many kinds of mods: &dmagic&r and &9technology,&r from simple tools to advanced machines, new biomes, dangerous structures, new dimensions, and more. "
+		""
+		""
+		"Every part of Minecraft has been expanded- &lrecipes,&r &litems,&r and &lbalance&r were reworked to &nfit together smoothly&r. Everything has been tested, and this &d&lquestbook&r will guide you through it all."
+		"{image:kubejs:textures/quests/ars-jpg.png width:320 height:180 align:center fit:true}"
+	]
+	quest.58120F1AB50496B7.quest_subtitle: "The Journey Begins"
+	quest.58865065C9381380.quest_desc: [
+		"You gonna need a spark of ancient technology - \"&bLightning Core&r\", it will allow You to create eyes which will teleport You to new dimensions."
+		""
+		""
+		"Beware, those eyes will need alot of source to be crafted."
+	]
+	quest.58865065C9381380.quest_subtitle: "&l&n&7Ancient technology"
+	quest.589995B5F40D8570.quest_desc: [
+		"Shafts connect your machines, turning motion into action."
+		"They are simple, but essential — almost every contraption will need them."
+		""
+		"&8●&r Craft plenty; you will always need more than you think."
+		"&8●&r Use them to link gears, belts, and other moving parts."
+		""
+		"&oWithout shafts, even the cleverest machine stands still.&o"
+	]
+	quest.589995B5F40D8570.quest_subtitle: "Connecting everything together"
+	quest.589995B5F40D8570.title: "&6&lAndesite Casing&r"
+	quest.593386BCED66E75E.quest_desc: [
+		"An expedition once built a sturdy iron-clad bunker in Starlight, summoning many golems to defend it. After battles, some golems were left behind, forgotten. Over time, these abandoned guardians became the &9Starlight Golem&r."
+		""
+		"Though it cannot move without commands, its iron body has oxidized and fused with impurities, becoming &7indestructible&r when it draws energy from Starlight. Over the years, it has strangely gained wisdom, learning to craft technology no one has seen before. Cut off its connection to the dimension, and its metallic shell may soften—if only for a moment."
+	]
+	quest.593386BCED66E75E.quest_subtitle: "The Forgotten Guardian"
+	quest.593386BCED66E75E.title: "&9&lStarlight Golem&r"
+	quest.593F0A2DD7B6F9B1.quest_subtitle: "Deal 50.000 Damage"
+	quest.593F0A2DD7B6F9B1.title: "Brutal Sword"
+	quest.5955FE21E00ED5A7.quest_desc: ["Strong support build, easy to play and also quick regeneration for exploring, helpful in team and simple combat. This build is mixture between Mage build and Gem so it very expensive in cost, do with careful. Take in this build when you have teammate or friends. It is not recommend to do this build in solo as it setting high difficult in gameplay"]
+	quest.59B9A57BDB1BAFFB.quest_desc: ["&5Ritual brazier&r are used to summon the &4Wilden Chimera&r boss but also can activated with ritual tablets to for various powerful effects. "]
+	quest.59CB1704B0CADD3F.quest_subtitle: "Reach lv100"
+	quest.59CB1704B0CADD3F.title: "I've done many things"
+	quest.59EDF9AB9BA89BB9.quest_desc: [""]
+	quest.59EDF9AB9BA89BB9.quest_subtitle: "Craft the &5Novice Spell Book"
+	quest.59EDF9AB9BA89BB9.title: "Into a Magical World"
+	quest.5A2547374946154E.quest_desc: ["The &5Arcane anvil&r can be used to bind spells to certain items such as armor and weapons. It can also be used to upgrade gear (with elemental foci) and spells (with inks). "]
+	quest.5A51B19A671B71AC.quest_desc: ["Enter a &eCell Maze&r Structure"]
+	quest.5ABDA2B5174C1423.quest_desc: ["Basic set early game for spell casting"]
+	quest.5ABDA2B5174C1423.title: "Novice"
+	quest.5AF35BBC9EE8D023.quest_desc: ["&5Focus of summoning&r can be upgraded to amplify a specific element. "]
+	quest.5AF35BBC9EE8D023.title: "Focusing on the elements"
+	quest.5B8C46802B9ED71F.quest_subtitle: "Take 20.000 Damage"
+	quest.5B8C46802B9ED71F.title: "I am a shield"
+	quest.5C12F4CC1F6F6C32.quest_desc: ["Looming among the clouds, this massive airship bristles with defenses and hostile crew. Phantom-mounted fiends circle overhead, while fish-like raiders astride hoglins stalk the decks. Boarding it is no small feat. Tthose who triumph will etch their name among the few who dared challenge the skies."]
+	quest.5C12F4CC1F6F6C32.quest_subtitle: "Find a Heavenly Challenger"
+	quest.5C777F6B60F7D379.quest_desc: ["{image:gamma_creatures:textures/screens/taru_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.5C918104E9B5A332.quest_desc: [
+		"You will need plenty of &eAndesite Alloy&r to craft machines in the &6Create&r mod."
+		"It is the core metal of progress — sturdy, simple, and used in nearly every mechanism."
+		""
+		"&8●&r Early on, craft it by hand using &fAndesite&r and &fIron Nuggets&r."
+		"&8●&r Later, automate and &adouble the output&r with a &eMixer&r setup."
+	]
+	quest.5C918104E9B5A332.quest_subtitle: "&oThe Foundation of Creation&o"
+	quest.5C918104E9B5A332.title: "&7&lAndesite Alloy&r"
+	quest.5C9C1D99976DA6C8.quest_desc: ["Who say mage can't go combat? wear this!"]
+	quest.5C9C1D99976DA6C8.title: "Curse Mage"
+	quest.5EBFABC2F63E7C94.title: "Power transfer"
+	quest.5F2C79A0B08FF2E8.quest_desc: ["{image:gamma_creatures:textures/screens/dosmo_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.607D35CC05763FE4.quest_subtitle: "&l&n&5A step to &eimmortality?&r"
+	quest.60A9F2B130BE02D5.quest_desc: [
+		"Is the End another world—or a dream that never ends? None can say. What’s certain is that both you and the &5Ender Dragon&r exist within it."
+		"Legends tell of this creature as the ruler of The End, enforcing its own silent order. Those who enter its realm seldom return, their bodies and minds lost to the &0Void&r."
+		""
+		"Over ages, the lost have become &8Endermen&r—hollow echoes of who they once were. Perhaps by defeating the dragon, the balance can be restored, and their spirits freed."
+	]
+	quest.60A9F2B130BE02D5.quest_subtitle: "The Keeper of the End"
+	quest.60A9F2B130BE02D5.title: "&5&lEnder Dragon&r"
+	quest.60C18E4F7F766DD6.quest_desc: [
+		"Hold an &fingot&r in your offhand, then hold &eright-click&r to craft plates without using a press."
+		""
+		"&8●&r Quick, simple, and essential for early automation."
+		""
+		"&oA small swing saves many steps.&o"
+	]
+	quest.60C18E4F7F766DD6.quest_subtitle: "&oThe Plate Maker&o"
+	quest.60C18E4F7F766DD6.title: "&7&lHammer&r"
+	quest.624466592851CD96.quest_desc: ["{image:gamma_creatures:textures/screens/darknix_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.62495ECB679DED34.quest_desc: ["Max tier glyphs allow to cast in this spell book, every useful glyphs exist in this tier."]
+	quest.62495ECB679DED34.title: "Master"
+	quest.62F04F9A5903CF89.quest_desc: ["{image:gamma_creatures:textures/screens/skinno_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.63116691C92FD576.quest_desc: ["A quiet spring hidden among the hills, its waters swirl mysteriously in the bottomless well. Travelers speak of subtle blessings for those brave enough to approach. Some even report a modest burst of speed for journeys ahead. Whether magic or rumor, the well offers a curious advantage to explorers."]
+	quest.63116691C92FD576.quest_subtitle: "Find a Wishing Well"
+	quest.6358A28D22879648.quest_desc: [
+		"The clibano is a powerful upgrade to the Blast Furnace that allows faster smelting as well as creating new alloys. "
+		"To activate this furnance use &cMundabitur Dust&r on &cClibano Core&r after building multiblock setup. (Check image below)"
+		"{image:kubejs:textures/quests/clibano.png width:100 height:100 align:center fit:true}"
+	]
+	quest.6358A28D22879648.quest_subtitle: "Magic Blasting Furnance"
+	quest.63D1F7F61683B4F6.quest_subtitle: "Sleepy sword"
+	quest.6401E42DBD93997A.quest_desc: ["A great method to heat machines. I wonder how to fill this with a blaze..."]
+	quest.6402B5B6625731F0.quest_subtitle: "Take 500.000 Damage"
+	quest.6402B5B6625731F0.title: "Diamond Skin"
+	quest.64385462E003742A.quest_desc: ["Prove bee are strong. Wear bee armor set and beat &5Ender Dragon&r"]
+	quest.6447492FAA873F93.quest_desc: ["Suspended in the sky, this floating steampunk city glows in hues of orange and green. Strange, gear-driven inhabitants roam its platforms, each dominated by a singular central eye or monocle. Enter with caution, this mechanical hive is as clever as it is imposing, and its secrets are tightly guarded."]
+	quest.6447492FAA873F93.quest_subtitle: "Find a Mechanical Nest"
+	quest.64AD14BA422C2A84.quest_subtitle: "&l&n&5The hammer of the raging nether lord!"
+	quest.64BAA6F2657DDED2.quest_desc: ["Trade 128 times with the &eBee Queen.&r"]
+	quest.65261710ED5D442F.quest_desc: [
+		"Vendors allows to create Your own shop! "
+		"It's usable in multiplayer."
+	]
+	quest.65261710ED5D442F.quest_subtitle: "Selling items"
+	quest.653C9A09D7B04CBA.quest_desc: ["Can hold up to 1024 of one type of swamp herb or common (unmodded) crop. Tamed crows will gather them inside."]
+	quest.653C9A09D7B04CBA.quest_subtitle: "Storage for Harvests"
+	quest.653C9A09D7B04CBA.title: "Herb Jar"
+	quest.65AAD6AD8E1E517F.quest_subtitle: "&l&n&5A dagger forged with the essence of life!"
+	quest.6602E2CF2A7A7B9C.quest_desc: [
+		"The Millstone crushes items into fine powders."
+		"It’s simple, but powerful enough for early processing."
+		""
+		"&8●&r Some tougher materials will require &eCrushing Wheels&r instead."
+		""
+		"&oEvery great machine starts by grinding something down.&o"
+	]
+	quest.6602E2CF2A7A7B9C.quest_subtitle: "&oThe First Grinder&o"
+	quest.6602E2CF2A7A7B9C.title: "&6&lMillstone&r"
+	quest.662FA8555CAB56CC.quest_desc: ["Connect it to vault for quick way to put items inside. WARNING: You'll need packager to get items back! "]
+	quest.664A29D238D4345C.quest_subtitle: "Endless colors"
+	quest.667C9BBD6222003F.quest_desc: ["{image:gamma_creatures:textures/screens/shecko_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.66EA7DEE1464004A.quest_desc: ["Using a &ePattern&r, this machine will input the stored resourced into a connected machine."]
+	quest.67030CEFEC1CEF37.quest_desc: ["Driven from their villages, these hardy merchants now wander the wilds, taking shelter beneath simple cyan and brown tents. Though weary from exile, they still offer trade and refuge to travelers brave enough to seek them out. In a world rising with danger, such camps are rare havens of trust."]
+	quest.67030CEFEC1CEF37.quest_subtitle: "Find a Merchant Campsite"
+	quest.67343BA35FE59E7A.title: "The most hurt hit is the hit that no one know"
+	quest.67C21FEEACD7C102.quest_desc: ["This manuscript contains unknown powerful spells. Hold right-click to learn these forbidden incantations.  "]
+	quest.67C21FEEACD7C102.quest_subtitle: "Ancient Knowledge"
+	quest.6858E25E510AE0FA.quest_desc: ["Drifting through the skies like a colossal squid, this otherworldly airship bristles with defenses. Phantom-riding monstrosities circle its hull, while fish-like warriors astride hoglins guard its decks. To face the Conqueror is to battle a skyborne legion. And only the strongest will claim victory."]
+	quest.6858E25E510AE0FA.quest_subtitle: "Find a Heavenly Conqueror"
+	quest.68950B470C3B36AF.quest_desc: [
+		"&bMaledictus&r, a human king, was celebrated for his strength and noble heart. When &4Ignis&r entered the world and laid waste to countless lives, he led his army against the impossible foe."
+		""
+		"To defeat Ignis, he wielded the &5Soul Render&r—a weapon that curses all who see it, turning them into undead and erasing enemy souls. Victory came, but at a terrible cost: Maledictus himself became undead, stripped of memory, and his soldiers followed the same cursed fate."
+		""
+		"In a fleeting moment of clarity, he asked to be buried beneath the crypt in the frozen wasteland. The sheer number of undead forced his people to abandon the task, leaving his soldiers to guard the tomb forever."
+		""
+		"Will you dare to see this cursed place? Craft the &9Eye of Curse&r and witness the legacy of the Undying King."
+		"{image:kubejs:textures/quests/cataclysm/maledictus_1_.png width:200 height:200 align:center fit:true}"
+	]
+	quest.68950B470C3B36AF.quest_subtitle: "The Undying King"
+	quest.68950B470C3B36AF.title: "&b&lMaledictus&r"
+	quest.689E8FC6E36FEC08.quest_desc: ["Protection is not enough? This is the fix"]
+	quest.689E8FC6E36FEC08.title: "Battle Mage"
+	quest.68CEA4A7AB7F3EC7.quest_desc: [
+		"Lost deep underground, these heavily armored warriors are neither man nor statue. They may guard something, mourn someone, or await a moment long past—but they have forgotten what, whom, or when."
+		""
+		"All they know is to slay intruders who enter their chambers. Their armor is &7indestructible&r, yet a single weakness lies at their back—perhaps a sword? Only the bravest adventurers dare face the &8Ferrous Wroughtnaut&r."
+	]
+	quest.68CEA4A7AB7F3EC7.quest_subtitle: "The Forgotten Knight"
+	quest.68CEA4A7AB7F3EC7.title: "&8&lFerrous Wroughtnaut&r"
+	quest.6903210043926E19.quest_desc: ["It's like normal bed, but for Your little friend."]
+	quest.6903210043926E19.quest_subtitle: "Let Your familiars sleep"
+	quest.698A347B351C9C0E.quest_desc: ["Craft 6 &ebee nest&r or &ebee hive&r"]
+	quest.69CB107DAC0D91F4.quest_subtitle: "burning two side!"
+	quest.6A0237FADC519965.quest_desc: ["From a distance, it looks peaceful. Fields of golden wheat swaying beside a proud windmill. But don’t be deceived: the Illagers tend no crops for trade. Behind the rustic facade lies a nest of evil, their blades as sharp as the sickles they carry."]
+	quest.6A0237FADC519965.quest_subtitle: "Find an Illager Windmill"
+	quest.6A13CBC52E320013.quest_desc: ["{image:gamma_creatures:textures/screens/hyena_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.6B5C6DA5D92C3FB6.quest_desc: [
+		"&6Umvuthi&r sits upon his throne in the sun-drenched groves, creator of the &aAbavuthana&r. He draws power from the sun, calling down &esunstrikes, solar flares,&r and massive &6solar beams&r to smite intruders."
+		""
+		"He can also bring his followers to life—&aUmvuthana&r, including healers known as &bUmvuthana Cranes&r—from enchanted masks. These masked children worship him as a god."
+		""
+		"Unprepared travelers should keep their distance, but those strong enough to defeat him are rewarded with the &eSol Visage&r mask. It allows the wearer to animate masks and create followers—but the sun’s true power remains with &6Umvuthi&r, lost when he falls. Perhaps another path exists to harness it…"
+	]
+	quest.6B5C6DA5D92C3FB6.quest_subtitle: "Lord of the Savanna"
+	quest.6B5C6DA5D92C3FB6.title: "&6&lUmvuthi, the Sunbird&r"
+	quest.6BF3212B4CDCCBAA.quest_desc: [
+		"To use tablets, your items must be &9soul-haunted&r."
+		""
+		"Place a &bsimple grave&r and wait for a soul to appear. Then right-click the grave while holding the item you want to haunt."
+	]
+	quest.6BF3212B4CDCCBAA.quest_subtitle: "How do I get them?"
+	quest.6BF3212B4CDCCBAA.title: "I need souls"
+	quest.6BFE5D35265080E6.quest_desc: ["A sprawling underground stronghold, the Scorched Mines radiate in four cardinal directions from a central dome. Heat and shadows fill the tunnels, and danger lurks at every turn. Brave adventurers who navigate its branching paths may uncover riches, but only if they survive the hazards within."]
+	quest.6BFE5D35265080E6.quest_subtitle: "Find the Scorched Mines"
+	quest.6C44C94E3AA6AE2C.quest_desc: ["Provides natural regeneration regardless to how hungry You are"]
+	quest.6C44C94E3AA6AE2C.title: "Comfort"
+	quest.6C8346BEF1EE2B44.quest_desc: ["This is the main bay for &eStorage Disks&r used to store items in the setup. "]
+	quest.6C8346BEF1EE2B44.quest_subtitle: "Don't remove CD while in use!"
+	quest.6C950ED208A6728F.quest_desc: [
+		"&5Imbument chamber&r will help you craft &5Elemental essence&r and"
+		"some equipment. To do so, place down &5Imbuement chamber&r and 8 &5Arcane pedestal&r surround it to have full access to all recipes."
+	]
+	quest.6CB5ACBAAED66871.quest_desc: ["Shaped from the stem and cap of a giant fungus, this whimsical dwelling offers a rare touch of charm in a perilous world. Lightly guarded and easy to claim, the mushroom house makes for a delightful refuge, perfect for any adventurer who’s ever dreamed of calling a mushroom home."]
+	quest.6CB5ACBAAED66871.quest_subtitle: "Find a Mushroom House"
+	quest.6CF8A85EA7652BC6.quest_desc: ["The basis for crafting powerful elemental runes"]
+	quest.6D4CEE9AE7B782E3.quest_desc: [
+		"Many &eCreate&r machines include short visual guides through the &bPonder&r feature."
+		"These tutorials show how parts connect and move — perfect for learning fast."
+		""
+		"&8●&r Hold [&bW&r] on a Create item to see it in action."
+		"&8●&r Watch, then rebuild what you saw."
+	]
+	quest.6D4CEE9AE7B782E3.quest_subtitle: "&oGuidance for the Aspiring Engineer&o"
+	quest.6D4CEE9AE7B782E3.title: "&6&lCreate Tutorials&r"
+	quest.6E5169E27C8C2468.quest_desc: ["Bees and their hives hold far more than one might expect. In the Bumblezone, you can explore the nests, observe the daily life of the bees, and meet their queen. The deeper you go, the more secrets you uncover, including powers and rewards that exist only within this buzzing world. Respect the hive, and it may reward you beyond imagination."]
+	quest.6E5169E27C8C2468.quest_subtitle: "The Land of Bees"
+	quest.6E5169E27C8C2468.title: "&e&lThe Bumblezone&r"
+	quest.6E71843C9A5BD219.quest_desc: ["{image:gamma_creatures:textures/screens/meloron_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.6E7763B06CCCA2B2.quest_subtitle: "&l&n&5A blade only for the once that are lost!"
+	quest.6E79F813B1309848.quest_desc: ["Hit 24 entities with &6Pollen Puff&r"]
+	quest.6E866E9FEDEE2430.quest_desc: ["Breed 6 &6honey slime&r"]
+	quest.6EA12AC88F21D977.quest_subtitle: "&l&n&5Be Careful it doesnt take ur soul!"
+	quest.6EBAD38EFEE09501.quest_desc: ["This table is &d&lessential to casting spells.&r It enables one-time use spells to be added to spell books, allowing unlimited casts. Likewise, it may be used to remove spells from spellbooks. "]
+	quest.6EE3843598020BD2.quest_subtitle: "Feel like i'm burning and so the enemy"
+	quest.6EE71408219E782F.quest_subtitle: "&l&n&5Burning blade from Hell it self"
+	quest.6EFDB55F9DD2DE4A.title: "Magic combat"
+	quest.6F3A522F48723F9D.quest_desc: [
+		"&5Magebloom Seed&r can be crafted in hexerei cauldron using 4 Belladona Flowers and 4 Source Gems. Check recipe with clicking on seed."
+		""
+		"A &5Source berry&r can also provide source mana via a &5source link&r device. Beyond that, the foods made from these berries will provide a buff to mana regeneration. "
+	]
+	quest.6F3A522F48723F9D.quest_subtitle: "Farming is the key"
+	quest.6F3A522F48723F9D.title: "Farming Again?"
+	quest.6F7DAC2D906DFD4B.quest_subtitle: "Kill 1000 Pillager"
+	quest.6F7DAC2D906DFD4B.title: "Dare to come again?"
+	quest.6F7EE5B63C91A70F.quest_desc: ["Two basic tables from Ars - the Scribe is for spell crafting and Alteration to upgrade armor, equipment and bind spells to equipment."]
+	quest.6F7EE5B63C91A70F.title: "Scribe and Alteration"
+	quest.6FACE97C88427A54.quest_desc: ["Once a simple underground Venus trap, the &5Void Blossom&r evolved after the Blood Moon, absorbing &8Void&r energy to become faster, deadlier, and able to attack over a wide area with spikes."]
+	quest.6FACE97C88427A54.quest_subtitle: "The Devouring Flower"
+	quest.6FACE97C88427A54.title: "&5&lVoid Blossom&r"
+	quest.6FB0DC24A262CBF9.quest_desc: [
+		"Opens the grave and gives Your items back."
+		"You can right click on haunted grave to teleport to Your death location."
+	]
+	quest.6FB0DC24A262CBF9.quest_subtitle: "Opens Your grave :)"
+	quest.70327C3AC547B354.quest_desc: ["Marked by its dark prismarine and yellow terracotta roof, this temple has long since fallen to corruption. Inside, swarms of spider-like creatures creep through its halls, striking with venom and ferocity. To enter is to step into a nest where every shadow crawls."]
+	quest.70327C3AC547B354.quest_subtitle: "Find an Infested Temple"
+	quest.703710C8CC4AD4D9.title: "Ingot store"
+	quest.7050720F2F088387.quest_desc: ["Use on haunted grave, You will get long term positive effects. "]
+	quest.7050720F2F088387.quest_subtitle: "Gives long term effects"
+	quest.7052C9A5A804E866.quest_desc: ["A riot of color rises from the wilderness, marking the territory of a cunning band of raiders. Their homes are bright and inviting, but enter at your own risk. These defenders strike fast and often. Those who prevail will find spoils and secrets hidden among the lively façades."]
+	quest.7052C9A5A804E866.quest_subtitle: "Find a Bandit Village"
+	quest.70581D79FC865B4C.quest_desc: ["A dark purple toadstool hiding among nether fungi. Ignored by hoglins but eaten by their undead kin. It reeks of rot, though alchemy may draw out its entropic power."]
+	quest.70581D79FC865B4C.quest_subtitle: "Fungus of Decay"
+	quest.70776C37B0B7F00F.quest_desc: [
+		"Those who fled the Ender Dragon built the &7End Citadel&r, a fortress filled with deadly traps to keep intruders away."
+		""
+		"Time and the &0Void&r corrupted them, twisting the once-loyal guards into &8Ender Golems&r. Their king, trapped on the lowest floor, became the &5Ender Guardian&r."
+		""
+		"They no longer remember life, acting only to defend the citadel. Some say they still wait for a hero to release them from this cursed fate. To see the truth, you will need the &dEye of Void&r."
+		"{image:kubejs:textures/quests/cataclysm/ender_guardian.png width:100 height:100 align:center fit:true}"
+	]
+	quest.70776C37B0B7F00F.quest_subtitle: "The Lost King"
+	quest.70776C37B0B7F00F.title: "&5&lEnder Guardian&r"
+	quest.70B89204B24F897B.quest_desc: [
+		"Use this at a &5Ritual brazier&r to summon a &4Wilden Chimera&r boss. You will need to active the tablet first."
+		""
+		"The &4Wilden Chimera&r is a strong boss with 1000 HP, prepare yourself and your gear before taking on the challenge!"
+	]
+	quest.71533081F13CC1E6.quest_subtitle: "Healer’s Herb"
+	quest.716AD8FF75AE8232.quest_desc: ["{image:gamma_creatures:textures/screens/taru_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.71CC32DB4E1F3285.quest_desc: ["This hat bag will &4NOT&r drop in normal day and will only drop in holliday or festival. If you can not wait then here take it with a cheap price. These hat contain &bSpecial Effect&r based on festival type."]
+	quest.71CC32DB4E1F3285.title: "Festi ~"
+	quest.71F8C12A6FF58BD3.quest_desc: ["Breed and get 8 &ebaby bees&r"]
+	quest.721ADE33D5D8478F.quest_desc: ["Tier 2 spell book allow you to cast tier 2 glyphs. Enough for combat at this tier"]
+	quest.721ADE33D5D8478F.title: "Expert"
+	quest.72C028074D0645D2.quest_subtitle: "&l&n&5Axe Born from hell it self!"
+	quest.72C8FDDBB7EEEDF8.quest_desc: ["When connected to a powered &eController&r, this cable will provide energy to all connected components in a refined storage setup."]
+	quest.7331B766323137A2.title: "War-den"
+	quest.734BEA705A36799C.quest_desc: ["{image:gamma_creatures:textures/screens/careyatros_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.73D5EE5238C37982.quest_desc: ["In the wilds rests the skeletal form of a great creature. its skeleton stretching skyward like branches of pale bone. Whether a relic of forgotten myth or a beast once hunted to extinction, none can say. Its silent frame endures as a monument to creatures long lost."]
+	quest.73D5EE5238C37982.quest_subtitle: "Find a Ceryneian Hind"
+	quest.73D660B9873BEE68.quest_subtitle: "&l&n&5A axe Forged in the cold!"
+	quest.7424F32388952010.quest_desc: ["{image:gamma_creatures:textures/screens/banndu_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.74336754910319CB.quest_desc: ["This is a strong component but it isn't in its final form, perhaps you will know what to do with it after crafting..."]
+	quest.74336754910319CB.title: "&bDoes this belong in magic?"
+	quest.7433CAFEFD3AC55F.quest_subtitle: "Loot 100 chest"
+	quest.7433CAFEFD3AC55F.title: "Where my diamond go?"
+	quest.74550D01582163E0.quest_desc: ["A &eGrid&r with the ability to create a &ePattern&r."]
+	quest.75060886ECE6D6B1.quest_desc: ["A simple cauldron used to &d&lmix&r many kinds of recipes."]
+	quest.75060886ECE6D6B1.quest_subtitle: "Brew and Blend"
+	quest.75616A33D3CA2DDC.quest_subtitle: "&l&n&5Once a Decaying awakened at the deep!"
+	quest.756C64672F117397.quest_desc: ["{image:gamma_creatures:textures/screens/snovy_eng2.png width:151 height:100 align:center fit:true}"]
+	quest.75835EF4F8C9A4C7.quest_desc: ["Increases Familiar's Health."]
+	quest.75835EF4F8C9A4C7.quest_subtitle: "Max health"
+	quest.7624A9C655DE8534.quest_subtitle: "&l&n&8Slay the night lich"
+	quest.762EEF712ACEED01.quest_desc: ["Complete yellow &eSempiternal Sanctum&r challenge."]
+	quest.7658031A2D941FA5.quest_desc: [
+		"Like Minecraft itself, in the end - Your path is your own. There’s no single goal, only what you choose to pursue. Still, here are a few ideas to spark your journey:"
+		""
+		"- Defeat the Ender Dragon."
+		""
+		"- Face every Cataclysm boss."
+		""
+		"- Craft the Technomancer Armor."
+		""
+		"- Create your school’s special armor, like the Paladin set."
+		""
+		"- Discover all archaeology eggs."
+		""
+		"- Forge the Shadow Radiance armor."
+		""
+		"- Build an oil refinery and automate basic ore processing."
+		""
+		"- Craft the ultimate storage system with a Storage Controller."
+		""
+		"- Maximize your hearts by cooking every comforting meal."
+		""
+		"- And lately enjoy discover many things with friends."
+	]
+	quest.7658031A2D941FA5.quest_subtitle: "What to Do"
+	quest.7658031A2D941FA5.title: "Purpose"
+	quest.766AB4D78945AC31.quest_desc: ["An &5Enchanting apparatus&r works similarly to an &5Imbuement chamber&r; however, the setup will be slightly diffirent. To make it, you need to place an &5Enchanting apparatus&r above &5Arcane core&r. When this setup is surrounded with 8 &5Arcane pedestal&r, all recipes will be possible, "]
+	quest.76B1F24FEBBE224D.title: "Silver Knight"
+	quest.76CC048EC4EBA73E.quest_desc: ["&ePotion Flask&r have two types. Amplify will increase 1 level effect for the potion when applied and Extend will increase 50% duration time for the potion when applied."]
+	quest.76CC048EC4EBA73E.quest_subtitle: "Stronger or longer?"
+	quest.76CC048EC4EBA73E.title: "Potion Flask"
+	quest.76DAECF378BA3F19.quest_desc: ["Far beneath the surface lies a labyrinth of rails and tunnels, carved by long-forgotten hands. The air is thick with dust and danger. Creatures lurk in the shadows, and the echoes of minecarts rattle through the dark. Yet for those who endure, veins of treasure and hidden chambers make the descent worthwhile."]
+	quest.76DAECF378BA3F19.quest_subtitle: "Find a Mining System"
+	quest.77B22F28C4718378.quest_desc: [
+		"Deep in the ocean lies the &9Sunken City&r, where whispers of the &1Leviathan&r still echo through flooded halls. It is a monstrous being, vast as a mountain, its tendrils moving like living storms beneath the waves."
+		""
+		"The creature is worshiped by those twisted by the deep, guarding the &5Altar of the Abyss&r built in its name. Its &3Abyssal magic&r poisons water and soul alike, devouring all that approach."
+		""
+		"They say the &9Eye of Abyss&r can reveal the altar’s location."
+		"Find it if you dare—but know this: the ocean has already chosen its god."
+		"{image:kubejs:textures/quests/cataclysm/the_leviathan.png width:100 height:100 align:center fit:true}"
+	]
+	quest.77B22F28C4718378.quest_subtitle: "The Maw of the Abyss"
+	quest.77B22F28C4718378.title: "&1&lLeviathan&r"
+	quest.77E47B660E2517D8.quest_desc: ["A mage should have a staff atleast, let's make decent equipment before going out test your spell."]
+	quest.77E47B660E2517D8.title: "Wizard"
+	quest.782FBC8A3A98E7AC.quest_desc: ["More powerful than mage but less utilities, this build allow you to use not only magic side but also can use other class item, by using magic combine with these item you will able to fight boss and really deal damage."]
+	quest.7883020E943D49F6.quest_desc: [
+		"Runewood logs sometimes ooze sticky sap. Strip the bark to collect it and drink it to heal. "
+		""
+		"It tastes sweet with an earthy note. "
+		""
+		"The sap can also be made into sapballs, like slimeballs, or turned into rubber for crafting."
+	]
+	quest.7883020E943D49F6.quest_subtitle: "Rejuvenating Sap"
+	quest.7883020E943D49F6.title: "Runewood Sap"
+	quest.794F10DFF56A82EE.title: "Food store"
+	quest.795C0F22F2C649BA.quest_subtitle: "&l&n&5A weapon forged to watch for eternity!"
+	quest.7A101769F340E522.quest_desc: ["{image:gamma_creatures:textures/screens/lennat_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.7A61DCA5D60B5A6E.quest_desc: [
+		"You will have to use a sniffer to find &bCrystal Berries&r."
+		""
+		"Give berries to an captured familiar to clear their memory."
+		""
+		"You can use a dropped &bMemory Fragment&r to find where they originated. "
+	]
+	quest.7A61DCA5D60B5A6E.quest_subtitle: "First: Find Sniffer"
+	quest.7A61DCA5D60B5A6E.title: "Onto Origin Island"
+	quest.7B33A0B7B0475946.quest_desc: ["A pink lotus found beside lilypads, carrying a soft aura and soothing scent. Once used in ritual fires as offerings, or to ward off monsters, sickness, and corruption."]
+	quest.7B33A0B7B0475946.quest_subtitle: "Lotus of Calm"
+	quest.7B93DF7B1EE96E10.quest_desc: ["Cheap cost and fun, this build can get you safe, easy and low cost at once but will not work well with teammate since these undead creature are aggressive most of the time so you are most likely solo play with this build."]
+	quest.7B93DF7B1EE96E10.quest_subtitle: "You may want to get a Novice spell book and a flimsy journal atleast before go for this build"
+	quest.7C34DFBE6F2EE123.quest_desc: ["Complete red &4Sempiternal Sanctum&r challenge."]
+	quest.7CD7CC37603B916F.quest_subtitle: "&l&n&5A step to &eimmortality?&r"
+	quest.7D50FAAF3BE2F729.quest_desc: ["{image:gamma_creatures:textures/screens/dosmo_eng2.png width:150 height:100 align:center fit:true}"]
+	quest.7D83D800633DF5BA.quest_subtitle: "Kill 100 Zombie"
+	quest.7D83D800633DF5BA.title: "Undead Slayer"
+	quest.7DBC8A2160706F39.quest_desc: ["Start worshipping, may be somewhere out there will respond back to you. First wear uniform"]
+	quest.7DBC8A2160706F39.title: "Worship"
+	quest.7E1893A68247C7F2.quest_desc: ["Foundation of fluid transfers."]
+	quest.7EF9437C1043052C.quest_desc: ["A sacred knife that deals extra damage to ender creatures and increases the chance of rare drops. By holding right-click, it may also reveal hidden plants among the ordinary."]
+	quest.7EF9437C1043052C.quest_subtitle: "Ritual Blade"
+	quest.7F71C0CB020ACA4D.quest_desc: ["Shares chests/vaults (etc.) inventories to network. Place blaze burner/seat with mob on it and You can order those things! You'll need packager to extract stuff from inside."]
+	quest.7FD61504BB31E71C.quest_desc: ["Collect required item and add to &5Enchanting apparatus&r to craft the highest tier spell book."]
+	quest.7FD61504BB31E71C.quest_subtitle: "Forged in magic"
+	quest.7FD61504BB31E71C.title: "Ascend"
+	reward.065C69A67C6D96E3.title: "Message"
+	reward.34571F5B1E7C8455.title: "You're flying! You need anything more?"
+	reward_table.121CA35C9CD7B2CB.title: "Random Create"
+	reward_table.2003AAF860BB1DC7.title: "1 - Simple reward"
+	reward_table.25365A09502CBD8C.title: "Random Sapling"
+	reward_table.2AFBC3E945A297F3.title: "Random Seed"
+	reward_table.318D29F1C3229AE3.title: "Random Food"
+	reward_table.340A9693D84A72AC.title: "4 - Prestige reward"
+	reward_table.49FBBE179655E73C.title: "3 - Notable reward"
+	reward_table.5BCC712183E0532C.title: "Random Mob Drop"
+	reward_table.73B5D73D81371D50.title: "2 - Standard reward"
+	reward_table.7A1013369095E331.title: "Random Ingot"
+	task.01C89C700D1AA5D2.title: "Final is just beginer"
+	task.029C5BDA36B9438B.title: "Any #iceandfire:dragon_steels"
+	task.05FBF137983DE781.title: "Introduction"
+	task.07AD5A0DEA76307C.title: "Build Up Strength"
+	task.07E4E9AA34ABB508.title: "Ok!"
+	task.086BC3C7C3C5B5C2.title: "HP/Mana Bar"
+	task.0A3A02FDE0B64CE4.title: "New fighting mechanics"
+	task.0B33BF209BA61B7F.title: "Any #iceandfire:scales/dragon"
+	task.0B711D8E9D745AC3.title: "Understood!"
+	task.0B74B722F8BADFDA.title: "First Note"
+	task.0C931B7D2890B022.title: "Backpack"
+	task.0DDDAE1F85721296.title: "Archer"
+	task.0F3B2F093CF5F79F.title: "Gems"
+	task.0FF7A1BD7BB77F93.title: "No problem!"
+	task.11A3C1FE6D8591D3.title: "Saw"
+	task.123D035FF9EE70CC.title: "All hearts gained"
+	task.137C7057EAB87FBA.title: "Pure Elemental"
+	task.13E909B75E5C14B1.title: "Any #curios:geas"
+	task.146EB7BD28EAC889.title: "Of course :)"
+	task.14787BFCCC5B5709.title: "More Specific Build"
+	task.1588466D583B52AB.title: "Or find it in the structure below"
+	task.159DCEA26268392C.title: "Just click me!"
+	task.15D4D0693797F2EF.title: "Ok"
+	task.169F7B9B9C8E7618.title: "Credits"
+	task.196FEAA5562CBBC7.title: "Craft Glider"
+	task.1A490C3D1CC9BEF1.title: "Craft any axe"
+	task.1B26CE9CA8668D0F.title: "Use [W] to ponder"
+	task.1BBEBB71480A0D7F.title: "Ink Craft"
+	task.1FC7E1EF9F1DC255.title: "Totem collector"
+	task.211A7BB1CB9301D7.title: "Summoner"
+	task.2261D4C9457416C3.title: "Mage"
+	task.23A26D5380889778.title: "Utilities Elemental"
+	task.23A84C94394B7190.title: "test"
+	task.23B331A3C2EC2208.title: "Knifes"
+	task.256C600274AE45FD.title: "No... More..."
+	task.280C6B15C71D25A3.title: "Craft any pickaxe"
+	task.296F77A6A546AC69.title: "Making a Workshop"
+	task.29C00D72ECA44E36.title: "Void Sacrifice"
+	task.34B941D6BE755BD7.title: "Join our Discord below"
+	task.3621045665D488DC.title: "Any #c:chests"
+	task.36F4D8E9B0105BF9.title: "Into the fire"
+	task.3A20D5B375B21F2C.title: "Element And Armor"
+	task.3C55CAE5D93A5B12.title: "Second Note"
+	task.3FE80FF5338C7A61.title: "Nothing!"
+	task.46B1ACB4C2879F3C.title: "Furnitures"
+	task.4A52CB555D3813E5.title: "Affixes"
+	task.4AB59959E9716F58.title: "COOMING SOON"
+	task.4D663D6B9750572A.title: "HP/Food Bar"
+	task.4D810506DF862E6E.title: "To be finished :)"
+	task.4F9CFC110B564984.title: "TEST"
+	task.518DC342AACFA6FA.title: "Healer"
+	task.5709A129068A6ED8.title: "Ok!"
+	task.5C141AF5DB4932D8.title: "Beginning"
+	task.60C0A90979F8C2C3.title: "test"
+	task.62BA2F2F62EA78BD.title: "Rope Arrow"
+	task.67F254684E82A2F9.title: "Any #c:drinks/ominous"
+	task.6A14776EF712DFDA.title: "Rogue Ninja"
+	task.6BA8E9D76F65CD0E.title: "Progress"
+	task.6C197A2F44654D0F.title: "Any #malum:aspected_spirits"
+	task.6C39E6A630B55241.title: "Yeah!"
+	task.6CDE743A041BA149.title: "Any #forbidden_arcanus:blacksmith_gavel"
+	task.6EC29B75598134C8.title: "Power Geeration"
+	task.777EF3F59CD7159F.title: "Controls"
+	task.77B8DD1DEAB78795.title: "Warrior"
+	task.77D372AE089783F4.title: "Build a shelter"
+	task.7804F4560A38BB32.title: "Any #malum:spirits"
+	task.79EA2AB00C7EEB95.title: "Any #malum:impetus"
+	task.7B19968389D43385.title: "Let's Go"
+	task.7B8433FBF50BA2F6.title: "Steam Power"
+	task.7CD37E313B1095C4.title: "Combat Mage"
+	task.7DCF09CE4DDDD9FE.title: "SHOW ME THE REAL QUESTS"
+	task.7DD85366760A2AC4.title: "Forge"
+}

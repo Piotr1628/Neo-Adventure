@@ -1,0 +1,36 @@
+{
+	hide_tooltip: true
+	id: "2AFBC3E945A297F3"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ id: "094D4AA6D0286D0D", item: { count: 1, id: "minecraft:wheat_seeds" } }
+		{ id: "315D02FCB60823D7", item: { count: 1, id: "minecraft:pumpkin_seeds" } }
+		{ id: "06BC216BF46D81AC", item: { count: 1, id: "minecraft:beetroot_seeds" } }
+		{ id: "723FE3FB810E3B85", item: { count: 1, id: "minecraft:melon_seeds" } }
+		{ id: "66BB9CBF54F5A608", item: { count: 1, id: "supplementaries:flax_seeds" } }
+		{ id: "7098AD943D1F3CC9", item: { count: 1, id: "minecraft:torchflower_seeds" } }
+		{ id: "48EA9B74087C1234", item: { count: 1, id: "unusualend:gloopilon_seeds" } }
+		{ id: "1FEE8E42D029939F", item: { count: 1, id: "mowziesmobs:foliaath_seed" } }
+		{ id: "470A81B76ADA16AE", item: { count: 1, id: "ecologics:coconut_seedling" } }
+		{ id: "1A63C9FDB3E52D6A", item: { count: 1, id: "hexerei:sage_seed" } }
+		{
+			id: "15E25B648B469934"
+			item: {
+				count: 1
+				id: "ars_nouveau:magebloom_crop"
+			}
+			weight: 0.1f
+		}
+		{ id: "651A392A80F94706", item: { count: 1, id: "farmersdelight:cabbage_seeds" } }
+		{ id: "01EACB54A21E0C47", item: { count: 1, id: "farmersdelight:tomato_seeds" } }
+		{ id: "12C15DE04A8690E4", item: { count: 1, id: "hexerei:dried_yellow_dock_leaves" } }
+		{ id: "7717F2E594704AB6", item: { count: 1, id: "hexerei:dried_yellow_dock_flowers" } }
+		{ id: "54EF5A686AA3B5DC", item: { count: 1, id: "hexerei:dried_mugwort_leaves" } }
+		{ id: "3244A537740BEA74", item: { count: 1, id: "hexerei:dried_mugwort_flowers" } }
+		{ id: "7187D4F21A7AF3BB", item: { count: 1, id: "hexerei:dried_mandrake_flowers" } }
+		{ id: "7977F62B31EBD6F1", item: { count: 1, id: "hexerei:dried_belladonna_flowers" } }
+		{ id: "7BC51599675B9E67", item: { count: 1, id: "hexerei:dried_sage" } }
+	]
+	use_title: true
+}

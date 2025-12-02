@@ -1,0 +1,21 @@
+{
+  "type": "eidolon_repraised:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "forbidden_arcanus:arcane_crystal_dust" },
+        { "item": "forbidden_arcanus:arcane_crystal_dust" },
+        { "item": "eidolon_repraised:soul_shard" }
+      ]
+    },
+    {
+      "items": [
+        { "tag": "c:ingots/gold" }
+      ]
+    }
+  ],
+  "result": {
+    "id": "eidolon_repraised:arcane_gold_ingot",
+    "count": 1
+  }
+}

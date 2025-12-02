@@ -1,0 +1,17 @@
+{
+    "values": [
+        "#minecraft:is_savanna",
+        {
+            "id": "regions_unexplored:baobab_savanna",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:prairie",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:highland_fields",
+            "required": false
+        }
+    ]
+}

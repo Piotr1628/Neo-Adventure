@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon_repraised",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "id": "eidolon_repraised:smooth_stone_tiles",
+    "count": 4
+  }
+}

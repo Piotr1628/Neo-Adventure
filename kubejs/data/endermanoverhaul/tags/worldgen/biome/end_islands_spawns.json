@@ -1,0 +1,20 @@
+{
+    "values": [
+        "minecraft:end_highlands",
+        "minecraft:end_midlands",
+        "minecraft:small_end_islands",
+        "minecraft:end_barrens",
+        {
+            "id": "nullscape:crystal_peaks",
+            "required": false
+        },
+        {
+            "id": "nullscape:shadowlands",
+            "required": false
+        },
+        {
+            "id": "nullscape:void_barrens",
+            "required": false
+        }
+    ]
+}

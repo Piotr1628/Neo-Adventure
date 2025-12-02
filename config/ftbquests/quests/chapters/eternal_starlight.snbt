@@ -1,0 +1,123 @@
+{
+	autofocus_id: "3250EB72322E5124"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eternal_starlight"
+	group: "0DADF96DBC50AC3A"
+	icon: {
+		components: {
+			"ftbquests:icon": "eternal_starlight:block/starlight_portal"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "266542F91BB9BC6E"
+	images: [
+		{
+			height: 2.0d
+			image: "eternal_starlight:block/chiseled_voidstone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "eternal_starlight:block/oxidized_golem_steel_pillar_end"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			height: 1.5d
+			image: "eternal_starlight:block/abyssal_kelp_plant"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.25d
+			y: 2.0d
+		}
+		{
+			height: 1.7d
+			image: "fdbosses:item/lightning_core"
+			rotation: 0.0d
+			width: 1.7d
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/quests/titles/eternalstarlight.png"
+			rotation: 0.0d
+			width: 11.34d
+			x: 0.25d
+			y: -1.5d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3250EB72322E5124"
+			rewards: [{
+				id: "6E8111D59942C610"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				icon: {
+					components: {
+						"ftbquests:icon": "eternal_starlight:block/starlight_portal"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "2C525A6025485FE0"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3BF34D5D67A8C041"
+			rewards: [{
+				id: "66691891879B5062"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				entity: "eternal_starlight:starlight_golem"
+				icon: {
+					id: "eternal_starlight:grimstone_golem_spawn_egg"
+				}
+				id: "34D7945D0135EC07"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "11276F006633A91E"
+			shape: "none"
+			tasks: [{
+				entity: "eternal_starlight:lunar_monstrosity"
+				icon: {
+					components: {
+						"ftbquests:missing_item": "eternal_starlight:tangled_hatred_spawn_egg"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "0DC3CD2D320866DE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.25d
+			y: 2.0d
+		}
+	]
+}

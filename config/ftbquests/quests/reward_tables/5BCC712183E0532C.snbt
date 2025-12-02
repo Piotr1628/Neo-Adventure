@@ -1,0 +1,23 @@
+{
+	hide_tooltip: true
+	id: "5BCC712183E0532C"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ id: "49B681C504B1C1E7", item: { count: 1, id: "minecraft:rotten_flesh" } }
+		{ id: "79672A73520A12E9", item: { count: 1, id: "minecraft:bone" } }
+		{ id: "7FC92DDC29DA6761", item: { count: 1, id: "minecraft:beef" } }
+		{ id: "74DC0AA7AD3B4245", item: { count: 1, id: "minecraft:mutton" } }
+		{ id: "1330FE0C112E0A9B", item: { count: 1, id: "minecraft:chicken" } }
+		{ id: "4700F3BEF6BDDAAB", item: { count: 1, id: "untitledduckmod:raw_duck" } }
+		{ id: "1AE8C59AFBD0B8FB", item: { count: 1, id: "minecraft:porkchop" } }
+		{ id: "7C0395E56C34D0A1", item: { count: 1, id: "mynethersdelight:hoglin_loin" } }
+		{ id: "51F6392AA7E11C0C", item: { count: 1, id: "eternal_starlight:ratlin_meat" } }
+		{ id: "058640026C8359E4", item: { count: 1, id: "minecraft:string" } }
+		{ id: "6C539275DF7FB712", item: { count: 1, id: "minecraft:spider_eye" } }
+		{ id: "4C1CDF7611A59820", item: { count: 1, id: "minecraft:ender_pearl" } }
+		{ id: "18BFF7C842B0147E", item: { count: 1, id: "minecraft:slime_ball" } }
+		{ id: "58104BE1B07066B1", item: { count: 1, id: "minecraft:magma_cream" } }
+	]
+	use_title: true
+}

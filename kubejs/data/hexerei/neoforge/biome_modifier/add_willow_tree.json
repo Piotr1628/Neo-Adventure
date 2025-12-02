@@ -1,0 +1,13 @@
+{
+  "type": "hexerei:vegetal",
+  "biomes": [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "regions_unexplored:bayou",
+    "regions_unexplored:willow_forest",
+    "regions_unexplored:marsh",
+    "regions_unexplored:old_growth_bayou",
+    "hexerei:willow_swamp"
+],
+  "feature": "hexerei:willow_placed"
+}

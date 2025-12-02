@@ -1,0 +1,30 @@
+{
+  "type": "eidolon_repraised:crucible",
+  "steps": [
+    {
+      "items": [
+        { "tag": "c:mushrooms" },
+        [
+          {
+            "item": "minecraft:porkchop"
+          },
+          {
+            "item": "minecraft:beef"
+          },
+          {
+            "item": "minecraft:chicken"
+          },
+          {
+            "item": "minecraft:rabbit"
+          },
+          {
+            "item": "minecraft:mutton"
+          }
+        ]
+      ]
+    }
+  ],
+  "result": {
+    "id": "minecraft:rotten_flesh"
+  }
+}

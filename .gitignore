@@ -1,0 +1,13 @@
+# Ignore EVERYTHING
+*
+
+# Allow gitignore itself
+!.gitignore
+
+# Whitelist root folders
+!kubejs/
+!config/
+
+# Whitelist everything inside them
+!kubejs/**
+!config/**

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "create:crushed_raw_lead"
+  },
+  "result": {
+    "id": "eidolon_repraised:lead_ingot"
+  },
+  "experience": 0.5,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "modid": "create",
+      "type": "neoforge:mod_loaded"
+    }
+  ]
+}

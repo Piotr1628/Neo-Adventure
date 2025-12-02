@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon_repraised",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "tag": "c:ingots/pewter"
+    }
+  },
+  "result": {
+    "id": "eidolon_repraised:pewter_block"
+  }
+}

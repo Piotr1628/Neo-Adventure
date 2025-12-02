@@ -1,0 +1,22 @@
+{
+  "type": "hexerei:entities",
+  "biomes": [
+    "minecraft:forest",
+    "minecraft:dark_forest",
+    "minecraft:taiga",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "regions_unexplored:deciduous_forest",
+    "regions_unexplored:blackwood_taiga",
+    "regions_unexplored:willow_forest",
+    "regions_unexplored:bayou",
+    "regions_unexplored:maple_forest",
+    "autumnity:maple_forest"
+],
+  "entity": {
+    "type": "hexerei:crow",
+    "weight": 20,
+    "minCount": 2,
+    "maxCount": 5
+  }
+}

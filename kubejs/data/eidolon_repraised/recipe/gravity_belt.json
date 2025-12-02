@@ -1,0 +1,34 @@
+{
+  "type": "eidolon_repraised:worktable",
+  "pattern": [
+    " p ",
+    "fbf",
+    " l "
+  ],
+  "reagents": [
+    "cici"
+  ],
+  "key": {
+    "f": {
+      "tag": "c:feathers"
+    },
+    "p": {
+      "tag": "c:ender_pearls"
+    },
+    "l": {
+      "item": "eidolon_repraised:lesser_soul_gem"
+    },
+    "b": {
+      "item": "eidolon_repraised:basic_belt"
+    },
+    "c": {
+      "item": "eidolon_repraised:ender_calx"
+    },
+    "i": {
+      "item": "eidolon_repraised:pewter_inlay"
+    }
+  },
+  "result": {
+    "id": "eidolon_repraised:gravity_belt"
+  }
+}

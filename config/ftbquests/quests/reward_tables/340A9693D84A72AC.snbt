@@ -1,0 +1,33 @@
+{
+	id: "340A9693D84A72AC"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 2
+			id: "46D0C250ECD052F0"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+			random_bonus: 2
+			weight: 0.6f
+		}
+		{
+			id: "2EDF62FE3B419AD5"
+			item: {
+				count: 1
+				id: "numismatics:crown"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "61C85BB782073B63"
+			item: {
+				count: 1
+				id: "numismatics:sun"
+			}
+			weight: 0.1f
+		}
+	]
+}

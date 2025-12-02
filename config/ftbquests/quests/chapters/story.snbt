@@ -1,0 +1,138 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "story"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "ftbquests:textures/gui/arrow_collapsed.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "1486895FB68B0F08"
+	images: [
+		{
+			click: "https://discord.gg/gwZjru3dnT"
+			height: 1.25d
+			hover: ["Click to join our Discord!"]
+			image: "fdbosses:textures/gui/discord.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.5d
+			y: -2.25d
+		}
+		{
+			height: 4.0d
+			hover: ["In a world of technology, magic and ancient dangers, only curiosuty leads to power"]
+			image: "kubejs:textures/quests/logoemptyhd.png"
+			rotation: 0.0d
+			width: 9.5d
+			x: 0.0d
+			y: -5.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			icon_scale: 1.25d
+			id: "06FA847D235F3445"
+			rewards: [{
+				id: "0CA6236ACD15B723"
+				item: {
+					count: 1
+					id: "cataclysm:black_steel_pickaxe"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.25d
+			tasks: [{
+				id: "169F7B9B9C8E7618"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.875d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "create_sa:item/drone_controller"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.25d
+			id: "0186A5B9E6EAE479"
+			shape: "none"
+			size: 1.25d
+			tasks: [{
+				id: "777EF3F59CD7159F"
+				type: "checkmark"
+			}]
+			x: -2.8125d
+			y: -1.875d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "unusualend:item/infuser_info_questionmark"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "7658031A2D941FA5"
+			rewards: [{
+				id: "6989E2FFAF6C8D0D"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.25d
+			tasks: [{
+				id: "047518430B25BE80"
+				type: "checkmark"
+			}]
+			x: 1.25d
+			y: -2.1875d
+		}
+		{
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			icon_scale: 1.5d
+			id: "58120F1AB50496B7"
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "05FBF137983DE781"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.625d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:item/book"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.25d
+			id: "4ED25F904208FCC1"
+			shape: "none"
+			size: 1.25d
+			tasks: [{
+				id: "6BA8E9D76F65CD0E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.25d
+		}
+	]
+}

@@ -1,0 +1,408 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_portal"
+	group: "0DADF96DBC50AC3A"
+	icon: {
+		components: {
+			"ftbquests:icon": "unusualend:block/building_inhibiter_top"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "5338616C86A2DD36"
+	images: [{
+		height: 10.0d
+		image: "born_in_chaos_v1:item/cursing_eye"
+		rotation: 0.0d
+		width: 15.0d
+		x: 1.0d
+		y: -2.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["15A371683FEECB7C"]
+			dependency_requirement: "one_completed"
+			icon_scale: 1.5d
+			id: "6895C01885F06585"
+			rewards: [{
+				id: "7A12EDBA5D626EBB"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2B2C239D5CCB6766"
+				item: { count: 1, id: "endrem:black_eye" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "15A371683FEECB7C"
+			rewards: [{
+				id: "184DCCC8F36DEDDF"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "00FF40E166BA0C3B"
+				item: { count: 1, id: "endrem:cryptic_eye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["13F87A1AAF07D086"]
+			dependency_requirement: "one_completed"
+			icon_scale: 1.5d
+			id: "39D3D1E366925C0F"
+			rewards: [{
+				id: "4348721C03729784"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1C3F4743A6370F6B"
+				item: { count: 1, id: "endrem:evil_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["15A371683FEECB7C"]
+			dependency_requirement: "one_completed"
+			icon_scale: 1.5d
+			id: "42D2E13FA7F8F8EC"
+			rewards: [{
+				id: "23A4E6C54F4E9603"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "025B0560184A643E"
+				item: { count: 1, id: "endrem:exotic_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "13F87A1AAF07D086"
+			rewards: [{
+				id: "3AA13EFDA694CE01"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4E515DD5C6BA8EF8"
+				item: { count: 1, id: "endrem:wither_eye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4BB02415AB004DCB"]
+			dependency_requirement: "one_completed"
+			icon_scale: 1.5d
+			id: "1591378405838443"
+			rewards: [{
+				id: "7C71B5E29386ADB4"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "724CEA3F6E729F3D"
+				item: { count: 1, id: "endrem:witch_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["501D9BFFAB04B152"]
+			icon_scale: 1.5d
+			id: "4BB02415AB004DCB"
+			rewards: [{
+				id: "5FF5A28E79AFEB9A"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "353747994C5EF92B"
+				item: { count: 1, id: "endrem:cursed_eye" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41F090E28EE1C1D8"]
+			dependency_requirement: "one_completed"
+			icon_scale: 1.5d
+			id: "741B69DDFC455C2F"
+			rewards: [{
+				id: "1E6C8DEFBFF13E87"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4279BF6189BD42E2"
+				item: { count: 1, id: "endrem:cold_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5752A0B82D903335"]
+			dependency_requirement: "one_started"
+			icon_scale: 1.5d
+			id: "189E2AEF569FC68F"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "22012FD4B7498D14"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0DF16F85092C6A3B"
+				item: { count: 1, id: "endrem:corrupted_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"32A3EF30170296A0"
+				"1591378405838443"
+			]
+			dependency_requirement: "one_completed"
+			icon_scale: 1.5d
+			id: "766754AD22FC6DBB"
+			rewards: [{
+				id: "2DBB4B66BE82134C"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6284D1803FA6731D"
+				item: { count: 1, id: "endrem:lost_eye" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"741B69DDFC455C2F"
+				"501D9BFFAB04B152"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
+			icon_scale: 1.5d
+			id: "4B723C68519606BF"
+			require_sequential_tasks: false
+			rewards: [{
+				id: "5A689125DFDDF1A2"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2A1CD67F633B63FB"
+				item: { count: 1, id: "endrem:magical_eye" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["189E2AEF569FC68F"]
+			dependency_requirement: "one_completed"
+			icon_scale: 1.5d
+			id: "41F090E28EE1C1D8"
+			rewards: [{
+				id: "5C780E70F22B937A"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "460B30A5E5EFF6A0"
+				item: { count: 1, id: "endrem:nether_eye" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"700A8DD16175EBE4"
+				"6895C01885F06585"
+			]
+			dependency_requirement: "one_completed"
+			icon_scale: 1.5d
+			id: "36C9631ED78B346F"
+			rewards: [{
+				id: "0FFD5CCE01CC3DC1"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7684A252402FEED2"
+				item: { count: 1, id: "endrem:old_eye" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5752A0B82D903335"]
+			dependency_requirement: "one_started"
+			icon_scale: 1.5d
+			id: "32A3EF30170296A0"
+			rewards: [{
+				id: "31DAD619EFEFBF92"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "14AEB94D223EB49D"
+				item: { count: 1, id: "endrem:rogue_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13F87A1AAF07D086"]
+			dependency_requirement: "one_completed"
+			icon_scale: 1.5d
+			id: "700A8DD16175EBE4"
+			rewards: [{
+				id: "5F0E86778927DFC7"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "77B1894B20A2041E"
+				item: { count: 1, id: "endrem:undead_eye" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"39D3D1E366925C0F"
+				"42D2E13FA7F8F8EC"
+			]
+			dependency_requirement: "one_completed"
+			icon_scale: 1.5d
+			id: "29BE148C1EB338B0"
+			rewards: [{
+				id: "5ACCABD16F388665"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3763422619FA34DF"
+				item: { count: 1, id: "endrem:guardian_eye" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "4DF4C2FBA0B83D3A"
+			rewards: [{
+				id: "4C0AE06F23C2A0A2"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3637B0DBAE57DCE8"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependency_requirement: "all_started"
+			id: "5752A0B82D903335"
+			optional: true
+			rewards: [{
+				id: "794BF32B35AAC6A0"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0B74B722F8BADFDA"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependency_requirement: "all_started"
+			id: "501D9BFFAB04B152"
+			rewards: [{
+				id: "79AC9D56B327B763"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3C55CAE5D93A5B12"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "unusualend:item/infuser_info_questionmark"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "55E78125B48E4952"
+			optional: true
+			rewards: [{
+				id: "6BB4544A8182A710"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "10AB2D03E1C85947"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+	]
+}

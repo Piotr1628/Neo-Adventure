@@ -1,0 +1,256 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "familiars"
+	group: "5CF4FC955D2F2DD3"
+	icon: {
+		id: "alshanex_familiars:archmage_shard"
+	}
+	id: "390C78F65525C5E5"
+	images: [
+		{
+			height: 8.0d
+			image: "kubejs:textures/quests/bard_pet.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			height: 8.0d
+			image: "kubejs:textures/quests/mage_pet.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 7.153571428571432d
+			y: -0.07232142857142776d
+		}
+		{
+			height: 8.0d
+			image: "kubejs:textures/quests/archmage_pet.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -6.0d
+			y: -0.25d
+		}
+		{
+			height: 8.0d
+			image: "kubejs:textures/quests/necromancer_pet.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 8.0d
+			image: "kubejs:textures/quests/hunter_pet.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -0.25d
+		}
+		{
+			height: 8.0d
+			image: "kubejs:textures/quests/summoner_pet.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 8.5d
+			y: -1.25d
+		}
+		{
+			height: 8.0d
+			image: "kubejs:textures/quests/scorcher_pet.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 8.0d
+			image: "kubejs:textures/quests/plague_pet.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -9.75d
+			y: 0.25d
+		}
+		{
+			height: 8.0d
+			image: "kubejs:textures/quests/cleric_pet.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -7.75d
+			y: 0.25d
+		}
+		{
+			height: 8.0d
+			image: "kubejs:textures/quests/illusionist_pet.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			height: 8.0d
+			image: "kubejs:textures/quests/druid_pet.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/quests/titles/familiars.png"
+			rotation: 0.0d
+			width: 5.98d
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "10008913EA0470F6"
+			rewards: [{
+				id: "1C7C5EDD2E32E6A3"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "4E370F9BCA25652D"
+				item: { count: 1, id: "alshanex_familiars:pandora_box" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			icon_scale: 1.25d
+			id: "7A61DCA5D60B5A6E"
+			rewards: [{
+				id: "7FAAC546AAAE3A51"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "06A1C264A4173F67"
+					item: { count: 1, id: "alshanex_familiars:memory_fragment" }
+					type: "item"
+				}
+				{
+					id: "2825A63523984F30"
+					item: { count: 1, id: "alshanex_familiars:crystal_berry" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "4CFFC2B415E0DC8F"
+			rewards: [{
+				id: "593F13CC5883B21A"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 0.75d
+			tasks: [{
+				id: "67E90B3B346F9F08"
+				item: { count: 1, id: "alshanex_familiars:rusty_helmet" }
+				type: "item"
+			}]
+			x: -1.875d
+			y: 5.4375d
+		}
+		{
+			id: "1359F352A984CC3F"
+			rewards: [{
+				id: "4E06EDA2D96A4D56"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 0.75d
+			tasks: [{
+				id: "2BCE35A207B6DCFF"
+				item: { count: 1, id: "alshanex_familiars:broken_shield" }
+				type: "item"
+			}]
+			x: -1.125d
+			y: 5.4375d
+		}
+		{
+			id: "75835EF4F8C9A4C7"
+			rewards: [{
+				id: "57F15A56D5DD220B"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 0.75d
+			tasks: [{
+				id: "6DFE571383069575"
+				item: { count: 1, id: "alshanex_familiars:life_gem" }
+				type: "item"
+			}]
+			x: -0.375d
+			y: 5.4375d
+		}
+		{
+			id: "27AC82BB61497603"
+			rewards: [{
+				id: "078353249C54ED0D"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 0.75d
+			tasks: [{
+				id: "238D7025AF519C90"
+				item: { count: 1, id: "alshanex_familiars:poison_vial" }
+				type: "item"
+			}]
+			x: 0.375d
+			y: 5.4375d
+		}
+		{
+			id: "6903210043926E19"
+			rewards: [{
+				id: "00C9EC73F9FB2548"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 0.75d
+			tasks: [{
+				id: "793C9469C31CE0CA"
+				item: { count: 1, id: "alshanex_familiars:pet_bed" }
+				type: "item"
+			}]
+			x: 1.875d
+			y: 5.4375d
+		}
+		{
+			id: "369D66CACAEDE0D9"
+			rewards: [{
+				id: "7263428A1F4E150F"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 0.75d
+			tasks: [{
+				id: "1A7D575A36CE7940"
+				item: { count: 1, id: "alshanex_familiars:familiar_storage" }
+				type: "item"
+			}]
+			x: 1.125d
+			y: 5.4375d
+		}
+	]
+}

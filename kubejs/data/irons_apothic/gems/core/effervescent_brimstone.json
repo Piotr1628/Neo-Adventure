@@ -1,0 +1,80 @@
+{
+  "type": "apotheosis:gem",
+  "min_purity": "cracked",
+  "unique": false,
+  "weights": {
+    "weight": 5,
+    "quality": 2
+  },
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "magic_weapons",
+        "types": [
+          "irons_apothic:staff"
+        ]
+      },
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "operation": "ADD_MULTIPLIED_BASE",
+      "values": {
+        "cracked": 0.02,
+        "chipped": 0.04,
+        "flawed": 0.06,
+        "normal": 0.08,
+        "flawless": 0.1,
+        "perfect": 0.125
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "melee_weapon",
+        "types": [
+          "apotheosis:melee_weapon"
+        ]
+      },
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "operation": "ADD_MULTIPLIED_BASE",
+      "values": {
+        "cracked": 0.0125,
+        "chipped": 0.025,
+        "flawed": 0.05,
+        "normal": 0.0625,
+        "flawless": 0.075,
+        "perfect": 0.1
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "apotheosis:helmet"
+        ]
+      },
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "operation": "ADD_MULTIPLIED_BASE",
+      "values": {
+        "cracked": 0.0025,
+        "chipped": 0.005,
+        "flawed": 0.01,
+        "normal": 0.015,
+        "flawless": 0.02,
+        "perfect": 0.025
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": { "key": "core_armor", "types": ["apotheosis:chestplate", "apotheosis:leggings"] },
+      "mob_effect": "irons_spellbooks:thunderstorm",
+      "target": "hurt_self",
+      "operation": "ADD_VALUE",
+      "values": {
+        "normal":   { "duration": 50.0, "amplifier": 0, "cooldown": 400 },
+        "flawless": { "duration": 60.0, "amplifier": 0, "cooldown": 350 },
+        "perfect":  { "duration": 70.0, "amplifier": 0, "cooldown": 300 }
+       }
+    }
+  ]
+}

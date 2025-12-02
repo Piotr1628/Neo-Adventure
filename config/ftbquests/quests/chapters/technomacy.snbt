@@ -1,0 +1,1205 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "technomacy"
+	group: "35D265AB28CC4B21"
+	icon: {
+		id: "refinedstorage:creative_controller"
+	}
+	id: "7C7262F3C9F860FB"
+	images: [
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_golem_steel_tiles"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "eternal_starlight:block/golem_steel_pillar_end"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/golem_steel_pillar_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/golem_steel_pillar_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/golem_steel_pillar_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/golem_steel_pillar_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/golem_steel_pillar_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/golem_steel_pillar_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/golem_steel_pillar_side"
+			rotation: 90.0d
+			width: 1.25d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/golem_steel_pillar_side"
+			rotation: 90.0d
+			width: 1.25d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/golem_steel_pillar_side"
+			rotation: 90.0d
+			width: 1.25d
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/golem_steel_pillar_side"
+			rotation: 90.0d
+			width: 1.25d
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/golem_steel_pillar_side"
+			rotation: 90.0d
+			width: 1.25d
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/golem_steel_pillar_side"
+			rotation: 90.0d
+			width: 1.25d
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_chiseled_golem_steel_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_chiseled_golem_steel_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_chiseled_golem_steel_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_chiseled_golem_steel_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_chiseled_golem_steel_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/oxidized_chiseled_golem_steel_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/quests/titles/technomacy.png"
+			rotation: 0.0d
+			width: 9.96d
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "refinedstorage:creative_controller"
+			}
+			icon_scale: 1.5d
+			id: "517D9D523E695937"
+			rewards: [{
+				id: "4F1451347CB2C16E"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.5d
+			tasks: [{
+				id: "06E8DEB6D7C4B21C"
+				item: { count: 1, id: "refinedstorage:controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["517D9D523E695937"]
+			id: "6C8346BEF1EE2B44"
+			rewards: [{
+				id: "625C5925F7C47467"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "08C70C75888BF9CB"
+				item: { count: 1, id: "refinedstorage:disk_drive" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72C8FDDBB7EEEDF8"]
+			id: "3492C7F03829A2A5"
+			rewards: [{
+				id: "392FA566C8E70A16"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "270D01D657294FB1"
+				item: { count: 1, id: "refinedstorage:importer" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72C8FDDBB7EEEDF8"]
+			id: "26CC2E9C21FBCFD9"
+			rewards: [{
+				id: "2EB1DD95F1AF3158"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3A75A7AEDDB55823"
+				item: { count: 1, id: "refinedstorage:exporter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72C8FDDBB7EEEDF8"]
+			id: "33C050328C9C732C"
+			rewards: [{
+				id: "105FC5650FF046D7"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2B6FDDCFCA8205EE"
+				item: { count: 1, id: "refinedstorage:external_storage" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["517D9D523E695937"]
+			id: "06A30576F3581F25"
+			rewards: [{
+				id: "08E39A65CAB3945C"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "210C9843C623BD85"
+				item: { count: 1, id: "refinedstorage:grid" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["06A30576F3581F25"]
+			id: "114347412B7B12D4"
+			rewards: [{
+				id: "6CD4FEAF62F91D7C"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "09683F7ADFE4002F"
+				item: { count: 1, id: "refinedstorage:crafting_grid" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["06A30576F3581F25"]
+			id: "74550D01582163E0"
+			rewards: [{
+				id: "04B4441FAB56D905"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "369C0E2A8D7FAF5A"
+				item: { count: 1, id: "refinedstorage:pattern_grid" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "0DC4960C79EC8367"
+			rewards: [{
+				id: "53C493B142210A4D"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "43C000A32F023903"
+				item: { count: 1, id: "refinedstorage:network_receiver" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "42D011E0D00103A4"
+			rewards: [{
+				id: "3F6C69F13B42CE8A"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5839F275AC4636B0"
+				item: { count: 1, id: "refinedstorage:network_transmitter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "50BC10B483B7AAD5"
+			rewards: [{
+				id: "0E2EFE8740522A2C"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0759C0CB83C8285A"
+				item: { count: 1, id: "refinedstorage:basic_processor" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "4DAE39E9E8D8E249"
+			rewards: [{
+				id: "0BA332AE1409C9E5"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6581253CA784B13F"
+				item: { count: 1, id: "refinedstorage:improved_processor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "1E39BDD6623A5133"
+			rewards: [{
+				id: "0C2E3E0541B5DD41"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5A81F6CBF65BEFEE"
+				item: { count: 1, id: "refinedstorage:advanced_processor" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "74FEB751DAF231F8"
+			rewards: [{
+				id: "34DDDA7F4961B1E5"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7F804C3CE3AFECE1"
+				item: { count: 1, id: "refinedstorage:construction_core" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "65C7E5A8CC328E99"
+			rewards: [{
+				id: "25AB05A5AF3468FA"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "19ED01B39C45F67E"
+				item: { count: 1, id: "refinedstorage:destruction_core" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "1846F5727D2BC433"
+			rewards: [{
+				id: "772A0428DA8DAE8F"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "09C8EDC9AA1D41C6"
+				item: { count: 1, id: "refinedstorage:wireless_transmitter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["517D9D523E695937"]
+			icon_scale: 1.25d
+			id: "72C8FDDBB7EEEDF8"
+			rewards: [{
+				id: "7547372F6477AFD3"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "577252F8928F288C"
+				item: { count: 1, id: "refinedstorage:cable" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "32F502481157EDB1"
+			rewards: [{
+				id: "0ED7BF07A2A4C034"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0EEB35F7791122D3"
+				item: { count: 1, id: "refinedstorage:1k_storage_part" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["32F502481157EDB1"]
+			id: "39D7917439E993BB"
+			rewards: [{
+				id: "2F1BECB0E1D0BCFA"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "776B0D04001A3CB7"
+				item: { count: 1, id: "refinedstorage:4k_storage_part" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["39D7917439E993BB"]
+			id: "7A75A789DC101387"
+			rewards: [{
+				id: "739A9AD823A0B210"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "239B8AD86C530362"
+				item: { count: 1, id: "refinedstorage:16k_storage_part" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A75A789DC101387"]
+			id: "2ED0DE8886D9A8A3"
+			rewards: [{
+				id: "2755F566D980D5B9"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4E2B6DA2855C4461"
+				item: { count: 1, id: "refinedstorage:64k_storage_part" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["32F502481157EDB1"]
+			id: "1877C4F23CB7CEEB"
+			rewards: [{
+				id: "4BDBB4ABE5DD5C38"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5AE95B3001CFCD43"
+				item: { components: { "refinedstorage:storage_reference": [I; -412099801, 141512682, -1754327997, -1854099810 ] }, count: 1, id: "refinedstorage:1k_storage_disk" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39D7917439E993BB"]
+			id: "3542795980627473"
+			rewards: [{
+				id: "3E38EF2144D0CF67"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0FB77B8E427FEF1E"
+				item: { components: { "refinedstorage:storage_reference": [I; 79743714, -841986098, -1786509219, 1801260631 ] }, count: 1, id: "refinedstorage:4k_storage_disk" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7A75A789DC101387"]
+			id: "2B18ACE12386FE20"
+			rewards: [{
+				id: "421315412DB61978"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "12EE8D3AF30A26DE"
+				item: { components: { "refinedstorage:storage_reference": [I; -1348619468, 404573437, -2114578641, 1588767042 ] }, count: 1, id: "refinedstorage:16k_storage_disk" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2ED0DE8886D9A8A3"]
+			id: "62E5D4D4C39F2100"
+			rewards: [{
+				id: "607235E76F556C97"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1B9D507DAE5CEFCD"
+				item: { components: { "refinedstorage:storage_reference": [I; -1610692528, -10992538, -2072038012, -1269626719 ] }, count: 1, id: "refinedstorage:64k_storage_disk" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["32F502481157EDB1"]
+			id: "41DBC51D8133E964"
+			rewards: [{
+				id: "6F1F991DAE3CA213"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "49D14147C6BE397E"
+				item: { count: 1, id: "refinedstorage:1k_storage_block" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39D7917439E993BB"]
+			id: "6BF4471805C864F2"
+			rewards: [{
+				id: "5CA2EC9BE5D2D40C"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3EDD4F3F02941EE4"
+				item: { count: 1, id: "refinedstorage:4k_storage_block" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A75A789DC101387"]
+			id: "6864A13206996AAB"
+			rewards: [{
+				id: "3C80D27A193AEB60"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "171CB5D93A487EB1"
+				item: { count: 1, id: "refinedstorage:16k_storage_block" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2ED0DE8886D9A8A3"]
+			id: "70AC7D194AEB805C"
+			rewards: [{
+				id: "3281754E146AAFAA"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6BCD218F9B141406"
+				item: { count: 1, id: "refinedstorage:64k_storage_block" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3DFBD17C8E3ED55C"]
+			id: "3AF53857BC831A93"
+			rewards: [{
+				id: "42FB413FB9DD1E95"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "05E160163475F1E6"
+				item: { count: 1, id: "refinedstorage:4096b_fluid_storage_part" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2DA67D03A275DE95"]
+			id: "3DFBD17C8E3ED55C"
+			rewards: [{
+				id: "22BA9FADE030B1D3"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "77927BB7B2D3B655"
+				item: { count: 1, id: "refinedstorage:1024b_fluid_storage_part" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21E595A5DF789534"]
+			id: "2DA67D03A275DE95"
+			rewards: [{
+				id: "3819F4CA4E516153"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1257F6AA05CE1D0B"
+				item: { count: 1, id: "refinedstorage:256b_fluid_storage_part" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "21E595A5DF789534"
+			rewards: [{
+				id: "56F7E3092385F921"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7E47FD06D4D5E320"
+				item: { count: 1, id: "refinedstorage:64b_fluid_storage_part" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3AF53857BC831A93"]
+			id: "76841DA6053D54AB"
+			rewards: [{
+				id: "5E4E6D5A26B7F40D"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1145CCEAB3814DFD"
+				item: { components: { "refinedstorage:storage_reference": [I; 1886860790, 287916763, -1956996933, 1877070123 ] }, count: 1, id: "refinedstorage:4096b_fluid_storage_disk" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3DFBD17C8E3ED55C"]
+			id: "229741191D818492"
+			rewards: [{
+				id: "26A390B0314F3A23"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1B52A3CC542145B0"
+				item: { components: { "refinedstorage:storage_reference": [I; 371989850, 749946802, -1611690994, 1862532442 ] }, count: 1, id: "refinedstorage:1024b_fluid_storage_disk" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DA67D03A275DE95"]
+			id: "4914DBEA8F438C75"
+			rewards: [{
+				id: "7F6D50E94C6A54C9"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "32EE939806BD4221"
+				item: { components: { "refinedstorage:storage_reference": [I; 1900392703, -558478536, -1745839463, 378607497 ] }, count: 1, id: "refinedstorage:256b_fluid_storage_disk" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["21E595A5DF789534"]
+			id: "314DECF3294B38BA"
+			rewards: [{
+				id: "5D13B737F493E33B"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "35453B5D241E6C05"
+				item: { components: { "refinedstorage:storage_reference": [I; 603414180, 82919427, -1639562202, -1020903770 ] }, count: 1, id: "refinedstorage:64b_fluid_storage_disk" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AF53857BC831A93"]
+			id: "576E497C185D6AE5"
+			rewards: [{
+				id: "38C3057209B56FAF"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7355504430AFC751"
+				item: { count: 1, id: "refinedstorage:4096b_fluid_storage_block" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3DFBD17C8E3ED55C"]
+			id: "2253FFC5436A4FC7"
+			rewards: [{
+				id: "392551DA592C8C1B"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0C7C876BBF5A16AF"
+				item: { count: 1, id: "refinedstorage:1024b_fluid_storage_block" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2DA67D03A275DE95"]
+			id: "1F10C9D876CF6B45"
+			rewards: [{
+				id: "2C8B3FCD3E7997EC"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "032463348CB35A97"
+				item: { count: 1, id: "refinedstorage:256b_fluid_storage_block" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["21E595A5DF789534"]
+			id: "4B0D301FA01BE78E"
+			rewards: [{
+				id: "645BB55445A8951C"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "557C264E5BC0487A"
+				item: { count: 1, id: "refinedstorage:64b_fluid_storage_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "3CE5551031D8BB4D"
+			rewards: [{
+				id: "3DDAFEE7F1CB12BF"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3EB39E14F87E3164"
+				item: { count: 1, id: "refinedstorage:storage_monitor" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C8346BEF1EE2B44"]
+			id: "0BB53AC414552D70"
+			rewards: [{
+				id: "60AD0FD0C649E400"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "646D8152822C3A6A"
+				item: { count: 1, id: "refinedstorage:disk_interface" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "66EA7DEE1464004A"
+			rewards: [{
+				id: "3F1100237850615B"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "07DDE7D135AC0D85"
+				item: { count: 1, id: "refinedstorage:autocrafter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+	]
+}

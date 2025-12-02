@@ -1,0 +1,598 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boss_index"
+	group: "0DADF96DBC50AC3A"
+	icon: {
+		id: "cataclysm:ignitium_helmet"
+	}
+	id: "375A8F6624BCF455"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/quests/titles/boss.png"
+		rotation: 0.0d
+		width: 9.8d
+		x: 0.0d
+		y: -4.5d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B5C6DA5D92C3FB6"
+			rewards: [{
+				id: "6ED84F79F69F41AA"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				id: "47EC8D0832FA710B"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "0773BFF9C33A0D64"
+			rewards: [{
+				id: "1B62E5B2CDB33437"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_naga"
+				criterion: ""
+				id: "6218A30E24245133"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "68CEA4A7AB7F3EC7"
+			rewards: [{
+				id: "16AAF48B32CF9646"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
+				criterion: ""
+				id: "17BE47FA7CF7617F"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "3FA36BF576843022"
+			rewards: [{
+				id: "2D46A7E81A2289EA"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_frostmaw"
+				criterion: ""
+				id: "399481907FA49972"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "mowziesmobs:foliaath_seed"
+			}
+			id: "336EF9B59B8098E0"
+			rewards: [{
+				id: "51E83E35AAF58629"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					advancement: "mowziesmobs:kill_foliaath"
+					criterion: ""
+					id: "400E6D13B9E3F73E"
+					type: "advancement"
+				}
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					id: "7DDB687395E06D36"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "452903524040F904"
+			rewards: [{
+				id: "39A9667E451CD5DA"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:sculptor_challenge"
+				criterion: ""
+				id: "34D99FB268819D61"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "3E208A3A81A12D53"
+			rewards: [{
+				id: "7F61B044595EFBDB"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "mythsandlegends:rider_of_the_shadows"
+				criterion: ""
+				id: "4E107C2E40BA8BF4"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			icon: {
+				id: "eternal_starlight:chiseled_golem_steel_block"
+			}
+			id: "593386BCED66E75E"
+			rewards: [{
+				id: "7B602A21CD41EB50"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:kill_golem"
+				criterion: ""
+				id: "3A591A0745C34306"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			icon: {
+				id: "eternal_starlight:parasol_grass"
+			}
+			id: "4C3CD36614615318"
+			rewards: [{
+				id: "2F7C4F9A0F0668BC"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:kill_lunar_monstrosity"
+				criterion: ""
+				id: "6362BB74A48B0E36"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			id: "58865065C9381380"
+			rewards: [{
+				id: "6DAC0B979C79ED4D"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2DEB7CE1C19AE21F"
+				item: { count: 1, id: "fdbosses:eye_of_chesed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "7624A9C655DE8534"
+			rewards: [{
+				id: "7B154E8F2EF841AA"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+				criterion: ""
+				id: "0D18660A082C909B"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "60A9F2B130BE02D5"
+			rewards: [{
+				id: "342E621033A2FD8E"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "56D3125CC9D20E72"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "3AF461B39D7DD4D2"
+			rewards: [{
+				id: "7A5E808DE979128A"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/staff_blood_staff"
+				criterion: ""
+				id: "589CBAF4A308DBB7"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "0FAFE1943A28AF86"
+			rewards: [{
+				id: "20E37212FB4405F6"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+				criterion: ""
+				id: "24B246358E2EAD88"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58865065C9381380"]
+			icon: {
+				id: "cataclysm:desert_eye"
+			}
+			id: "3B1965C5BE57D7F6"
+			rewards: [{
+				id: "4B9CEC464980E71D"
+				table_id: 3749975201472475820L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "cataclysm:kill_remnant"
+					criterion: ""
+					id: "11C898AB8A237431"
+					type: "advancement"
+				}
+				{
+					id: "6611949FD0EB6D94"
+					item: { count: 1, id: "cataclysm:desert_eye" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -0.625d
+		}
+		{
+			dependencies: ["58865065C9381380"]
+			icon: {
+				id: "cataclysm:flame_eye"
+			}
+			id: "45C92BD615F3B7EB"
+			rewards: [{
+				id: "7F964504566163EC"
+				table_id: 3749975201472475820L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "cataclysm:kill_ignis"
+					criterion: ""
+					id: "632833E913BF4545"
+					type: "advancement"
+				}
+				{
+					id: "00977AD710F441BD"
+					item: { count: 1, id: "cataclysm:flame_eye" }
+					type: "item"
+				}
+			]
+			x: -0.625d
+			y: 3.125d
+		}
+		{
+			dependencies: ["58865065C9381380"]
+			icon: {
+				id: "cataclysm:void_eye"
+			}
+			id: "70776C37B0B7F00F"
+			rewards: [{
+				id: "5C66E5A7A020C20C"
+				table_id: 3749975201472475820L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "cataclysm:kill_ender_golem"
+					criterion: ""
+					id: "79415879A8884428"
+					type: "advancement"
+				}
+				{
+					id: "45F9BA5B234F0D81"
+					item: { count: 1, id: "cataclysm:void_eye" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "4A72D1BC57E0B869"
+			rewards: [{
+				id: "23D7C68813F8A26A"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+				id: "3FCEFFFA288FD433"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58865065C9381380"]
+			icon: {
+				id: "cataclysm:abyss_eye"
+			}
+			id: "77B22F28C4718378"
+			rewards: [{
+				id: "455C3922F0D82574"
+				table_id: 3749975201472475820L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "cataclysm:kill_leviathan"
+					criterion: ""
+					id: "4AC658ECC2D63A28"
+					type: "advancement"
+				}
+				{
+					id: "573116A8723362A2"
+					item: { count: 1, id: "cataclysm:abyss_eye" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["58865065C9381380"]
+			icon: {
+				id: "cataclysm:storm_eye"
+			}
+			id: "4106639299FA35BE"
+			rewards: [{
+				id: "1EBCB58713590EF4"
+				table_id: 3749975201472475820L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "cataclysm:kill_scylla"
+					criterion: ""
+					id: "0C77C4E642340A2A"
+					type: "advancement"
+				}
+				{
+					id: "5D538B600FFD10DB"
+					item: { count: 1, id: "cataclysm:storm_eye" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["58865065C9381380"]
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "39475684487F1958"
+			rewards: [{
+				id: "781EAECB4C13A58F"
+				table_id: 3749975201472475820L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "cataclysm:kill_monstrosity"
+					criterion: ""
+					id: "5542CBCB2A6DC5A1"
+					type: "advancement"
+				}
+				{
+					id: "3082C2DC22CE81B3"
+					item: { count: 1, id: "cataclysm:monstrous_eye" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -0.625d
+		}
+		{
+			dependencies: ["58865065C9381380"]
+			icon: {
+				id: "cataclysm:mech_eye"
+			}
+			id: "42FA5AE8D5124F92"
+			rewards: [{
+				id: "0CD08BACEC892A4E"
+				table_id: 3749975201472475820L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "cataclysm:kill_harbinger"
+					criterion: ""
+					id: "3F5203F40908BC69"
+					type: "advancement"
+				}
+				{
+					id: "7A649E1B1E381EB0"
+					item: { count: 1, id: "cataclysm:mech_eye" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58865065C9381380"]
+			icon: {
+				id: "cataclysm:cursed_eye"
+			}
+			id: "68950B470C3B36AF"
+			rewards: [{
+				id: "3DA5AA8BD59E8122"
+				table_id: 3749975201472475820L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "cataclysm:kill_maledictus"
+					criterion: ""
+					id: "3C0BA4514474C252"
+					type: "advancement"
+				}
+				{
+					id: "44F9066A873B0639"
+					item: { count: 1, id: "cataclysm:cursed_eye" }
+					type: "item"
+				}
+			]
+			x: 0.625d
+			y: 3.125d
+		}
+		{
+			icon: {
+				id: "minecraft:oak_log"
+			}
+			id: "5AB52E93936825E9"
+			rewards: [{
+				id: "1E3474A5B1CD23D1"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_revenant"
+				criterion: ""
+				id: "04EE63B6ACAA0030"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "0F627A977DD2B969"
+			rewards: [{
+				id: "36C9C21071D576D6"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "ars_nouveau:wilden_tribute"
+				criterion: ""
+				id: "27EDCD549E6BA165"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "1FE39FE01E79CAE5"
+			rewards: [{
+				id: "5CD8D5DD86726F87"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+				criterion: ""
+				id: "56B2C25C768A91CF"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "6FACE97C88427A54"
+			rewards: [{
+				id: "6B99E8E578B07FA4"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
+				criterion: ""
+				id: "597CFF321715D50F"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "1C76316EF49F3B0B"
+			rewards: [{
+				id: "4714EB755512C913"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					id: "minecraft:nether_star"
+				}
+				id: "5DEAE380419EBF98"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+	]
+}

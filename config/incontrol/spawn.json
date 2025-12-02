@@ -1,0 +1,20 @@
+[
+{
+    "mob": "forbidden_arcanus:lost_soul",
+    "result": "deny"
+  },
+  
+  {
+    "mob": "mythsandlegends:imp",
+    "result": "deny"
+  },
+  {
+    "mob": "iceandfire:amphithere",
+    "result": "deny"
+  }
+]
+
+
+
+
+

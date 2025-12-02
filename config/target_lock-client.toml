@@ -1,0 +1,32 @@
+#Target Lock Config
+[target_lock]
+	#The range within which targets can be locked (block)
+	# Default: 20.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	lockRange = 20.0
+	#Whether to automatically switch to the next target entity
+	autoSwitchToNextTarget = true
+	#Whether to always lock onto the nearest entity, even if already locking onto another entity
+	useNearestEntityPriority = false
+	#Whether to switch to the next nearest target after the current target is kill
+	switchToNextTargetAfterKill = true
+	#Whether to lock the entity position when targeting
+	lockEntityPosition = false
+	#Whether to keep the player within attack range of the target
+	keepAttackRange = false
+	#Adjustment strength for maintaining optimal attack distance
+	# Default: 10.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	attackRangeAdjustmentFactor = 10.0
+	#Whether to automatically attack when the target is at critical point
+	autoAttackAtCriticalPoint = false
+	#Whether to automatically attack when within attack range
+	autoAttackWithinRange = true
+	#Whether to automatically attack when at critical point position
+	autoAttackAtCriticalPointPosition = true
+	#Whether to automatically attack all targets within attack range
+	autoAttackAllTargetsInRange = false
+	#Whether to enable high frequency attack when at critical point
+	highFrequencyAttackAtCriticalPoint = false
+	#Whether to enable high frequency attack when near critical point
+	highFrequencyAttackNearCriticalPoint = false

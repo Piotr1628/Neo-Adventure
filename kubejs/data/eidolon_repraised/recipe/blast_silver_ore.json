@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "c:ores/silver"
+  },
+  "result": {
+    "id": "eidolon_repraised:silver_ingot"
+  },
+  "experience": 0.5,
+  "cookingtime": 100
+}

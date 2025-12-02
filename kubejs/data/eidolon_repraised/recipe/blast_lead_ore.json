@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "c:ores/lead"
+  },
+  "result": {
+    "id": "eidolon_repraised:lead_ingot"
+  },
+  "experience": 0.5,
+  "cookingtime": 100
+}

@@ -1,0 +1,19 @@
+{
+  "type": "hexerei:entities",
+  "biomes": [
+    "minecraft:forest",
+    "minecraft:dark_forest",
+    "minecraft:taiga",
+    "minecraft:old_growth_pine_taiga",
+    "regions_unexplored:blackwood_taiga",
+    "regions_unexplored:pine_taiga",
+    "regions_unexplored:boreal_taiga",
+    "regions_unexplored:deciduous_forest"
+],
+  "entity": {
+    "type": "hexerei:owl",
+    "weight": 20,
+    "minCount": 2,
+    "maxCount": 5
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "eidolon_repraised",
+  "ingredients": [
+    {
+      "tag": "c:ingots/pewter"
+    }
+  ],
+  "result": {
+    "id": "eidolon_repraised:pewter_nugget",
+    "count": 9
+  }
+}

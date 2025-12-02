@@ -1,0 +1,31 @@
+{
+  "type": "eidolon_repraised:worktable",
+  "pattern": [
+    " c ",
+    "rbr",
+    " r "
+  ],
+  "reagents": [
+    "sfsf"
+  ],
+  "key": {
+    "r": {
+      "tag": "c:dusts/redstone"
+    },
+    "b": {
+      "item": "eidolon_repraised:basic_ring"
+    },
+    "c": {
+      "item": "eidolon_repraised:crimson_gem"
+    },
+    "s": {
+      "item": "eidolon_repraised:sildrian_seed"
+    },
+    "f": {
+      "item": "eidolon_repraised:fungus_sprouts"
+    }
+  },
+  "result": {
+    "id": "eidolon_repraised:enervating_ring"
+  }
+}

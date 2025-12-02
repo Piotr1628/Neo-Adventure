@@ -1,0 +1,19 @@
+{
+    "type": "apotheosis:gems",
+    "conditions": [],
+    "entries": [
+        {
+            "chance": 0.025,
+            "pattern": {
+                "domain": "minecraft",
+                "path_regex": "chests.*"
+            }
+        },
+        {
+            "chance": 0.02,
+            "pattern": {
+                "path_regex": "chests.*"
+            }
+        }
+    ]
+}

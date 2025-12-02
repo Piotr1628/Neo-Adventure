@@ -1,0 +1,461 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "archeology"
+	group: "1BCBA5826AA41280"
+	icon: {
+		components: {
+			"ftbquests:icon": "betterarcheology:item/brushes/netherite_brush"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "50F25CC960C27208"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/quests/titles/archaeology.png"
+		rotation: 0.0d
+		width: 7.91d
+		x: -0.5d
+		y: -2.75d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3BDC71C391F1DC78"]
+			icon_scale: 1.2d
+			id: "5AAA03143B405055"
+			rewards: [{
+				id: "31AA165658A3382C"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "7A6A8287058FCD90"
+				item: { count: 1, id: "betterarcheology:archeology_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BDC71C391F1DC78"]
+			id: "14570539DEB90354"
+			rewards: [{
+				id: "32409A754C4A80F1"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3AAC40FCCEE94932"
+				item: { count: 1, id: "betterarcheology:iron_brush" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14570539DEB90354"]
+			id: "532EB147B16AB6EF"
+			rewards: [{
+				id: "78A864823AB22DD6"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "091F3983FAD04626"
+				item: { count: 1, id: "betterarcheology:diamond_brush" }
+				type: "item"
+			}]
+			x: -3.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["532EB147B16AB6EF"]
+			id: "4FFA2352C97E136F"
+			rewards: [{
+				id: "297B68A2C5C454F1"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3CAAFAD14ED8B37F"
+				item: { count: 1, id: "betterarcheology:netherite_brush" }
+				type: "item"
+			}]
+			x: -4.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4555AD557992C5B7"]
+			id: "7905CF090CED4B5E"
+			rewards: [{
+				id: "3D4A793E9907392F"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0812921950631880"
+				item: { count: 1, id: "betterarcheology:torrent_totem" }
+				type: "item"
+			}]
+			x: -3.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["4555AD557992C5B7"]
+			id: "1C03B14CE1EA21B7"
+			rewards: [{
+				id: "5A5F04AA20EDA4EA"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0293F621B18B0CB5"
+				item: { count: 1, id: "betterarcheology:soul_totem" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4555AD557992C5B7"]
+			id: "637D2A7C910F11E1"
+			rewards: [{
+				id: "2D0804F039C3F7FE"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "613B060036D6C4D1"
+				item: { count: 1, id: "betterarcheology:growth_totem" }
+				type: "item"
+			}]
+			x: -3.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["4555AD557992C5B7"]
+			id: "4388D6C962B9AAB1"
+			rewards: [{
+				id: "5B43F601BBCAD505"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "35714B4E263B62BA"
+				item: { count: 1, id: "betterarcheology:radiance_totem" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5AAA03143B405055"
+				"77E1B445AE965B91"
+			]
+			id: "7E413BF75BC4B13D"
+			rewards: [{
+				id: "6A193F130DE3BA94"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4E03A0658AC2B1A6"
+				item: { count: 1, id: "betterarcheology:unidentified_artifact" }
+				type: "item"
+			}]
+			x: 1.25d
+			y: 0.0d
+		}
+		{
+			id: "77E1B445AE965B91"
+			rewards: [{
+				id: "2C3BECAC1D863475"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 0.75d
+			tasks: [{
+				id: "5D02D1815F46716A"
+				item: { count: 1, id: "betterarcheology:artifact_shards" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 0.0d
+		}
+		{
+			id: "7AA2F8129824E39A"
+			rewards: [{
+				id: "7999A51A9F183F21"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "5197E01DB8B663BE"
+				item: { count: 1, id: "wan_ancient_beasts:eater_egg" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 2.25d
+		}
+		{
+			id: "5374C7E9FEFF940D"
+			rewards: [{
+				id: "262A26753F30946D"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "3603181A7715ACFC"
+				item: { count: 1, id: "wan_ancient_beasts:walker_egg" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 3.25d
+		}
+		{
+			id: "646B91E466D83727"
+			rewards: [{
+				id: "62E906C39FEC3CBF"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "5F0F634F1C07B1DF"
+				item: { count: 1, id: "wan_ancient_beasts:crusher_egg" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "7BC3B2AAA88523C3"
+			rewards: [{
+				id: "44A066D433F94766"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "3B393BF1E91A6851"
+				item: { count: 1, id: "wan_ancient_beasts:glider_egg" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: 2.25d
+		}
+		{
+			id: "0DF28CE27423F9AF"
+			rewards: [{
+				id: "1CD4CAD4A7EA1330"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "628EE7F041313E50"
+				item: { count: 1, id: "wan_ancient_beasts:soarer_egg" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "7A5E74BAEDCC8DFA"
+			rewards: [{
+				id: "1666B4DDE492E75E"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "763FB4EDC5270264"
+				item: { count: 1, id: "wan_ancient_beasts:surfer_egg" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: 3.25d
+		}
+		{
+			id: "09B81D488E39C72D"
+			rewards: [{
+				id: "24A11E15151E2933"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "3D92993D96199CAD"
+				item: { count: 1, id: "minecraft:sniffer_egg" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"646B91E466D83727"
+				"7A5E74BAEDCC8DFA"
+				"09B81D488E39C72D"
+				"0DF28CE27423F9AF"
+				"7AA2F8129824E39A"
+				"7BC3B2AAA88523C3"
+				"5374C7E9FEFF940D"
+			]
+			id: "2417055084E226CF"
+			rewards: [{
+				id: "40542B843D06E754"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "wan_ancient_beasts:beasts/bred_all_beasts"
+				criterion: ""
+				id: "218367B30235FB56"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.75d
+		}
+		{
+			id: "3BDC71C391F1DC78"
+			rewards: [{
+				id: "15D8B8F60EF4467E"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "651AA0EE945C97B8"
+				item: { count: 1, id: "minecraft:brush" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4555AD557992C5B7"]
+			id: "059D7B797C36DFC6"
+			rewards: [{
+				id: "76EA51A72F070278"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "01C463DDD646DD47"
+				item: { count: 1, id: "minecraft:totem_of_undying" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4555AD557992C5B7"]
+			id: "68DD0FDC0D3D0492"
+			rewards: [{
+				id: "512D1700AD75202D"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "20472A131E7F60F1"
+				item: { count: 1, id: "friendsandfoes:totem_of_freezing" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["4555AD557992C5B7"]
+			id: "22620A193D012A1D"
+			rewards: [{
+				id: "5FF52610201B7740"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "50D2CEDC7C1E7694"
+				item: { count: 1, id: "unusualend:void_totem" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 3.25d
+		}
+		{
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "4555AD557992C5B7"
+			rewards: [{
+				id: "7FFB7EAA5BD422C4"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "1FC7E1EF9F1DC255"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.75d
+		}
+		{
+			id: "076191D99E6C4360"
+			rewards: [{
+				id: "51CA7F30269D68BC"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "betterdeserttemples:temple_entry"
+				criterion: ""
+				id: "27FA08F735992AA1"
+				type: "advancement"
+			}]
+			x: 1.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["076191D99E6C4360"]
+			id: "35AA456FB8BB091E"
+			rewards: [{
+				id: "1CAD782FC9709457"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "betterdeserttemples:temple_clear"
+				criterion: ""
+				id: "2183B9FECB2A5548"
+				type: "advancement"
+			}]
+			x: 2.25d
+			y: -1.5d
+		}
+	]
+}

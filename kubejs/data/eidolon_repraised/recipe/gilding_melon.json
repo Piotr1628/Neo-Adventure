@@ -1,0 +1,25 @@
+{
+  "type": "eidolon_repraised:crucible",
+  "steps": [
+    {
+      "items": [
+        { "tag": "c:nuggets/gold" },
+        { "tag": "c:nuggets/gold" }
+      ]
+    },
+    {
+      "stirs": 2,
+      "items": [
+        { "item": "eidolon_repraised:enchanted_ash" }
+      ]
+    },
+    {
+      "items": [
+        { "item": "minecraft:melon_slice" }
+      ]
+    }
+  ],
+  "result": {
+    "id": "minecraft:glistering_melon_slice"
+  }
+}

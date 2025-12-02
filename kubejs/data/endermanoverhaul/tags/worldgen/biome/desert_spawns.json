@@ -1,0 +1,25 @@
+{
+    "values": [
+        "#minecraft:is_desert",
+        {
+            "id": "regions_unexplored:dry_bushland",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:outback",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:steppe",
+            "required": false
+        },
+        {
+            "id": "atmospheric:scrubland",
+            "required": false
+        },
+        {
+            "id": "eternal_starlight:crystallized_desert",
+            "required": false
+        }
+    ]
+}

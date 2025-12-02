@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "furnitures"
+	group: "1BCBA5826AA41280"
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:textures/map/decorations/taiga_village.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "6C4C52A07F7688E4"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/quests/titles/build.png"
+		rotation: 0.0d
+		width: 10.27d
+		x: 0.0d
+		y: -2.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "3584E2C069A81F83"
+		tasks: [{
+			id: "5709A129068A6ED8"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

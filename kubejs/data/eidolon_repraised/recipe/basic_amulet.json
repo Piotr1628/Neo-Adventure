@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon_repraised",
+  "pattern": [
+    " x ",
+    "x x",
+    " y "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:string"
+    },
+    "y": {
+      "tag": "c:ingots/arcane_gold"
+    }
+  },
+  "result": {
+    "id": "eidolon_repraised:basic_amulet"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon_repraised",
+  "pattern": [
+    "xxx",
+    " y ",
+    "z z"
+  ],
+  "key": {
+    "x": {
+      "tag": "c:ingots/pewter"
+    },
+    "y": {
+      "tag": "c:storage_blocks/coal"
+    },
+    "z": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "eidolon_repraised:brazier"
+  }
+}

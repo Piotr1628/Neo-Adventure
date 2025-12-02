@@ -1,0 +1,823 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armors"
+	group: "1BCBA5826AA41280"
+	icon: {
+		id: "simplyswords:awakened_lichblade"
+	}
+	id: "187D65949AC6A6D0"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/quests/titles/weapons.png"
+		rotation: 0.0d
+		width: 12.18d
+		x: -0.75d
+		y: -1.25d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["11BEEFF56E0CCE58"]
+			icon_scale: 1.5d
+			id: "6EE3843598020BD2"
+			rewards: [{
+				id: "22E5DA61B0D0FD8A"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "4C255F1A9B93A947"
+				item: { count: 1, id: "simplyswords:awakened_lichblade" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["63D1F7F61683B4F6"]
+			icon_scale: 1.5d
+			id: "11BEEFF56E0CCE58"
+			invisible: true
+			shape: "diamondtier"
+			size: 1.5d
+			tasks: [{
+				id: "2D965EE787A28DF2"
+				item: { count: 1, id: "simplyswords:waking_lichblade" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 6.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "63D1F7F61683B4F6"
+			invisible: true
+			shape: "goldtier"
+			size: 1.5d
+			tasks: [{
+				id: "543DC6F6B1214182"
+				item: { count: 1, id: "simplyswords:slumbering_lichblade" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: 6.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "424B875F88D10370"
+			invisible: true
+			shape: "goldtier"
+			size: 1.5d
+			tasks: [{
+				id: "5BCC6BC93F3D66CF"
+				item: { count: 1, id: "simplyswords:dormant_relic" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: 8.25d
+		}
+		{
+			icon: {
+				id: "simplyswords:brimstone_claymore"
+			}
+			icon_scale: 1.5d
+			id: "2FED04E9F39720EA"
+			invisible: true
+			rewards: [{
+				id: "3EC413E3CADB44F2"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "43D62DFBED86994A"
+				item: { count: 1, id: "simplyswords:brimstone_claymore" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "508D8075984EBD02"
+			invisible: true
+			rewards: [{
+				id: "3BEF885189794C88"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "182A0C908306E5EE"
+				item: { count: 1, id: "simplyswords:stormbringer" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "795C0F22F2C649BA"
+			invisible: true
+			rewards: [{
+				id: "1163840AEEBEC2D0"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "3FC14E9E18C40A3F"
+				item: { count: 1, id: "simplyswords:watcher_claymore" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 0.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "269A21EE0221CC26"
+			invisible: true
+			rewards: [{
+				id: "3E0AFF2C005B7B40"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "05FB83CE13DD8CD2"
+				item: { count: 1, id: "simplyswords:watching_warglaive" }
+				type: "item"
+			}]
+			x: -5.25d
+			y: 0.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "38E1D317D4EEA79C"
+			invisible: true
+			rewards: [{
+				id: "393B4D113F8D1144"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "3F798EDCD5054C23"
+				item: { count: 1, id: "simplyswords:toxic_longsword" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 0.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "6EE71408219E782F"
+			invisible: true
+			rewards: [{
+				id: "02DDB63EFF1FFA0E"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "3D86F8607E4167B9"
+				item: { count: 1, id: "simplyswords:emberblade" }
+				type: "item"
+			}]
+			x: -5.25d
+			y: 1.875d
+		}
+		{
+			dependencies: ["2E4E63A4CBC9F840"]
+			hide_until_deps_complete: true
+			icon_scale: 1.5d
+			id: "69CB107DAC0D91F4"
+			rewards: [{
+				id: "738D4F63390BF5D8"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "12285CC0AECF7800"
+				item: { count: 1, id: "simplyswords:sunfire" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4247BC15F7E38FA9"]
+			icon_scale: 1.5d
+			id: "7EDC39E093FDFF3A"
+			invisible: true
+			rewards: [{
+				id: "3B6F9A4D66FBD03B"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "2811D5382C75B282"
+				item: { count: 1, id: "simplyswords:harbinger" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 9.0d
+		}
+		{
+			dependencies: ["424B875F88D10370"]
+			icon_scale: 1.5d
+			id: "4247BC15F7E38FA9"
+			invisible: true
+			shape: "diamondtier"
+			size: 1.5d
+			tasks: [{
+				id: "6F13AD88C79F2A03"
+				item: { count: 1, id: "simplyswords:tainted_relic" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 9.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "02138A31033A20D2"
+			invisible: true
+			rewards: [{
+				id: "2481FD71E257E644"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "6B034CBEAC51D305"
+				item: { count: 1, id: "simplyswords:storms_edge" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 0.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "462A48769DA1F114"
+			invisible: true
+			rewards: [{
+				id: "1699AF48780A7BC2"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "5582B2D3A797AB9D"
+				item: { count: 1, id: "simplyswords:bramblethorn" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 0.375d
+		}
+		{
+			dependencies: ["424B875F88D10370"]
+			icon_scale: 1.5d
+			id: "2E4E63A4CBC9F840"
+			invisible: true
+			shape: "diamondtier"
+			size: 1.5d
+			tasks: [{
+				id: "735786215D518B1E"
+				item: { count: 1, id: "simplyswords:righteous_relic" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 7.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "64AD14BA422C2A84"
+			invisible: true
+			rewards: [{
+				id: "49164CF990A9627F"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "60BB0B54424FB7F8"
+				item: { count: 1, id: "simplyswords:hearthflame" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: 1.875d
+		}
+		{
+			icon_scale: 1.5d
+			id: "05B329C2E0061169"
+			invisible: true
+			rewards: [{
+				id: "4AF88310620DC9BB"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "74D2A71696E3E28A"
+				item: { count: 1, id: "simplyswords:soulkeeper" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 0.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "6E7763B06CCCA2B2"
+			invisible: true
+			rewards: [{
+				id: "07EDD771959689F0"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "421048FB754EED9E"
+				item: { count: 1, id: "simplyswords:twisted_blade" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 1.875d
+		}
+		{
+			icon_scale: 1.5d
+			id: "6EA12AC88F21D977"
+			invisible: true
+			rewards: [{
+				id: "02B5D92252A92CA3"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "6502A5437EA5929B"
+				item: { count: 1, id: "simplyswords:soulstealer" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 1.875d
+		}
+		{
+			icon_scale: 1.5d
+			id: "50D5B1A83B9D874F"
+			invisible: true
+			rewards: [{
+				id: "4B70F18F81FD55AF"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "738B6D110C87B557"
+				item: { count: 1, id: "simplyswords:soulpyre" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 1.875d
+		}
+		{
+			icon_scale: 1.5d
+			id: "33417DADB1C6E9A6"
+			invisible: true
+			rewards: [{
+				id: "64513D372BE61CB7"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "36B704E43A3A19B6"
+				item: { count: 1, id: "simplyswords:whisperwind" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 1.875d
+		}
+		{
+			icon_scale: 1.5d
+			id: "4B8615C5A1C38178"
+			invisible: true
+			rewards: [{
+				id: "4234C9C08E37308E"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "58C03AF35914336C"
+				item: { count: 1, id: "simplyswords:emberlash" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 1.875d
+		}
+		{
+			icon_scale: 1.5d
+			id: "7CD7CC37603B916F"
+			invisible: true
+			rewards: [{
+				id: "048AB8818C727F48"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "756E21839461160D"
+				item: { count: 1, id: "simplyswords:waxweaver" }
+				type: "item"
+			}]
+			x: -6.75d
+			y: 1.875d
+		}
+		{
+			icon_scale: 1.5d
+			id: "35DD2558EC5F8677"
+			invisible: true
+			rewards: [{
+				id: "36BA373AB3B4E319"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "0A8774FA9CB6F0B3"
+				item: { count: 1, id: "simplyswords:hiveheart" }
+				type: "item"
+			}]
+			x: -6.75d
+			y: 4.875d
+		}
+		{
+			icon_scale: 1.5d
+			id: "46913E9659C71457"
+			invisible: true
+			rewards: [{
+				id: "5643A8E21783AD71"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "38DFF635FB6CCECB"
+				item: { count: 1, id: "simplyswords:stars_edge" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: 3.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "607D35CC05763FE4"
+			invisible: true
+			rewards: [{
+				id: "375A7D7805FFAE68"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "1D5EC75E00FD5138"
+				item: { count: 1, id: "simplyswords:wickpiercer" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 3.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "48E3C2D33EFD6812"
+			invisible: true
+			rewards: [{
+				id: "3F3BC5445D51DBBF"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "3E41FA131E40329A"
+				item: { count: 1, id: "simplyswords:tempest" }
+				type: "item"
+			}]
+			x: -6.75d
+			y: 3.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "084E1EF4EBD25FE6"
+			invisible: true
+			rewards: [{
+				id: "5DFDBB2E3C477659"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "24F5AD0AF853AC6D"
+				item: { count: 1, id: "simplyswords:flamewind" }
+				type: "item"
+			}]
+			x: -8.25d
+			y: 1.875d
+		}
+		{
+			icon_scale: 1.5d
+			id: "5266F98480DF659C"
+			invisible: true
+			rewards: [{
+				id: "0FB274D4196BF95B"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "688074F6C49144D4"
+				item: { count: 1, id: "simplyswords:ribboncleaver" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 3.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "75616A33D3CA2DDC"
+			invisible: true
+			rewards: [{
+				id: "0D2788C82E20E971"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "620BD34A01643F1A"
+				item: { count: 1, id: "simplyswords:magiscythe" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 3.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "015A8F6586255CD8"
+			invisible: true
+			rewards: [{
+				id: "1CE98D2440CF0660"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "6CA496B4079BC8B5"
+				item: { count: 1, id: "simplyswords:magispear" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 3.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "2AD908646819FE10"
+			invisible: true
+			rewards: [{
+				id: "68A1382CB12BC7BF"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "55ED26B792A3A272"
+				item: { count: 1, id: "simplyswords:magiblade" }
+				type: "item"
+			}]
+			x: -8.25d
+			y: 0.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "1B7786D30593CCAE"
+			invisible: true
+			rewards: [{
+				id: "3872E29052189DA0"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "4089AB3F667CE8B5"
+				item: { count: 1, id: "simplyswords:enigma" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 3.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "53097A671A7CCBD9"
+			invisible: true
+			rewards: [{
+				id: "7E8524C8A0D58A09"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "0A0832A7685C11C3"
+				item: { count: 1, id: "simplyswords:caelestis" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 3.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "65AAD6AD8E1E517F"
+			invisible: true
+			rewards: [{
+				id: "5BE2B471B34C8F1F"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "6147E2AFBC506C86"
+				item: { count: 1, id: "simplyswords:wraithfang" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 1.875d
+		}
+		{
+			icon_scale: 1.5d
+			id: "5679AEA2F490DE04"
+			invisible: true
+			rewards: [{
+				id: "464942E079430778"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "48D4BAFA365EEEB7"
+				item: { count: 1, id: "simplyswords:mjolnir" }
+				type: "item"
+			}]
+			x: -5.25d
+			y: 3.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "0EBC45A74B6F6BBF"
+			invisible: true
+			rewards: [{
+				id: "5A94120C339A895F"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "4F4A2474C1F8C663"
+				item: { count: 1, id: "simplyswords:thunderbrand" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 1.875d
+		}
+		{
+			icon_scale: 1.5d
+			id: "10AB987481CCF81A"
+			invisible: true
+			rewards: [{
+				id: "6A36EF181F1EAB18"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "7EF225A9A604BF13"
+				item: { count: 1, id: "simplyswords:arcanethyst" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 0.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "73D660B9873BEE68"
+			invisible: true
+			rewards: [{
+				id: "654FDB077971E72A"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "5957CDF255807E7C"
+				item: { count: 1, id: "simplyswords:icewhisper" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 3.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "57BFC84AA5D7EBD3"
+			invisible: true
+			rewards: [{
+				id: "3C8A8DBD35DE06D5"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "7F280A3B061333F3"
+				item: { count: 1, id: "simplyswords:livyatan" }
+				type: "item"
+			}]
+			x: -8.25d
+			y: 4.875d
+		}
+		{
+			icon_scale: 1.5d
+			id: "72C028074D0645D2"
+			invisible: true
+			rewards: [{
+				id: "0C24D5A9A6CD5327"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "0D3B7DF3CD28B4E0"
+				item: { count: 1, id: "simplyswords:molten_edge" }
+				type: "item"
+			}]
+			x: -6.75d
+			y: 0.375d
+		}
+		{
+			icon_scale: 1.5d
+			id: "4353E25AA0DCDB58"
+			invisible: true
+			rewards: [{
+				id: "469A7EFE8AC89577"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			shape: "netheritetier"
+			size: 1.5d
+			tasks: [{
+				id: "23473F3A77FFEA0E"
+				item: { count: 1, id: "simplyswords:frostfall" }
+				type: "item"
+			}]
+			x: -8.25d
+			y: 3.375d
+		}
+	]
+}

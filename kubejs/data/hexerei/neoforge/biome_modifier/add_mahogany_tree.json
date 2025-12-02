@@ -1,0 +1,12 @@
+{
+  "type": "hexerei:vegetal",
+  "biomes": [
+    "regions_unexplored:rainforest",
+    "regions_unexplored:tropics",
+    "regions_unexplored:sparse_rainforest",
+    "atmospheric:rainforest",
+    "atmospheric:kousa_jungle",
+    "atmospheric:rainforest_basin"
+],
+  "feature": "hexerei:mahogany_placed"
+}

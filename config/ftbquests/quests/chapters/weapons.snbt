@@ -1,0 +1,1804 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "weapons"
+	group: "0DADF96DBC50AC3A"
+	icon: {
+		id: "minecraft:iron_chestplate"
+	}
+	id: "5FF42CC6C93D40E2"
+	images: [
+		{
+			height: 1.0d
+			image: "crystal_chronicles:item/hemalite_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "crystal_chronicles:item/divinite_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "crystal_chronicles:item/volcanite_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "irons_spellbooks:block/blood"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "irons_spellbooks:block/blood"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "irons_spellbooks:block/blood"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "irons_spellbooks:block/blood"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/honey_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/honey_block_side"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/honey_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/honey_block_side"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/toxite"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "crystal_chronicles:item/floralite_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/toxite"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/toxite"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/toxite"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/lava_still"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "endrem:textures/backgrounds/advancement_background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "endrem:textures/backgrounds/advancement_background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "endrem:textures/backgrounds/advancement_background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "crystal_chronicles:item/voidstone_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/gold_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/gold_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/gold_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "l2complements:item/generated/totemic_gold/ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "chipped:block/blue_ice/ctm/smooth_blue_ice_column_ctm/0"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "chipped:block/blue_ice/ctm/smooth_blue_ice_column_ctm/0"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "chipped:block/blue_ice/ctm/smooth_blue_ice_column_ctm/0"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "crystal_chronicles:item/voltite_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/sculk_shrieker_can_summon_inner_top"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/gold_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			height: 1.25d
+			image: "endrem:textures/backgrounds/advancement_background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			height: 1.25d
+			image: "iceandfire:block/dragonscale_black"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "iceandfire:block/dragonscale_blue"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.75d
+			y: -6.5d
+		}
+		{
+			height: 1.25d
+			image: "iceandfire:block/dragonscale_electric"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			height: 1.25d
+			image: "chipped:block/barrel/netherite_safe_bottom"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.25d
+			image: "createaddition:block/tesla_coil/lightning"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/fire_2"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "irons_spellbooks:block/blood"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "irons_spellbooks:block/blood"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/honey_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/honey_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/toxite"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "forbidden_arcanus:block/whirlwind_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.75d
+			y: -6.5d
+		}
+		{
+			height: 1.25d
+			image: "eternal_starlight:block/toxite"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "chipped:block/blue_ice/ctm/smooth_blue_ice_column_ctm/0"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "chipped:block/blue_ice/ctm/smooth_blue_ice_column_ctm/0"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/gold_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/gold_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "endrem:textures/backgrounds/advancement_background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "endrem:textures/backgrounds/advancement_background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "createaddition:block/tesla_coil/lightning"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "crystal_chronicles:item/ice_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "createaddition:block/tesla_coil/lightning"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "createaddition:block/tesla_coil/lightning"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "createaddition:block/tesla_coil/lightning"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "irons_spellbooks:block/arcane_debris_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "irons_spellbooks:block/arcane_debris_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "irons_spellbooks:block/arcane_debris_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "irons_spellbooks:block/arcane_debris_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "irons_spellbooks:block/arcane_debris_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "createaddition:block/tesla_coil/lightning"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/iron_block"
+			order: -2
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:textures/thaumcraft/dragon.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.75d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/quests/titles/armory.png"
+			rotation: 0.0d
+			width: 4.63d
+			x: 1.75d
+			y: -8.25d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["759667587F8DA4F4"]
+			id: "6CA76EACCD640644"
+			rewards: [{
+				id: "78E70B835B739771"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "26B22B7CDC80E278"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "crystal_chronicles:pyromancer_chestplate" }
+					type: "item"
+				}
+				{
+					id: "05D2B1741EB83775"
+					item: { count: 1, id: "crystal_chronicles:pyromancer_helmet" }
+					type: "item"
+				}
+				{
+					id: "567ECDA2A76EB1F3"
+					item: { count: 1, id: "crystal_chronicles:pyromancer_leggings" }
+					type: "item"
+				}
+				{
+					id: "1753E570052B1EFD"
+					item: { count: 1, id: "crystal_chronicles:pyromancer_boots" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["414B32E069F3D1DF"]
+			id: "0D6654162B5BCBAA"
+			rewards: [{
+				id: "2FABA8BEA0509EA7"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "68C415CC1999F790"
+					item: { count: 1, id: "crystal_chronicles:mage_helmet" }
+					type: "item"
+				}
+				{
+					id: "632A2688C36CAF32"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "crystal_chronicles:mage_chestplate" }
+					type: "item"
+				}
+				{
+					id: "587A0492EB7CA80A"
+					item: { count: 1, id: "crystal_chronicles:mage_leggings" }
+					type: "item"
+				}
+				{
+					id: "0401166C486B03C2"
+					item: { count: 1, id: "crystal_chronicles:mage_boots" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2653B1E1072A49DA"]
+			id: "3811172EEC51E431"
+			rewards: [{
+				id: "1C9C9B10A13E9435"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "2AAC19B34E35B976"
+					item: { count: 1, id: "crystal_chronicles:tank_helmet" }
+					type: "item"
+				}
+				{
+					id: "1BE109DE24D8033D"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "crystal_chronicles:tank_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6FD6E82160AD9618"
+					item: { count: 1, id: "crystal_chronicles:tank_leggings" }
+					type: "item"
+				}
+				{
+					id: "41587AEB12E872D1"
+					item: { count: 1, id: "crystal_chronicles:tank_boots" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2AAAAC0AB9F37A9F"]
+			id: "6417D5A71FDBEEBE"
+			rewards: [{
+				id: "799C4C8A67D4AF69"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "1E399AF990A36D1E"
+					item: { count: 1, id: "crystal_chronicles:paladin_helmet" }
+					type: "item"
+				}
+				{
+					id: "072E284DCDB22478"
+					item: { count: 1, id: "crystal_chronicles:paladin_leggings" }
+					type: "item"
+				}
+				{
+					id: "115674B97A8BA70E"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "crystal_chronicles:paladin_chestplate" }
+					type: "item"
+				}
+				{
+					id: "75C2B56F88E77E09"
+					item: { count: 1, id: "crystal_chronicles:paladin_boots" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05B139406CE7B1C8"]
+			id: "0A3C45B53E5F7EE0"
+			rewards: [{
+				id: "3FE897A7F7C4A1FE"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "0821F014311F9DC3"
+					item: { count: 1, id: "crystal_chronicles:rogue_helmet" }
+					type: "item"
+				}
+				{
+					id: "5C9CD65B7842F2C4"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "crystal_chronicles:rogue_chestplate" }
+					type: "item"
+				}
+				{
+					id: "1F8E815B3E65B68B"
+					item: { count: 1, id: "crystal_chronicles:rogue_leggings" }
+					type: "item"
+				}
+				{
+					id: "2FB30962160CB183"
+					item: { count: 1, id: "crystal_chronicles:rogue_boots" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72D2CDFE36B066FE"]
+			id: "1F59A71BF645C1BC"
+			rewards: [{
+				id: "021CE0E959AF3517"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "1C2217D3465FB630"
+					item: { count: 1, id: "crystal_chronicles:toxic_helmet" }
+					type: "item"
+				}
+				{
+					id: "704E194DD43892AA"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "crystal_chronicles:toxic_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5C64FEC51509F30B"
+					item: { count: 1, id: "crystal_chronicles:toxic_leggings" }
+					type: "item"
+				}
+				{
+					id: "5244FAEA04443983"
+					item: { count: 1, id: "crystal_chronicles:toxic_boots" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15151EE723E78F53"]
+			id: "7CDE83C48A539375"
+			rewards: [{
+				id: "74AD27EF6ABEB42C"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "1952A49BEFE6B55D"
+					item: { count: 1, id: "crystal_chronicles:electromancer_helmet" }
+					type: "item"
+				}
+				{
+					id: "76BD37701FA3E83F"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "crystal_chronicles:electromancer_chestplate" }
+					type: "item"
+				}
+				{
+					id: "207A5BF81E12030B"
+					item: { count: 1, id: "crystal_chronicles:electromancer_leggings" }
+					type: "item"
+				}
+				{
+					id: "1B7BB0D8DDB0D351"
+					item: { count: 1, id: "crystal_chronicles:electromancer_boots" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F09D1ED9345987E"]
+			id: "00141D316F80B0C9"
+			rewards: [{
+				id: "1A13C23488C076C8"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "016D3AFB29B1E415"
+					item: { count: 1, id: "crystal_chronicles:evoker_helmet" }
+					type: "item"
+				}
+				{
+					id: "69A4AEE0503079DB"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "crystal_chronicles:evoker_chestplate" }
+					type: "item"
+				}
+				{
+					id: "1825C92B1078D8E4"
+					item: { count: 1, id: "crystal_chronicles:evoker_leggings" }
+					type: "item"
+				}
+				{
+					id: "57FC311903E7F98D"
+					item: { count: 1, id: "crystal_chronicles:evoker_boots" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "5A357C798CEE2BC6"
+			rewards: [{
+				id: "4296E6FD26B85348"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "6DB8D1729C708AFF"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_helmet" }
+					type: "item"
+				}
+				{
+					id: "7B694A06812DFA22"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_chestplate" }
+					type: "item"
+				}
+				{
+					id: "09F5D6502C01F0E2"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_leggings" }
+					type: "item"
+				}
+				{
+					id: "0C34FE0A23328A36"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_boots" }
+					type: "item"
+				}
+			]
+			x: -2.75d
+			y: -6.5d
+		}
+		{
+			id: "6B369CA108443246"
+			rewards: [{
+				id: "1BC74802599D3402"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "1F83AD76632B259E"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_helmet" }
+					type: "item"
+				}
+				{
+					id: "196D93D2DE914636"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_chestplate" }
+					type: "item"
+				}
+				{
+					id: "19FB689B03A084B8"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_leggings" }
+					type: "item"
+				}
+				{
+					id: "60EC72018C292FD9"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_boots" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			id: "266F66B3FF5E09A4"
+			rewards: [{
+				id: "34092DEE3D282D24"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "2F22666C59BB2B5E"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_helmet" }
+					type: "item"
+				}
+				{
+					id: "1E3E01CC97736C1C"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_chestplate" }
+					type: "item"
+				}
+				{
+					id: "30A786D25B74CDFD"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_leggings" }
+					type: "item"
+				}
+				{
+					id: "3AD45217C14F745A"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_boots" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["72D2CDFE36B066FE"]
+			id: "6B8ED9795EC694F9"
+			rewards: [{
+				id: "1EAA47A4B09E524D"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "0F08B3A43CE9C7A7"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:creaking_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6A01E9EAB6AA9098"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:creaking_chestplate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "4D87F57F6B0544BD"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:creaking_leggings" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "12632ABFDC70A102"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:creaking_boots" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15151EE723E78F53"]
+			id: "4AC32798F1CEF30F"
+			rewards: [{
+				id: "585314495D6C4468"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "183B342B6EF75B48"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:charged_scourge_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "7C68EDC6CFE6FA1E"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:charged_scourge_chestplate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "76D9840DC3D584B3"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:charged_scourge_leggings" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "121668BCD60B362F"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:charged_scourge_boots" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2653B1E1072A49DA"]
+			id: "2530AF7C79CCB027"
+			rewards: [{
+				id: "28AD7AB2F753D3F7"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "2ABB0659417471F9"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:cryogenic_ruler_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "03F7E5F5ED8B2CF2"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:cryogenic_ruler_chestplate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "37B0597F4F1D0EEE"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:cryogenic_ruler_leggings" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0B9B33F9788DCFA0"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:cryogenic_ruler_boots" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0F09D1ED9345987E"]
+			id: "5819CC754E0164D4"
+			rewards: [{
+				id: "4AF0A637653F6AEA"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "44B44505B1811AA1"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:supreme_witch_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "63DC5DDFDE468ED1"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:supreme_witch_chestplate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "45ADB0DD5CEF1CB9"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:supreme_witch_leggings" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "68DB49C95BEC3A7D"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:supreme_witch_boots" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["414B32E069F3D1DF"]
+			id: "6F79D982A859485E"
+			rewards: [{
+				id: "57C901060BC8D05C"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "770DEBBC1F2C47CC"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:ender_dragon_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "529244A380E7ECBE"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:ender_dragon_chestplate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "74835070B00B527B"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:ender_dragon_leggings" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0A06BF379BA32D33"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:ender_dragon_boots" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["05B139406CE7B1C8"]
+			id: "131334823D54E82C"
+			rewards: [{
+				id: "6A781DF5B9FC6912"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "6EA04DF2189F46A3"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:flesh_mass_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "72393B7333BC8CB7"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:flesh_mass_chestplate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0833C803FB249F05"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:flesh_mass_leggings" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0A3A630FDB0E1F18"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:flesh_mass_boots" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2AAAAC0AB9F37A9F"]
+			id: "2B59F07E1CFE5417"
+			rewards: [{
+				id: "204F6B1698D62901"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "0D275394FD97C509"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:seraph_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "068ED1BB115AC74E"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:seraph_chestplate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "1AB00D2F6A6DB7CD"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:seraph_leggings" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6106C3BFF42FAD54"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:seraph_boots" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["759667587F8DA4F4"]
+			id: "6D1AC57516CBA93C"
+			rewards: [{
+				id: "3A7A99A96FF7C6E4"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "60C836CF6B810DBA"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:soul_flame_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "485EBC9716F50C74"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:soul_flame_chestplate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6E30076F53470389"
+					item: { components: { "ftbquests:missing_item": "hazennstuff:soul_flame_leggings" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["47E09106827BB7B6"]
+			id: "132A17F4D71A52C5"
+			rewards: [{
+				id: "0DAE4C602302C8B5"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "0399A07EA2329BB1"
+					item: { count: 1, id: "cataclysm:ignitium_helmet" }
+					type: "item"
+				}
+				{
+					id: "70EFF509C2E454D3"
+					item: { count: 1, id: "cataclysm:ignitium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6CD44D7A358FE657"
+					item: { count: 1, id: "cataclysm:ignitium_leggings" }
+					type: "item"
+				}
+				{
+					id: "441F43D274BD1EA1"
+					item: { count: 1, id: "cataclysm:ignitium_boots" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["47E09106827BB7B6"]
+			id: "39DAB2A6CBECEDB9"
+			rewards: [{
+				id: "28C8A0E2F219841E"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "6AFE18FC588D2FC8"
+					item: { count: 1, id: "cataclysm:cursium_helmet" }
+					type: "item"
+				}
+				{
+					id: "7B4BC4CE2513CA0A"
+					item: { count: 1, id: "cataclysm:cursium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2C9D6368541017AE"
+					item: { count: 1, id: "cataclysm:cursium_leggings" }
+					type: "item"
+				}
+				{
+					id: "71CF6F64FDF6B979"
+					item: { count: 1, id: "cataclysm:cursium_boots" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			id: "2AAAAC0AB9F37A9F"
+			rewards: [{
+				id: "19EF1D9570710200"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "4D1716F42E1CD9A5"
+					item: { count: 1, id: "irons_spellbooks:priest_helmet" }
+					type: "item"
+				}
+				{
+					id: "49AFFB665A910B74"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:priest_chestplate" }
+					type: "item"
+				}
+				{
+					id: "727EF290816B5912"
+					item: { count: 1, id: "irons_spellbooks:priest_leggings" }
+					type: "item"
+				}
+				{
+					id: "7479B3216890F3A2"
+					item: { count: 1, id: "irons_spellbooks:priest_boots" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "759667587F8DA4F4"
+			rewards: [{
+				id: "5F0E28BB64EE13F3"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "0965BDEB8E211DD8"
+					item: { count: 1, id: "irons_spellbooks:pyromancer_helmet" }
+					type: "item"
+				}
+				{
+					id: "532F80FEA592DD5C"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:pyromancer_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5229795876072BC0"
+					item: { count: 1, id: "irons_spellbooks:pyromancer_leggings" }
+					type: "item"
+				}
+				{
+					id: "1D9F97D084A71579"
+					item: { count: 1, id: "irons_spellbooks:pyromancer_boots" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "05B139406CE7B1C8"
+			rewards: [{
+				id: "797B6548C0C68B32"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "02B56A70284B30A5"
+					item: { count: 1, id: "irons_spellbooks:cultist_helmet" }
+					type: "item"
+				}
+				{
+					id: "337C8A84EC4D44AA"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:cultist_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2B1268B3D2DDFBD5"
+					item: { count: 1, id: "irons_spellbooks:cultist_leggings" }
+					type: "item"
+				}
+				{
+					id: "592073D223231811"
+					item: { count: 1, id: "irons_spellbooks:cultist_boots" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			id: "2653B1E1072A49DA"
+			rewards: [{
+				id: "00509864B30C0731"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "236E9A11FBAA212F"
+					item: { count: 1, id: "irons_spellbooks:cryomancer_helmet" }
+					type: "item"
+				}
+				{
+					id: "22A5EFB4F0A9AF4B"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:cryomancer_chestplate" }
+					type: "item"
+				}
+				{
+					id: "16C87CC9AC0F6E0E"
+					item: { count: 1, id: "irons_spellbooks:cryomancer_leggings" }
+					type: "item"
+				}
+				{
+					id: "2835290CF7860DF1"
+					item: { count: 1, id: "irons_spellbooks:cryomancer_boots" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			id: "72D2CDFE36B066FE"
+			rewards: [{
+				id: "1ED0BEA8A6229A38"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "6CA5568DCDF1681B"
+					item: { count: 1, id: "irons_spellbooks:plagued_helmet" }
+					type: "item"
+				}
+				{
+					id: "7D1E9421616BCFE7"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:plagued_chestplate" }
+					type: "item"
+				}
+				{
+					id: "72F90BE76F07856E"
+					item: { count: 1, id: "irons_spellbooks:plagued_leggings" }
+					type: "item"
+				}
+				{
+					id: "59459A8715EF3D90"
+					item: { count: 1, id: "irons_spellbooks:plagued_boots" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "15151EE723E78F53"
+			rewards: [{
+				id: "6263DA51A2EC71B9"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "6FEFE2E5FFE4B213"
+					item: { count: 1, id: "irons_spellbooks:electromancer_helmet" }
+					type: "item"
+				}
+				{
+					id: "6CE78C20685F41E1"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:electromancer_chestplate" }
+					type: "item"
+				}
+				{
+					id: "35777EC57B4CEB09"
+					item: { count: 1, id: "irons_spellbooks:electromancer_leggings" }
+					type: "item"
+				}
+				{
+					id: "6068400E43C90B45"
+					item: { count: 1, id: "irons_spellbooks:electromancer_boots" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "0F09D1ED9345987E"
+			rewards: [{
+				id: "7BA54E23C93568C9"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "25DC4CA5F510F365"
+					item: { count: 1, id: "irons_spellbooks:archevoker_helmet" }
+					type: "item"
+				}
+				{
+					id: "0AD46E33E553A03A"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:archevoker_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7EC4C56E216A228E"
+					item: { count: 1, id: "irons_spellbooks:archevoker_leggings" }
+					type: "item"
+				}
+				{
+					id: "2CD682B47127FCE6"
+					item: { count: 1, id: "irons_spellbooks:archevoker_boots" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "414B32E069F3D1DF"
+			rewards: [{
+				id: "397FF6B1A0C8CEE7"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "5B7F6C6BBB7F9172"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_helmet" }
+					type: "item"
+				}
+				{
+					id: "24D7D4B1AFC90C0A"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:shadowwalker_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7BAA402A6DFB4AA1"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_leggings" }
+					type: "item"
+				}
+				{
+					id: "5CD0C57495885FC8"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_boots" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "47E09106827BB7B6"
+			rewards: [{
+				id: "0C5305659D926A73"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "2D2CFE567CA5E232"
+					item: { components: { "ftbquests:missing_item": "deeperdarker:warden_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "439FCB917DC60E81"
+					item: { components: { "ftbquests:missing_item": "deeperdarker:warden_chestplate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "1750123E40653E73"
+					item: { components: { "ftbquests:missing_item": "deeperdarker:warden_leggings" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "31598995936C4CB0"
+					item: { components: { "ftbquests:missing_item": "deeperdarker:warden_boots" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["496C696B8F95805E"]
+			id: "22299416BB11940B"
+			rewards: [{
+				id: "1B02F0EB634DDCBD"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "4F4AA3031AF77760"
+					item: { components: { "azurelib:az_id": [I; -1348722507, 348340728, -1104067124, -1698937046 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_helmet" }
+					type: "item"
+				}
+				{
+					id: "10B8B88A62DCB756"
+					item: { components: { "azurelib:az_id": [I; -29786871, 1853965510, -1638314572, 1576426845 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_chestplate" }
+					type: "item"
+				}
+				{
+					id: "71DB593E740516CC"
+					item: { components: { "azurelib:az_id": [I; 1234021973, -1492693080, -1554837619, -554594636 ] }, count: 1, id: "cataclysm_spellbooks:ignis_leggings" }
+					type: "item"
+				}
+				{
+					id: "377502F922A92F94"
+					item: { components: { "azurelib:az_id": [I; -614869849, 1151225024, -1121195019, -1727355412 ] }, count: 1, id: "cataclysm_spellbooks:ignis_boots" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["496C696B8F95805E"]
+			id: "36230D1B17B0AE08"
+			rewards: [{
+				id: "39502E2BC2361E6D"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "66215CAB752736F2"
+					item: { components: { "azurelib:az_id": [I; -2110170484, 2043498257, -1966083987, -759224028 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:cursium_mage_circlet" }
+					type: "item"
+				}
+				{
+					id: "0D7976A8746D099D"
+					item: { components: { "azurelib:az_id": [I; -239135080, 823084383, -2142909278, 2033064236 ], "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:cursium_mage_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3D862A0C639A42BF"
+					item: { components: { "azurelib:az_id": [I; -1328118099, -648393213, -1666468501, 2131447183 ] }, count: 1, id: "cataclysm_spellbooks:cursium_mage_skirt" }
+					type: "item"
+				}
+				{
+					id: "48DB15FBAA1DF6F8"
+					item: { components: { "azurelib:az_id": [I; -950640471, 901267573, -1928037996, -1331102319 ] }, count: 1, id: "cataclysm_spellbooks:cursium_mage_boots" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "496C696B8F95805E"
+			rewards: [{
+				id: "24046BDFD4E16FE5"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "3574CCA4540EFA4C"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_helmet" }
+					type: "item"
+				}
+				{
+					id: "795D956274EFC2DE"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_mage_chestplate" }
+					type: "item"
+				}
+				{
+					id: "20E13A67B43AB8F9"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_leggings" }
+					type: "item"
+				}
+				{
+					id: "1913764733A8011B"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_boots" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "7248033032F6634B"
+			rewards: [{
+				id: "521B5A091B0CB50F"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "618E4768AF99BCF5"
+					item: { count: 1, id: "forbidden_arcanus:tyr_helmet" }
+					type: "item"
+				}
+				{
+					id: "2052E2E90E7AF608"
+					item: { count: 1, id: "forbidden_arcanus:tyr_chestplate" }
+					type: "item"
+				}
+				{
+					id: "568CF21F25AC9E9B"
+					item: { count: 1, id: "forbidden_arcanus:tyr_leggings" }
+					type: "item"
+				}
+				{
+					id: "7833E6B70E66AE03"
+					item: { count: 1, id: "forbidden_arcanus:tyr_boots" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "21E3DB219C76E1A2"
+			rewards: [{
+				id: "44A09152AE527A8D"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "4A1B6DB1220E08EA"
+					item: { count: 1, id: "forbidden_arcanus:draco_arcanus_helmet" }
+					type: "item"
+				}
+				{
+					id: "49AE4BE5C5FA0732"
+					item: { count: 1, id: "forbidden_arcanus:draco_arcanus_chestplate" }
+					type: "item"
+				}
+				{
+					id: "624DD1515C2D4280"
+					item: { count: 1, id: "forbidden_arcanus:draco_arcanus_leggings" }
+					type: "item"
+				}
+				{
+					id: "5435538C31ACDF44"
+					item: { count: 1, id: "forbidden_arcanus:draco_arcanus_boots" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -5.0d
+		}
+	]
+}

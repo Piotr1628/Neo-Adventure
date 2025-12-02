@@ -1,0 +1,673 @@
+{
+	autofocus_id: "2B70445E6CD99EDB"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "when_dungeons_arise"
+	group: "0DADF96DBC50AC3A"
+	icon: {
+		components: {
+			"ftbquests:icon": "dungeon_difficulty:textures/symbol/skull_2.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "231570DE6A7FCD52"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/quests/titles/dungeons.png"
+		rotation: 0.0d
+		width: 5.99d
+		x: 0.0d
+		y: -4.25d
+	}]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2B70445E6CD99EDB"
+			rewards: [{
+				id: "06C3DEEB8301E50D"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				advancement: "dungeons_arise:wda_root"
+				criterion: ""
+				id: "370B39E72DBEF94E"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -1.25d
+		}
+		{
+			hide_dependency_lines: true
+			id: "14857DBF1DCBF100"
+			rewards: [{
+				id: "3800FD9FA2C485D5"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_undead_pirate_ship"
+				criterion: ""
+				id: "3C3E2DBE1F5C68F1"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			hide_dependency_lines: true
+			id: "6BFE5D35265080E6"
+			rewards: [{
+				id: "55136160DFEC6601"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_scorched_mines"
+				criterion: ""
+				id: "4CF084A779395E48"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.25d
+		}
+		{
+			id: "0B89EB36AC565461"
+			rewards: [{
+				id: "70732AB8846E8C23"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_foundry"
+				criterion: ""
+				id: "69A779F12F35E890"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 1.25d
+		}
+		{
+			hide_dependency_lines: true
+			id: "73D5EE5238C37982"
+			rewards: [{
+				id: "175824A443669D00"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_ceryneian_hind"
+				criterion: ""
+				id: "486BDCC199790197"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.75d
+		}
+		{
+			id: "21426F5EEC922866"
+			rewards: [{
+				id: "6179593BAA05EE8E"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_typhon"
+				criterion: ""
+				id: "5A189369C3178897"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -1.75d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0331AC0315EBB66D"
+			rewards: [{
+				id: "6A6B9103A57D3542"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_greenwood_pub"
+				criterion: ""
+				id: "4D2D40477EC05FB4"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 1.25d
+		}
+		{
+			id: "2EFC5DBD8122A0AE"
+			rewards: [{
+				id: "00887441FB6416EB"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_plague_asylum"
+				criterion: ""
+				id: "5DF446F246D1DC36"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 1.25d
+		}
+		{
+			hide_dependency_lines: true
+			id: "76DAECF378BA3F19"
+			rewards: [{
+				id: "5B02A78CFFE6AEDA"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_mining_system"
+				criterion: ""
+				id: "2416EC8365995B78"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -0.25d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0CE50A7F4F1A0E4D"
+			rewards: [{
+				id: "0A27242125819847"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_small_blimp"
+				criterion: ""
+				id: "2D6219A0EDC7F9DD"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 1.25d
+		}
+		{
+			id: "6447492FAA873F93"
+			rewards: [{
+				id: "3AA46A6CB6249E68"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_mechanical_nest"
+				criterion: ""
+				id: "679C5F8751B9BA19"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 2.25d
+		}
+		{
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			id: "67030CEFEC1CEF37"
+			rewards: [{
+				id: "31CB2404BC9A2EDA"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_merchant_campsite"
+				criterion: ""
+				id: "4B08627F4A1AFF06"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -3.25d
+		}
+		{
+			id: "6A0237FADC519965"
+			rewards: [{
+				id: "4F0076FD39717DFD"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_illager_windmill"
+				criterion: ""
+				id: "3F9AAADCC97C69AD"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -3.25d
+		}
+		{
+			id: "436231715C11E3BA"
+			rewards: [{
+				id: "40156522E9AED7EB"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_illager_campsite"
+				criterion: ""
+				id: "112E7B734D7E9375"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -3.25d
+		}
+		{
+			id: "5100CFAD43E7D67A"
+			rewards: [{
+				id: "0304A0C13D0F84AE"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_illager_fort"
+				criterion: ""
+				id: "6C0C87A8270363FE"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -3.25d
+		}
+		{
+			hide_dependency_lines: true
+			id: "4791FC0A2E834D85"
+			rewards: [{
+				id: "5E6281DE2D06A4AB"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_bathhouse"
+				criterion: ""
+				id: "26EE8FF09CBD5F8A"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 1.25d
+		}
+		{
+			hide_dependency_lines: true
+			id: "1F10BC33D22328BD"
+			rewards: [{
+				id: "354CC4D0FBD87934"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_abandoned_temple"
+				criterion: ""
+				id: "260A6A230E667757"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -0.25d
+		}
+		{
+			id: "70327C3AC547B354"
+			rewards: [{
+				id: "78AA009B13A9A903"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_infested_temple"
+				criterion: ""
+				id: "47F1C278368603C0"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -0.25d
+		}
+		{
+			id: "3ECA226F08D5195F"
+			rewards: [{
+				id: "004FA3CDE2CBEDE3"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_monasteries"
+				criterion: ""
+				id: "14DE9E9CFEC93BEE"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -0.25d
+		}
+		{
+			id: "188AAB5B74C6EAAE"
+			rewards: [{
+				id: "08D68471CCA85719"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_infested_temple_map"
+				criterion: ""
+				id: "35847DED78F07FD1"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -0.25d
+		}
+		{
+			hide_dependency_lines: true
+			id: "7052C9A5A804E866"
+			rewards: [{
+				id: "09DD625556A3B81C"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_bandit_village"
+				criterion: ""
+				id: "046A7A36AAA1581B"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 1.25d
+		}
+		{
+			id: "4E4052F7EAD4FDD6"
+			rewards: [{
+				id: "2001B62F4A2551D3"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_bandit_towers"
+				criterion: ""
+				id: "3385F0267DECF3F5"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 1.25d
+		}
+		{
+			hide_dependency_lines: true
+			id: "1CEF2A38948010A2"
+			rewards: [{
+				id: "407770311C9282B6"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_illager_corsair_or_illager_galley"
+				criterion: ""
+				id: "13FAA97CD04E729F"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -1.75d
+		}
+		{
+			hide_dependency_lines: true
+			id: "63116691C92FD576"
+			rewards: [{
+				id: "5726B81D5D90BEED"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_wishing_well"
+				criterion: ""
+				id: "1112346FCE595D25"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -0.25d
+		}
+		{
+			hide_dependency_lines: true
+			id: "2DB4F395EA26DF4B"
+			rewards: [{
+				id: "0A80178C1F9FE220"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_coliseum"
+				criterion: ""
+				id: "19F4B8F56029D48B"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -0.25d
+		}
+		{
+			hide_dependency_lines: true
+			id: "1C375606107C117F"
+			rewards: [{
+				id: "25A0154539FB69C8"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_keep_kayra"
+				criterion: ""
+				id: "10DC2583F7D95F67"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 1.25d
+		}
+		{
+			hide_dependency_lines: true
+			id: "2A0A01BE836BB2AB"
+			rewards: [{
+				id: "1FE31798EEACD370"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_shiraz_palace"
+				criterion: ""
+				id: "47737CA5646934EA"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -0.25d
+		}
+		{
+			hide_dependency_lines: true
+			id: "041A1C64A8468087"
+			rewards: [{
+				id: "3EC0D766F596E6E2"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_heavenly_rider"
+				criterion: ""
+				id: "703864AD00D9A3A5"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 1.25d
+		}
+		{
+			id: "6858E25E510AE0FA"
+			rewards: [{
+				id: "04D5021D90026A9C"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_heavenly_conqueror"
+				criterion: ""
+				id: "6C5BBBE29BF677E6"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 2.25d
+		}
+		{
+			id: "5C12F4CC1F6F6C32"
+			rewards: [{
+				id: "3E46378AB721102E"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_heavenly_challenger"
+				criterion: ""
+				id: "345D162276AB92A3"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 3.25d
+		}
+		{
+			id: "2A1B0386B7987DD3"
+			rewards: [{
+				id: "2B3E65C8608771AA"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_aviary"
+				criterion: ""
+				id: "655386225D266D6C"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 4.25d
+		}
+		{
+			id: "53AF2B722A69DCDC"
+			rewards: [{
+				id: "008AF54FC3C45943"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_small_prairie_house"
+				criterion: ""
+				id: "1CD253C5AFF33D7F"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -1.75d
+		}
+		{
+			id: "4118927D9D079DC8"
+			rewards: [{
+				id: "0B652933DE436AAC"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_thornborn_towers"
+				criterion: ""
+				id: "2752670CDE3E38D9"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -1.75d
+		}
+		{
+			id: "509E9CA83FBC780E"
+			rewards: [{
+				id: "102442F6B90BA5FE"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_fishing_hut"
+				criterion: ""
+				id: "4727F51E44F70C4D"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -1.75d
+		}
+		{
+			hide_dependency_lines: true
+			id: "44D115281B0BFB75"
+			rewards: [{
+				id: "456CB116145EA1C2"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_giant_mushroom"
+				criterion: ""
+				id: "681A721779D01766"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -3.25d
+		}
+		{
+			id: "541BBC35DA4F0B73"
+			rewards: [{
+				id: "218D55A3757AC156"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_mushroom_mines"
+				criterion: ""
+				id: "2DB9AC6B74C7F5FE"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -3.25d
+		}
+		{
+			id: "6CB5ACBAAED66871"
+			rewards: [{
+				id: "0DB35B7054411CAF"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_mushroom_house"
+				criterion: ""
+				id: "29A30FFC83C5C056"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -3.25d
+		}
+		{
+			id: "1CCA31D9352C60E6"
+			rewards: [{
+				id: "710B5CC0C8B704B0"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				advancement: "dungeons_arise:find_mushroom_village"
+				criterion: ""
+				id: "5930795CC7E40B4C"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -3.25d
+		}
+		{
+			hide_dependency_lines: true
+			id: "3D1C0F80B74B27D5"
+			rewards: [{
+				id: "1BA3E3351659DBFA"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_lighthouse"
+				criterion: ""
+				id: "4E48C3A1C4ADCEE9"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -0.25d
+		}
+	]
+}

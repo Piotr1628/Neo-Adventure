@@ -1,0 +1,13 @@
+{
+  "type": "hexerei:vegetal",
+  "biomes": [
+    "minecraft:windswept_hills",
+    "minecraft:windswept_forest",
+    "minecraft:stony_peaks",
+    "regions_unexplored:arid_mountains",
+    "regions_unexplored:chalk_cliffs",
+    "regions_unexplored:towering_cliffs",
+    "regions_unexplored:spires"
+],
+  "feature": "hexerei:selenite_geode_placed"
+}

@@ -1,0 +1,493 @@
+{
+	autofocus_id: "3C1A9DC6312F1349"
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "the_bumblezone"
+	group: "0DADF96DBC50AC3A"
+	icon: {
+		components: {
+			"ftbquests:icon": "the_bumblezone:block/honeycomb_brood_block/item_stage_3_honeycomb_brood_block"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "4C0A96B2AAB5910A"
+	images: [
+		{
+			height: 2.0d
+			image: "the_bumblezone:block/honeycomb_brood_block/empty_honeycomb_brood_block_side"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/quests/titles/bumblezone.png"
+			rotation: 0.0d
+			width: 9.88d
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5D86443CD6329A4C"
+			rewards: [{
+				id: "4E5533C0DAD7A7F2"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7B5B340BFE1E847B"
+				item: { components: { "ftbquests:missing_item": "the_bumblezone:honey_compass" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["5D86443CD6329A4C"]
+			id: "5A51B19A671B71AC"
+			rewards: [{
+				id: "2500D7D5E301D0D9"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_cell_maze"
+				criterion: ""
+				id: "00E275D92D15CF48"
+				type: "advancement"
+			}]
+			x: 0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5A51B19A671B71AC"]
+			id: "3BD7B772B404B878"
+			rewards: [{
+				id: "552BDC97961544DE"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_throne_pillar"
+				criterion: ""
+				id: "7397E1D17EC35C44"
+				type: "advancement"
+			}]
+			x: -0.5625d
+			y: 2.8125d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "the_bumblezone:block/honeycomb_brood_block/stage_3_honeycomb_brood_block_2"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6E5169E27C8C2468"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				id: "5756AB3D575A97D5"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.2d
+			id: "7C34DFBE6F2EE123"
+			rewards: [{
+				id: "16CA7462A157E4A0"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "the_bumblezone:essence/essence_raging"
+				criterion: ""
+				id: "04A2A19D55D73349"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 7.25d
+		}
+		{
+			icon_scale: 1.2d
+			id: "12AB8BFCFE89CE4F"
+			shape: "rsquare"
+			tasks: [{
+				advancement: "the_bumblezone:essence/essence_knowing"
+				criterion: ""
+				id: "21A264052948A91A"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 7.25d
+		}
+		{
+			icon_scale: 1.2d
+			id: "4B69C0304C9F1AD7"
+			rewards: [{
+				id: "04CB1C161842712C"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "the_bumblezone:essence/essence_calming"
+				criterion: ""
+				id: "5021E9EBD7CEBC6C"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 7.25d
+		}
+		{
+			icon_scale: 1.2d
+			id: "453D1F9C959630C3"
+			shape: "rsquare"
+			tasks: [{
+				advancement: "the_bumblezone:essence/essence_life"
+				criterion: ""
+				id: "5588792F2587B44B"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 7.25d
+		}
+		{
+			icon_scale: 1.2d
+			id: "762EEF712ACEED01"
+			rewards: [{
+				id: "22C1EAA4BA621CC3"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "the_bumblezone:essence/essence_radiance"
+				criterion: ""
+				id: "1043F8686A769318"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 7.25d
+		}
+		{
+			icon_scale: 1.2d
+			id: "571CE7B87B36F000"
+			rewards: [{
+				id: "64CD2957816C744F"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "the_bumblezone:essence/essence_continuity"
+				criterion: ""
+				id: "716471EE9676E9E4"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "698A347B351C9C0E"
+			rewards: [{
+				id: "61149ACC37339037"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/flooding_the_housing_market"
+				criterion: ""
+				id: "3FABEE91B99CC604"
+				type: "advancement"
+			}]
+			x: -2.25d
+			y: 3.5625d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "21AD48D2E133C28E"
+			rewards: [{
+				id: "3A8866935126D01B"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/too_many_legs"
+				criterion: ""
+				id: "0CB40C7C0983B28E"
+				type: "advancement"
+			}]
+			x: 2.25d
+			y: 5.8125d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "6E79F813B1309848"
+			rewards: [{
+				id: "01BF8530501F08B8"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/pollen_fight"
+				criterion: ""
+				id: "4C2149DCE1F6EB4A"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "08DEB007C94D1821"
+			rewards: [{
+				id: "7002DFA3A62BED67"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/fighting_the_swarm"
+				criterion: ""
+				id: "0DE3152AA0CEBF5B"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "53FCCDB2ABB362AA"
+			rewards: [{
+				id: "0DC3D587998D5B6D"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/poison_warfare"
+				criterion: ""
+				id: "3B1A629705796EDD"
+				type: "advancement"
+			}]
+			x: 2.25d
+			y: 3.5625d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "6E866E9FEDEE2430"
+			rewards: [{
+				id: "6B1272B44CC3B220"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/slimy_mitosis"
+				criterion: ""
+				id: "0B66D5690933D915"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "1B0077FC8B70BE47"
+			rewards: [{
+				id: "61CDCAEFA573BC1C"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/terror_fangs"
+				criterion: ""
+				id: "3C405B5743551678"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "21988C497C041260"
+			rewards: [{
+				id: "65FF4181CA48A511"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/back_in_action"
+				criterion: ""
+				id: "612AA6CE263C67ED"
+				type: "advancement"
+			}]
+			x: 2.25d
+			y: 5.0625d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "487E679F69B609B1"
+			rewards: [{
+				id: "4ABE7D54D517D0ED"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/the_crazy_florist"
+				criterion: ""
+				id: "0E2F861AA0200146"
+				type: "advancement"
+			}]
+			x: 2.25d
+			y: 4.3125d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "411E75619F1C378C"
+			rewards: [{
+				id: "53F6087D112A6AB7"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/peak_inefficiency"
+				criterion: ""
+				id: "6B74329C1F459EBD"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "379A85A584B88A2E"
+			rewards: [{
+				id: "77B1E62594121AAB"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/hungry_hungry_bees"
+				criterion: ""
+				id: "0B96E3473A800846"
+				type: "advancement"
+			}]
+			x: -2.25d
+			y: 5.0625d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "71F8C12A6FF58BD3"
+			rewards: [{
+				id: "28F4182CAAE5243A"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/love_bees"
+				criterion: ""
+				id: "42D107B6D5C80B6E"
+				type: "advancement"
+			}]
+			x: -2.25d
+			y: 5.8125d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "3D9C95CE885F5BA8"
+			rewards: [{
+				id: "0C3F03240A9140E5"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/otherworldly_mites"
+				criterion: ""
+				id: "039A48938CB86CD1"
+				type: "advancement"
+			}]
+			x: -2.25d
+			y: 4.3125d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "64385462E003742A"
+			rewards: [{
+				id: "64B0AF56CB0AB1FB"
+				table_id: 5331063592438851388L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/the_great_dragon_slayer"
+				criterion: ""
+				id: "2F847B169C995064"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C1A9DC6312F1349"]
+			id: "64BAA6F2657DDED2"
+			rewards: [{
+				id: "4A940222C0E2CAEC"
+				table_id: 2306875417895312839L
+				type: "loot"
+			}]
+			size: 0.75d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/crazy_trader"
+				criterion: ""
+				id: "29789B39BB25CC0A"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3BD7B772B404B878"]
+			icon_scale: 1.25d
+			id: "3C1A9DC6312F1349"
+			rewards: [{
+				id: "16F5857A7DDF4B50"
+				table_id: 8337806944307191120L
+				type: "loot"
+			}]
+			shape: "goldtier"
+			size: 2.0d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/journeys_end"
+				criterion: ""
+				id: "535D3C8EAA247AE1"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+}

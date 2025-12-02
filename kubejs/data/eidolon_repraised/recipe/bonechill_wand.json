@@ -1,0 +1,34 @@
+{
+  "type": "eidolon_repraised:worktable",
+  "pattern": [
+    " px",
+    " sp",
+    "i  "
+  ],
+  "reagents": [
+    "lbbb"
+  ],
+  "key": {
+    "i": {
+      "item": "eidolon_repraised:pewter_inlay"
+    },
+    "p": {
+      "tag": "c:ingots/pewter"
+    },
+    "s": {
+      "tag": "c:rods/wooden"
+    },
+    "x": {
+      "item": "eidolon_repraised:wraith_heart"
+    },
+    "b": {
+      "item": "minecraft:bone_meal"
+    },
+    "l": {
+      "item": "eidolon_repraised:lesser_soul_gem"
+    }
+  },
+  "result": {
+    "id": "eidolon_repraised:bonechill_wand"
+  }
+}

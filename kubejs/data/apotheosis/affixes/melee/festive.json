@@ -1,0 +1,22 @@
+{
+    "type": "apotheosis:festive",
+    "definition": {
+        "affix_type": "basic_effect",
+        "exclusive_set": [],
+        "weights": {
+            "weight": 0
+        }
+    },
+    "values": {
+        "apotheosis:epic": {
+            "min": 0.01,
+            "max": 0.025,
+            "step": 0.000375
+        },
+        "apotheosis:mythic": {
+            "min": 0.00225,
+            "max": 0.0045,
+            "step": 0.000375
+        }
+    }
+}

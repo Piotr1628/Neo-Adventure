@@ -1,0 +1,94 @@
+{
+	hide_tooltip: true
+	id: "318D29F1C3229AE3"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ id: "1573FB859BD7536B", item: { count: 1, id: "ends_delight:stuffed_rice_cake" } }
+		{ id: "1F8A12FB09642A7E", item: { count: 1, id: "ends_delight:chorus_flower_pie" } }
+		{ id: "5B6FBA329767FD6A", item: { count: 1, id: "ends_delight:chorus_fruit_popsicle" } }
+		{ id: "4BDADA39E038268D", item: { count: 1, id: "ends_delight:chorus_fruit_milk_tea" } }
+		{ id: "7D0A4DC1FFA79BB3", item: { count: 1, id: "ends_delight:bubble_tea" } }
+		{ id: "6809E4FA4989AE63", item: { count: 1, id: "ends_delight:chorus_fruit_wine" } }
+		{ id: "03E0C73EDB6F253A", item: { count: 1, id: "ends_delight:chorus_fruit_pie" } }
+		{ id: "3B9F9856CFBE7DAF", item: { count: 1, id: "ends_delight:end_barbecue_stick" } }
+		{ id: "3AF34F62755AB580", item: { count: 1, id: "farmersdelight:fried_egg" } }
+		{ id: "3EA660A02BD69ABA", item: { count: 1, id: "farmersdelight:hot_cocoa" } }
+		{ id: "3983B1BC52D32245", item: { count: 1, id: "farmersdelight:apple_cider" } }
+		{ id: "56558B5CD14583FA", item: { count: 1, id: "farmersdelight:melon_juice" } }
+		{ id: "525AB3241B6AB1DF", item: { count: 1, id: "farmersdelight:smoked_ham" } }
+		{ id: "217019C70DDB9AD9", item: { count: 1, id: "farmersdelight:apple_pie" } }
+		{ id: "2BAC079605BEEC99", item: { count: 1, id: "farmersdelight:sweet_berry_cheesecake" } }
+		{ id: "794FB856AEFB1B8C", item: { count: 1, id: "farmersdelight:chocolate_pie" } }
+		{ id: "534E509E8088CD84", item: { count: 1, id: "farmersdelight:sweet_berry_cookie" } }
+		{ id: "4578FCAED199D692", item: { count: 1, id: "farmersdelight:honey_cookie" } }
+		{ id: "39DC7190DF75E346", item: { count: 1, id: "farmersdelight:melon_popsicle" } }
+		{ id: "1416A56BB781FFAD", item: { count: 1, id: "farmersdelight:glow_berry_custard" } }
+		{
+			id: "0FF5EEDF83BD75D6"
+			item: {
+				count: 1
+				id: "farmersdelight:fruit_salad"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "486A28DB77A1894B"
+			item: {
+				count: 1
+				id: "farmersdelight:mixed_salad"
+			}
+			weight: 5.0f
+		}
+		{ id: "7DEC80578EF8284D", item: { count: 1, id: "farmersdelight:nether_salad" } }
+		{ id: "68DD5A14A99980F6", item: { count: 1, id: "farmersdelight:barbecue_stick" } }
+		{
+			id: "126458E9D08CBF1A"
+			item: {
+				count: 1
+				id: "farmersdelight:egg_sandwich"
+			}
+			weight: 5.0f
+		}
+		{ id: "39D6C5F12091915F", item: { count: 1, id: "farmersdelight:dumplings" } }
+		{
+			id: "39DE85E3F7F881BB"
+			item: {
+				count: 1
+				id: "farmersdelight:cabbage_rolls"
+			}
+			weight: 5.0f
+		}
+		{ id: "31162A21B21E3FA7", item: { count: 1, id: "farmersdelight:salmon_roll" } }
+		{ id: "613D092ABFF9150B", item: { count: 1, id: "farmersdelight:cod_roll" } }
+		{ id: "643306B19B6A53C1", item: { count: 1, id: "farmersdelight:kelp_roll_slice" } }
+		{ id: "70A32B5AD9C2771D", item: { count: 1, id: "mynethersdelight:hotdog" } }
+		{ id: "2FB2A72D0BCAD4BC", item: { count: 1, id: "mynethersdelight:spicy_cotton" } }
+		{
+			id: "486B76B872B33D1C"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			random_bonus: 3
+			weight: 25.0f
+		}
+		{ id: "4A4CD692EC45B893", item: { count: 1, id: "autumnity:pumpkin_bread" } }
+		{ id: "0600BEDE9661B08C", item: { components: { "ftbquests:missing_item": "upgrade_aquatic:mulberry_bread" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "6BE2AD2C878D11F9", item: { count: 1, id: "forbidden_arcanus:bat_soup" } }
+		{ id: "0E1526024D5A895D", item: { components: { "minecraft:suspicious_stew_effects": [{ duration: 7, id: "minecraft:saturation" }] }, count: 1, id: "minecraft:suspicious_stew" } }
+		{
+			id: "63E015976A9BCC64"
+			item: {
+				count: 1
+				id: "minecraft:mushroom_stew"
+			}
+			weight: 5.0f
+		}
+		{ id: "7EB650544CDF0083", item: { count: 1, id: "eternal_starlight:bouldershroom_stew" } }
+		{ id: "72A2B4F15FF8BDBE", item: { count: 1, id: "mynethersdelight:cooked_loin" } }
+		{ id: "0FEB0EDA3C88D085", item: { count: 1, id: "dungeonsdelight:breeze_cream_cone" } }
+		{ id: "0BA6DD358BEF4930", item: { count: 1, id: "mynethersdelight:deviled_egg" } }
+	]
+	use_title: true
+}

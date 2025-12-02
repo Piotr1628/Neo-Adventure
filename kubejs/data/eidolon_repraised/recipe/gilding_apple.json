@@ -1,0 +1,25 @@
+{
+  "type": "eidolon_repraised:crucible",
+  "steps": [
+    {
+      "items": [
+        { "tag": "c:ingots/gold" },
+        { "tag": "c:ingots/gold" }
+      ]
+    },
+    {
+      "stirs": 2,
+      "items": [
+        { "item": "eidolon_repraised:enchanted_ash" }
+      ]
+    },
+    {
+      "items": [
+        { "item": "minecraft:apple" }
+      ]
+    }
+  ],
+  "result": {
+    "id": "minecraft:golden_apple"
+  }
+}

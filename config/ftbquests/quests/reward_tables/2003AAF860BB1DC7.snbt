@@ -1,0 +1,43 @@
+{
+	hide_tooltip: true
+	id: "2003AAF860BB1DC7"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "1_simple_reward"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			id: "058EF1A9DB95D179"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			random_bonus: 8
+			weight: 0.7f
+		}
+		{
+			id: "4B1BB7B487D6B8D7"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			weight: 0.25f
+		}
+		{
+			id: "30D0682503184A50"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+			weight: 0.05f
+		}
+	]
+	use_title: true
+}

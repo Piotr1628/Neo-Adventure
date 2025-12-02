@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon_repraised",
+  "pattern": [
+    " x ",
+    "yyy",
+    "yyy"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    "y": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "id": "eidolon_repraised:obelisk"
+  }
+}

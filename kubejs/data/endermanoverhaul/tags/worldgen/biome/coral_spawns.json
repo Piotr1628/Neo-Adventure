@@ -1,0 +1,34 @@
+{
+    "values": [
+        "minecraft:warm_ocean",
+        "minecraft:lukewarm_ocean",
+        {
+            "id": "regions_unexplored:rocky_reef",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:hyacinth_deeps",
+            "required": false
+        },
+        {
+            "id": "eternal_starlight:lush_shallow_sea",
+            "required": false
+        },
+        {
+            "id": "eternal_starlight:starlit_sea",
+            "required": false
+        },
+        {
+            "id": "eternal_starlight:warm_shore",
+            "required": false
+        },
+        {
+            "id": "eternal_starlight:spiral_kelp_forest",
+            "required": false
+        },
+        {
+            "id": "unusualend:warped_reef",
+            "required": false
+        }
+    ]
+}

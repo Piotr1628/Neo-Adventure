@@ -1,0 +1,395 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "archivement"
+	group: "0DADF96DBC50AC3A"
+	icon: {
+		id: "minecraft:zombie_head"
+	}
+	id: "4609835C043DB616"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/quests/titles/statistics.png"
+		rotation: 0.0d
+		width: 6.52d
+		x: 0.0d
+		y: -5.25d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3EC73E7933D04BA5"
+			rewards: [{
+				id: "28C877C000962711"
+				item: {
+					count: 1
+					id: "sophisticatedcore:xp_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B19968389D43385"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EC73E7933D04BA5"]
+			id: "7D83D800633DF5BA"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "4C2C6A31BE34C09D"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D83D800633DF5BA"]
+			id: "2E19F0BE4F093019"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "3AD98B9AF941DAA1"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -2.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EC73E7933D04BA5"]
+			id: "593F0A2DD7B6F9B1"
+			tasks: [{
+				icon: {
+					id: "minecraft:iron_sword"
+				}
+				id: "45751FBF45CDF11B"
+				stat: "minecraft:damage_dealt"
+				type: "stat"
+				value: 50000
+			}]
+			x: 0.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["593F0A2DD7B6F9B1"]
+			id: "394272D93F2FE569"
+			tasks: [{
+				icon: {
+					id: "minecraft:diamond_sword"
+				}
+				id: "064195ECEA4D436E"
+				stat: "minecraft:damage_dealt"
+				type: "stat"
+				value: 500000
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3EC73E7933D04BA5"]
+			id: "5B8C46802B9ED71F"
+			tasks: [{
+				icon: {
+					id: "minecraft:shield"
+				}
+				id: "64DB5CBD81A683BA"
+				stat: "minecraft:damage_taken"
+				type: "stat"
+				value: 20000
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B8C46802B9ED71F"]
+			id: "6402B5B6625731F0"
+			tasks: [{
+				icon: {
+					id: "crystal_chronicles:paladin_shield"
+				}
+				id: "09F37B93BB89AD98"
+				stat: "minecraft:damage_taken"
+				type: "stat"
+				value: 500000
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EC73E7933D04BA5"]
+			id: "15D67A707A499520"
+			tasks: [{
+				icon: {
+					id: "minecraft:emerald"
+				}
+				id: "3D9F847BD7360C44"
+				stat: "minecraft:traded_with_villager"
+				type: "stat"
+				value: 100
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15D67A707A499520"]
+			id: "5501173723FBA43B"
+			tasks: [{
+				icon: {
+					id: "minecraft:emerald_block"
+				}
+				id: "01DBF0B728DF3ED6"
+				stat: "minecraft:traded_with_villager"
+				type: "stat"
+				value: 500
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EC73E7933D04BA5"]
+			id: "196A5C0A9F2F5CED"
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: {
+					components: {
+						"minecraft:banner_patterns": [
+							{
+								color: "cyan"
+								pattern: {
+									asset_id: "minecraft:rhombus"
+									translation_key: "block.minecraft.banner.rhombus"
+								}
+							}
+							{
+								color: "light_gray"
+								pattern: {
+									asset_id: "minecraft:stripe_bottom"
+									translation_key: "block.minecraft.banner.stripe_bottom"
+								}
+							}
+							{
+								color: "gray"
+								pattern: {
+									asset_id: "minecraft:stripe_center"
+									translation_key: "block.minecraft.banner.stripe_center"
+								}
+							}
+							{
+								color: "light_gray"
+								pattern: {
+									asset_id: "minecraft:border"
+									translation_key: "block.minecraft.banner.border"
+								}
+							}
+							{
+								color: "black"
+								pattern: {
+									asset_id: "minecraft:stripe_middle"
+									translation_key: "block.minecraft.banner.stripe_middle"
+								}
+							}
+							{
+								color: "light_gray"
+								pattern: {
+									asset_id: "minecraft:half_horizontal"
+									translation_key: "block.minecraft.banner.half_horizontal"
+								}
+							}
+							{
+								color: "light_gray"
+								pattern: {
+									asset_id: "minecraft:circle"
+									translation_key: "block.minecraft.banner.circle"
+								}
+							}
+							{
+								color: "black"
+								pattern: {
+									asset_id: "minecraft:border"
+									translation_key: "block.minecraft.banner.border"
+								}
+							}
+						]
+						"minecraft:hide_additional_tooltip": { }
+						"minecraft:item_name": "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+					}
+					id: "minecraft:white_banner"
+				}
+				id: "6E1C926F28AFF421"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["196A5C0A9F2F5CED"]
+			id: "6F7DAC2D906DFD4B"
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: {
+					components: {
+						"minecraft:banner_patterns": [
+							{
+								color: "cyan"
+								pattern: {
+									asset_id: "minecraft:rhombus"
+									translation_key: "block.minecraft.banner.rhombus"
+								}
+							}
+							{
+								color: "light_gray"
+								pattern: {
+									asset_id: "minecraft:stripe_bottom"
+									translation_key: "block.minecraft.banner.stripe_bottom"
+								}
+							}
+							{
+								color: "gray"
+								pattern: {
+									asset_id: "minecraft:stripe_center"
+									translation_key: "block.minecraft.banner.stripe_center"
+								}
+							}
+							{
+								color: "light_gray"
+								pattern: {
+									asset_id: "minecraft:border"
+									translation_key: "block.minecraft.banner.border"
+								}
+							}
+							{
+								color: "black"
+								pattern: {
+									asset_id: "minecraft:stripe_middle"
+									translation_key: "block.minecraft.banner.stripe_middle"
+								}
+							}
+							{
+								color: "light_gray"
+								pattern: {
+									asset_id: "minecraft:half_horizontal"
+									translation_key: "block.minecraft.banner.half_horizontal"
+								}
+							}
+							{
+								color: "light_gray"
+								pattern: {
+									asset_id: "minecraft:circle"
+									translation_key: "block.minecraft.banner.circle"
+								}
+							}
+							{
+								color: "black"
+								pattern: {
+									asset_id: "minecraft:border"
+									translation_key: "block.minecraft.banner.border"
+								}
+							}
+						]
+						"minecraft:hide_additional_tooltip": { }
+						"minecraft:item_name": "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+					}
+					id: "minecraft:white_banner"
+				}
+				id: "2F1304155BAA5BB5"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -2.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3EC73E7933D04BA5"]
+			id: "7433CAFEFD3AC55F"
+			tasks: [{
+				icon: {
+					id: "minecraft:chest"
+				}
+				id: "4B5BF986936387EA"
+				stat: "lootr:looted_stat"
+				type: "stat"
+				value: 100
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7433CAFEFD3AC55F"]
+			id: "55C9A6DDAD756BFE"
+			tasks: [{
+				icon: {
+					id: "minecraft:chest"
+				}
+				id: "5C8090518A2010D8"
+				stat: "lootr:looted_stat"
+				type: "stat"
+				value: 1000
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EC73E7933D04BA5"]
+			id: "59CB1704B0CADD3F"
+			tasks: [{
+				id: "4E97F3D42C9E4708"
+				points: false
+				type: "xp"
+				value: 100L
+			}]
+			x: -1.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["59CB1704B0CADD3F"]
+			id: "0EECD33C8D3B683F"
+			tasks: [{
+				id: "3C6C5476D9AB8173"
+				points: false
+				type: "xp"
+				value: 1000L
+			}]
+			x: -2.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3EC73E7933D04BA5"]
+			id: "0A229E69F9F401AE"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:netherrack"
+				}
+				id: "36F4D8E9B0105BF9"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["0A229E69F9F401AE"]
+			id: "0C3DFDEB587C59F6"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:end_portal_frame"
+				}
+				id: "01C89C700D1AA5D2"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+	]
+}

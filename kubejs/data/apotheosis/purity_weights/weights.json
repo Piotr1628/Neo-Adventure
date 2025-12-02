@@ -1,0 +1,119 @@
+{
+  "type": "apotheosis:purity_weights",
+  "weights": {
+      "haven": {
+          "cracked": {
+              "weight": 1000
+          },
+          "chipped": {
+              "weight": 0
+          },
+          "flawed": {
+              "weight": 0
+          },
+          "normal": {
+              "weight": 0
+          },
+          "flawless": {
+              "weight": 0
+          },
+          "perfect": {
+              "weight": 0
+          }
+      },
+      "frontier": {
+          "cracked": {
+              "weight": 700
+          },
+          "chipped": {
+              "quality": 2.5,
+              "weight": 270
+          },
+          "flawed": {
+              "quality": 5.0,
+              "weight": 30
+          },
+          "normal": {
+              "weight": 0
+          },
+          "flawless": {
+              "weight": 0
+          },
+          "perfect": {
+              "weight": 0
+          }
+      },
+      "ascent": {
+          "cracked": {
+              "weight": 400
+          },
+          "chipped": {
+              "quality": 2.5,
+              "weight": 450
+          },
+          "flawed": {
+              "quality": 5.0,
+              "weight": 130
+          },
+          "normal": {
+              "quality": 1.0,
+              "weight": 20
+          },
+          "flawless": {
+              "weight": 0
+          },
+          "perfect": {
+              "weight": 0
+          }
+      },
+      "summit": {
+          "cracked": {
+              "weight": 150
+          },
+          "chipped": {
+              "quality": 2.5,
+              "weight": 400
+          },
+          "flawed": {
+              "quality": 5.0,
+              "weight": 350
+          },
+          "normal": {
+              "quality": 5.0,
+              "weight": 90
+          },
+          "flawless": {
+              "quality": 1.0,
+              "weight": 10
+          },
+          "perfect": {
+              "weight": 0
+          }
+      },
+      "pinnacle": {
+          "cracked": {
+              "weight": 550
+          },
+          "chipped": {
+              "quality": 2.5,
+              "weight": 250
+          },
+          "flawed": {
+              "quality": 5.0,
+              "weight": 150
+          },
+          "normal": {
+              "quality": 5.0,
+              "weight": 40
+          },
+          "flawless": {
+              "quality": 5.0,
+              "weight": 8
+          },
+          "perfect": {
+              "quality": 5.0,
+              "weight": 2
+          }
+      }
+  }
+}

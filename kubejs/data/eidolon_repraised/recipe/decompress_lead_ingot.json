@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "eidolon_repraised",
+  "ingredients": [
+    {
+      "tag": "c:ingots/lead"
+    }
+  ],
+  "result": {
+    "id": "eidolon_repraised:lead_nugget",
+    "count": 9
+  }
+}

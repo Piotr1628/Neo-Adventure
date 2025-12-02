@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "c:dusts/silver"
+  },
+  "result": {
+    "id": "eidolon_repraised:silver_ingot"
+  },
+  "experience": 0.5,
+  "cookingtime": 100,
+  "conditions": [
+    {
+      "value": {
+        "tag": "c:dusts/silver",
+        "type": "neoforge:tag_empty"
+      },
+      "type": "neoforge:not"
+    }
+  ]
+}
